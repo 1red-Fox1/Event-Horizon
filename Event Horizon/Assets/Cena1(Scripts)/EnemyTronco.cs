@@ -8,56 +8,63 @@ public class EnemyTronco : MonoBehaviour
     private Animator anim;
 
     public float speed;
-
     public Transform rightCol;
     public Transform leftCol;
+    public LayerMask layer;
 
     private bool colliding;
-
-    public LayerMask layer;
     private bool tempoAcabou = false;
-    void Start()
+    private bool podeInverter = true;
+    private int direcao = 1;
+
+    private void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
-
-    void Update()
+    private void FixedUpdate()
     {
-        rig.velocity = new Vector2(speed, rig.velocity.y);
-        float moveX = Input.GetAxisRaw("Horizontal");
+        rig.velocity = new Vector2(direcao * speed, rig.velocity.y);
 
         colliding = Physics2D.Linecast(rightCol.position, leftCol.position, layer);
 
-        if (colliding)
+        if (colliding && podeInverter)
         {
-            StartCoroutine(ExecutarAposEspera());
-            tempoAcabou = true;
+            if (!tempoAcabou)
+            {
+                StartCoroutine(ExecutarAposEspera());
+            }
         }
 
-        if (moveX != 0)
-        {
-            anim.SetBool("Walk", true);
-        }
-        else
+        if (colliding && Mathf.Approximately(rig.velocity.x, 0f))
         {
             anim.SetBool("Walk", false);
         }
-
-        if (tempoAcabou == true)
+        else
         {
-            transform.localScale = new Vector2(transform.localScale.x * -1f, transform.localScale.y);
-            speed *= -1f;
-            tempoAcabou = false;
+            anim.SetBool("Walk", true);
         }
     }
 
     private IEnumerator ExecutarAposEspera()
     {
-        // Espera de 2 segundos
+        speed = 0f;
+        podeInverter = false; // Desativa a possibilidade de inverter a direção
         yield return new WaitForSeconds(2f);
-        Debug.Log("O tempo de espera acabou!");       
+        direcao *= -1; // Inverte a direção do movimento
+        speed = Mathf.Abs(speed); // Garante que a velocidade seja positiva
+        tempoAcabou = true;
+        podeInverter = true; // Permite a inversão da direção novamente
+        yield return new WaitForSeconds(0.1f); // Pequeno atraso para evitar inversões consecutivas
+        speed *= direcao; // Define a velocidade de acordo com a direção atual
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(rightCol.position, leftCol.position);
     }
 }
+
 

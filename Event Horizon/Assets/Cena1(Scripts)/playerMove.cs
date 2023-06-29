@@ -53,16 +53,16 @@ public class playerMove : MonoBehaviour
             anim.SetBool("Walk", false);
         }
 
-        //if (moveX < 0 && !facingRight)
-        //{
-        //    Flip();
-        //    facingRight = true;
-        //}
-        //else if (moveX > 0 && facingRight)
-        //{
-        //    Flip();
-        //    facingRight = false;
-        //}
+        if (moveX < 0 && !facingRight)
+        {
+            Flip();
+            facingRight = true;
+        }
+        else if (moveX > 0 && facingRight)
+        {
+            Flip();
+            facingRight = false;
+        }
 
         if (speedY > 0 && !isGrounded)
         {
@@ -122,7 +122,7 @@ public class playerMove : MonoBehaviour
     void Flip()
     {
         facingRight = !facingRight;
-        transform.Rotate(0f, 180f, 0f);
+        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
