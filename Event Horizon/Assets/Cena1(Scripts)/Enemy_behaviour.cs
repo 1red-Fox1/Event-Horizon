@@ -94,7 +94,7 @@ public class Enemy_behaviour : MonoBehaviour {
     {
         anim.SetBool("Walk", true);
 
-        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Tronco_Attack"))
         {
             Vector2 targetPosition = new Vector2(target.transform.position.x, transform.position.y);
 
