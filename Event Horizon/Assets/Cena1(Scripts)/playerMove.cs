@@ -39,29 +39,56 @@ public class playerMove : MonoBehaviour
         moveX = Input.GetAxisRaw("Horizontal");
         speedY = rb.velocity.y;
 
-        if (moveX != 0 && isGrounded)
+        //if (moveX != 0 && isGrounded)
+        //{
+        //    anim.SetBool("Walk", true);
+        //}
+        //else
+        //{
+        //    anim.SetBool("Walk", false);
+        //}
+
+        //if (moveX != 0 && !isGrounded)
+        //{
+        //    anim.SetBool("Walk", false);
+        //}
+
+        if (moveX < 0 && isGrounded)
         {
-            anim.SetBool("Walk", true);
+            anim.SetBool("WalkL", true);
+        }
+        else if (moveX > 0 && isGrounded)
+        {
+            anim.SetBool("WalkR", true);
         }
         else
         {
-            anim.SetBool("Walk", false);
+            anim.SetBool("WalkR", false);
+            anim.SetBool("WalkL", false);
         }
 
-        if (moveX != 0 && !isGrounded)
-        {
-            anim.SetBool("Walk", false);
-        }
+        //if (moveX < 0 && !facingRight)
+        //{
+        //    //Flip();
+        //    facingRight = true;
+        //}
 
-        if (moveX < 0 && !facingRight)
-        {
-            Flip();
-            facingRight = true;
-        }
-        else if (moveX > 0 && facingRight)
+        //if (moveX > 0 && facingRight)
+        //{
+        //    Flip();
+        //    facingRight = false;
+        //}
+
+        if (moveX > 0 && facingRight && !isGrounded || speedY != 0)
         {
             Flip();
             facingRight = false;
+        }
+
+        if (moveX < 0 && !facingRight && !isGrounded || speedY != 0)
+        {
+            Flip();
+            facingRight = true;
         }
 
         if (speedY > 0 && !isGrounded)

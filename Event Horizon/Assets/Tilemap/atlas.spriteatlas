@@ -184,6 +184,7 @@ SpriteAtlas:
   - {fileID: -1508767842, guid: 8cca850123679d649acb6b0b765c9dd2, type: 3}
   - {fileID: 667668789, guid: 8cca850123679d649acb6b0b765c9dd2, type: 3}
   - {fileID: 21300000, guid: 5615e9319ca31d4469f664840afe3a1e, type: 3}
+  - {fileID: 21300000, guid: 60f74041eadb9b24fa6031a5354f8dd6, type: 3}
   - {fileID: 21300000, guid: 9a7a8e7155b48864182c13b12093f388, type: 3}
   - {fileID: 21300000, guid: 37fccdb120241454c826e84c6f5f6f61, type: 3}
   - {fileID: 21300000, guid: 9a8723d1c7e22e44082632372b413aff, type: 3}
@@ -192,9 +193,12 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 06d4cb3393c227e43a1c7c4944bb3b70, type: 3}
   - {fileID: 21300000, guid: b19dd5833805e6f45879354ef80190a5, type: 3}
   - {fileID: 21300000, guid: 4d8bdc5494da6634fb5e4b0b37b93b9e, type: 3}
+  - {fileID: 21300000, guid: 5dda3eb4a7779c040b610b88105436e5, type: 3}
   - {fileID: 21300000, guid: 452c5415444feda4bb8e2929ea15919d, type: 3}
+  - {fileID: 21300000, guid: a92f6a157a1460d40b60d55d50ce6bd2, type: 3}
   - {fileID: 21300000, guid: b52e31858faa71d47aadccd8c6da0e16, type: 3}
   - {fileID: 21300000, guid: c2a1239563aa5904ba5b319a4bbb9f1a, type: 3}
+  - {fileID: 21300000, guid: 8f1c859531c3d6347b47db7a8d295df7, type: 3}
   - {fileID: 21300000, guid: 99e35895e36b079448256602f7ea1e0a, type: 3}
   - {fileID: 21300000, guid: eca632d544959d047b2f9d234dcff56d, type: 3}
   - {fileID: 21300000, guid: 55c068362a714b94491af765017e950c, type: 3}
@@ -202,14 +206,20 @@ SpriteAtlas:
   - {fileID: 21300000, guid: a72a33b63ad0d174dad5e548b4ffd333, type: 3}
   - {fileID: 21300000, guid: de2834d677b4ad749b9ce4e20ba80ebd, type: 3}
   - {fileID: 21300000, guid: 43e4f4e6f7fa4c54f96ce12df6739085, type: 3}
+  - {fileID: 21300000, guid: 6d27ffe69d4330947a4a2545d773230e, type: 3}
+  - {fileID: 21300000, guid: 2e5f1f17ba552c04393d081ad914ecc1, type: 3}
   - {fileID: 21300000, guid: 2b5e5657fd2dfed4d886d81cae74402f, type: 3}
+  - {fileID: 21300000, guid: c22db388dcd9c3444b988457b95457c7, type: 3}
   - {fileID: 21300000, guid: 50a96a8895da6544db4c6e3f595389bd, type: 3}
   - {fileID: 21300000, guid: ea215b39c3c2d7d42a8317874437b1d8, type: 3}
   - {fileID: 21300000, guid: 8b135f498e03d7a488f97261ed1ecf29, type: 3}
   - {fileID: 21300000, guid: 78f96f69e95bcc146b20c202b8513910, type: 3}
+  - {fileID: 21300000, guid: 438d9b89d41794a4a8db93f29037afcb, type: 3}
   - {fileID: 21300000, guid: 20a78999b0b6ac142adb6961a0fb44e0, type: 3}
   - {fileID: 21300000, guid: 92f1f4aab9269404e80964dcf92101d0, type: 3}
   - {fileID: 21300000, guid: c65896ba407914048816067aaa577c20, type: 3}
+  - {fileID: 21300000, guid: ac5c30fae23e8dd4f8f0c9ae3c7cabb1, type: 3}
+  - {fileID: 21300000, guid: d685772b6b0704949a9084f9b5467056, type: 3}
   - {fileID: 21300000, guid: 54b7879cc036bd145877efea5fe29060, type: 3}
   - {fileID: 21300000, guid: 9a971edce0a1949438171607ed2afbe7, type: 3}
   - {fileID: 21300000, guid: 0931d30ef2ffff6499f8bd040d234b6e, type: 3}
@@ -218,6 +228,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f8eba41fb4dcfc540aaa7df639d609eb, type: 3}
   - {fileID: 21300000, guid: db15f73f1dc6d5d4fa6195f1c44a1c37, type: 3}
   - {fileID: 21300000, guid: eae2dd5f8afe40949aff9984beff957f, type: 3}
+  - {fileID: 21300000, guid: cf25f96faef24d943a18c76f3654e409, type: 3}
   - {fileID: -1662417805, guid: 438e487f394a2df44bcc36cd1668c39c, type: 3}
   - {fileID: -168151427, guid: 438e487f394a2df44bcc36cd1668c39c, type: 3}
   - {fileID: 1550574838, guid: 438e487f394a2df44bcc36cd1668c39c, type: 3}
@@ -462,6 +473,7 @@ SpriteAtlas:
   - toleset organizado2_32
   - toleset organizado2_61
   - Tronco3
+  - pedra5
   - CorpoMorto2
   - Tronco1
   - Tronco5
@@ -470,9 +482,12 @@ SpriteAtlas:
   - Folhas6.2
   - Arbusto4
   - Folhas4.2
+  - pedra2
   - hgjhgjgh
+  - CorpoMorto7
   - Tronco4
   - Concreto2
+  - pedra9
   - Folhas2
   - Folhas4.1
   - Folhas6.3
@@ -480,14 +495,20 @@ SpriteAtlas:
   - Arbusto2
   - Arbusto3
   - Folhas1
+  - pedra3
+  - pedra1
   - CorpoMorto1
+  - CorpoMorto6
   - Troncos
   - Planta2
   - Folhas5
   - Folhas6.1
+  - pedra4
   - h
   - Tronco2
   - preenchimento
+  - pedra6
+  - pedra8
   - CorpoMorto4
   - Concreto1
   - Planta3
@@ -496,6 +517,7 @@ SpriteAtlas:
   - CorpoMorto5
   - Tronco6
   - cenario teste
+  - pedra7
   - tileset1(finalizado) (1)_74
   - tileset1(finalizado) (1)_75
   - tileset1(finalizado) (1)_76
