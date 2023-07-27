@@ -31,7 +31,9 @@ public class playerMove : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
-        anim = GetComponent<Animator>();   
+        anim = GetComponent<Animator>();
+
+        facingRight = true;
     }
 
     void Update()
@@ -39,19 +41,15 @@ public class playerMove : MonoBehaviour
         moveX = Input.GetAxisRaw("Horizontal");
         speedY = rb.velocity.y;
 
-        //if (moveX != 0 && isGrounded)
-        //{
-        //    anim.SetBool("Walk", true);
-        //}
-        //else
-        //{
-        //    anim.SetBool("Walk", false);
-        //}
+        if (Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            facingRight = true;
+        }
 
-        //if (moveX != 0 && !isGrounded)
-        //{
-        //    anim.SetBool("Walk", false);
-        //}
+        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            facingRight = false;
+        }
 
         if (moveX < 0 && isGrounded)
         {
@@ -67,45 +65,77 @@ public class playerMove : MonoBehaviour
             anim.SetBool("WalkL", false);
         }
 
-        //if (moveX < 0 && !facingRight)
-        //{
-        //    //Flip();
-        //    facingRight = true;
-        //}
-
-        //if (moveX > 0 && facingRight)
-        //{
-        //    Flip();
-        //    facingRight = false;
-        //}
-
-        if (moveX > 0 && facingRight && !isGrounded || speedY != 0)
+        #region Pulo para direita
+        if (moveX > 0 && !isGrounded && speedY > 0)
         {
-            Flip();
-            facingRight = false;
+            anim.SetBool("JumpR", true);
+            anim.SetBool("FallR", false);
         }
-
-        if (moveX < 0 && !facingRight && !isGrounded || speedY != 0)
+        else if (moveX > 0 && !isGrounded && speedY < 0)
         {
-            Flip();
-            facingRight = true;
-        }
-
-        if (speedY > 0 && !isGrounded)
-        {
-            anim.SetBool("Jump", true);
-            anim.SetBool("Fall", false);
-        }
-        else if (speedY < 0 && !isGrounded)
-        {
-            anim.SetBool("Fall", true);
-            anim.SetBool("Jump", false);
+            anim.SetBool("JumpR", false);
+            anim.SetBool("FallR", true);
         }
         else
         {
-            anim.SetBool("Fall", false);
-            anim.SetBool("Jump", false);
+            anim.SetBool("JumpR", false);
+            anim.SetBool("FallR", false);
         }
+        #endregion
+
+        #region Pulo para esquerda
+        if (moveX < 0 && !isGrounded && speedY > 0)
+        {
+            anim.SetBool("JumpL", true);
+            anim.SetBool("FallL", false);
+        }
+        else if (moveX < 0 && !isGrounded && speedY < 0)
+        {
+            anim.SetBool("JumpL", false);
+            anim.SetBool("FallL", true);
+        }
+        else
+        {
+            anim.SetBool("JumpL", false);
+            anim.SetBool("FallL", false);
+        }
+        #endregion
+
+        #region Pulo parado para a direita
+        //if (moveX == 0 && !isGrounded && speedY > 0 && facingRight)
+        //{
+        //    anim.SetBool("JumpR", true);
+        //    anim.SetBool("FallR", false);
+        //}
+        //else if (moveX == 0 && !isGrounded && speedY < 0 && facingRight)
+        //{
+        //    anim.SetBool("JumpR", false);
+        //    anim.SetBool("FallR", true);
+        //}
+        //else
+        //{
+        //    anim.SetBool("JumpR", false);
+        //    anim.SetBool("FallR", false);
+        //}
+        #endregion 
+
+        #region Pulo parado para a esquerda
+        //if (moveX == 0 && !isGrounded && speedY > 0 && !facingRight)
+        //{
+        //    anim.SetBool("JumpL", true);
+        //    anim.SetBool("FallL", false);
+        //}
+        //else if (moveX == 0 && !isGrounded && speedY < 0 && !facingRight)
+        //{
+        //    anim.SetBool("JumpL", false);
+        //    anim.SetBool("FallL", true);
+        //}
+        //else
+        //{
+        //    anim.SetBool("JumpL", false);
+        //    anim.SetBool("FallL", false);
+        //}
+        #endregion 
 
         if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space)) && isGrounded && !isJumping)
         {

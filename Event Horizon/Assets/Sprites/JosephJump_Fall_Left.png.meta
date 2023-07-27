@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 562565b2b4f529945a08a9c184c1e523
+guid: 2c6ec87d20e77e4448fb96c2a4946d2c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MicrosoftTeams-image_0
+      name: JosephJump_Fall_Left_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
-        height: 65
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 228bc4d148cf5f64aadeceff5568b995
-      internalID: -1267944375
+      spriteID: 3b75d37102b3e6f45846016e4b5143ab
+      internalID: 28920642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MicrosoftTeams-image_1
+      name: JosephJump_Fall_Left_1
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 64
-        height: 65
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85cc2fb114ca32840ac3d684df77ab85
-      internalID: 617630332
+      spriteID: ee5d5cf699d17124a9eb25ea08c45bf0
+      internalID: -1443885947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MicrosoftTeams-image_2
+      name: JosephJump_Fall_Left_2
       rect:
         serializedVersion: 2
         x: 128
         y: 0
         width: 64
-        height: 65
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 279d5cc655784a4468b76b63b8068156
-      internalID: -645415142
+      spriteID: 924f76839f835cc419d270a6f8d7cadd
+      internalID: 1251894022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MicrosoftTeams-image_3
+      name: JosephJump_Fall_Left_3
       rect:
         serializedVersion: 2
         x: 192
         y: 0
         width: 64
-        height: 65
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae0deefdb73637440b13b7632cea2fad
-      internalID: 268930099
+      spriteID: 9eca68ac70feaac41b2c106aad66d872
+      internalID: 910225797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MicrosoftTeams-image_4
+      name: JosephJump_Fall_Left_4
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 64
-        height: 65
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b68ebade8b2a9604e8a9c33f296ce262
-      internalID: 13882675
+      spriteID: a41496f114b5e404eb745fa4e8c4b114
+      internalID: -1342838325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MicrosoftTeams-image_5
+      name: JosephJump_Fall_Left_5
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 64
-        height: 65
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcd7da0b1c5949a4e86607e494b9cf43
-      internalID: -1099011059
+      spriteID: a22a6ba92f84cf04b9e30790f3bcd519
+      internalID: -1072625872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MicrosoftTeams-image_6
+      name: JosephJump_Fall_Left_6
       rect:
         serializedVersion: 2
         x: 384
         y: 0
         width: 64
-        height: 65
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b7e25462418ac948b5e93aab8687e46
-      internalID: 1281138267
+      spriteID: b900dea327b65b54fa3acd5142954cbf
+      internalID: -26271734
       vertices: []
       indices: 
       edges: []
@@ -274,13 +274,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MicrosoftTeams-image_6: 1281138267
-      MicrosoftTeams-image_4: 13882675
-      MicrosoftTeams-image_2: -645415142
-      MicrosoftTeams-image_1: 617630332
-      MicrosoftTeams-image_0: -1267944375
-      MicrosoftTeams-image_3: 268930099
-      MicrosoftTeams-image_5: -1099011059
+      JosephJump_Fall_Left_2: 1251894022
+      JosephJump_Fall_Left_3: 910225797
+      JosephJump_Fall_Left_5: -1072625872
+      JosephJump_Fall_Left_1: -1443885947
+      JosephJump_Fall_Left_6: -26271734
+      JosephJump_Fall_Left_4: -1342838325
+      JosephJump_Fall_Left_0: 28920642
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

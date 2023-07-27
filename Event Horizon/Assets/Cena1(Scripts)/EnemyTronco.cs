@@ -16,6 +16,11 @@ public class EnemyTronco : MonoBehaviour
     private bool facingRight;
     #endregion
 
+    #region Variaveis de Ataque
+    private bool alert = false;
+    private float timerDuration = 2f;
+    #endregion
+
     void Start()
     {
         waitTime = startWaitTime;
@@ -26,11 +31,20 @@ public class EnemyTronco : MonoBehaviour
 
     private void Update()
     {
-        Patrol();
+        if (alert)
+        {
+            Attack();
+        }
+        if (!alert)
+        {
+            Patrol();
+        }
     }
 
     void Patrol()
     {
+        anim.SetBool("Attack", false);
+
         previousPosition = transform.position;
 
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
@@ -69,10 +83,55 @@ public class EnemyTronco : MonoBehaviour
         }
     }
 
+    void Attack()
+    {
+        //isAttaking = true;
+        //if (isAttaking)
+        //{
+        //    isAttaking = false;
+        //    anim.SetBool("Attack", true);
+        //    StartCoroutine(StartTimer());
+        //    isAttaking = true;
+        //}
+        if (alert)
+        {
+            anim.SetBool("Attack", true);
+            anim.SetBool("Walk", false);
+        }
+        else
+        {
+            anim.SetBool("Attack", false);
+            anim.SetBool("Walk", true);
+        }
+                
+    }
+
+    private IEnumerator StartTimer()
+    {
+        anim.SetBool("Attack", false);
+        yield return new WaitForSeconds(timerDuration);
+    }
+
     void Flip()
     {
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            alert = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            alert =  false;
+        }
     }
 }
 
