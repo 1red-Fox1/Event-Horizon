@@ -102,16 +102,16 @@ public class playerMove : MonoBehaviour
         #endregion
 
         #region Pulo parado para a direita
-        //if (moveX == 0 && !isGrounded && speedY > 0 && facingRight)
-        //{
-        //    anim.SetBool("JumpR", true);
-        //    anim.SetBool("FallR", false);
-        //}
-        //else if (moveX == 0 && !isGrounded && speedY < 0 && facingRight)
-        //{
-        //    anim.SetBool("JumpR", false);
-        //    anim.SetBool("FallR", true);
-        //}
+        if (moveX == 0 && !isGrounded && speedY > 0)
+        {
+            anim.SetBool("JumpR", true);
+            anim.SetBool("FallR", false);
+        }
+        else if (moveX == 0 && !isGrounded && speedY < 0)
+        {
+            anim.SetBool("JumpR", false);
+            anim.SetBool("FallR", true);
+        }
         //else
         //{
         //    anim.SetBool("JumpR", false);

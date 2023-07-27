@@ -38,6 +38,7 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: cd9e9e701101de9448e8fa34ec9f216c, type: 3}
   - {fileID: 848051895, guid: 8cca850123679d649acb6b0b765c9dd2, type: 3}
   - {fileID: 2036375024, guid: 8cca850123679d649acb6b0b765c9dd2, type: 3}
   - {fileID: 1453659909, guid: 8cca850123679d649acb6b0b765c9dd2, type: 3}
@@ -185,21 +186,28 @@ SpriteAtlas:
   - {fileID: 667668789, guid: 8cca850123679d649acb6b0b765c9dd2, type: 3}
   - {fileID: 21300000, guid: 5615e9319ca31d4469f664840afe3a1e, type: 3}
   - {fileID: 21300000, guid: 60f74041eadb9b24fa6031a5354f8dd6, type: 3}
+  - {fileID: 21300000, guid: 1068d56114fa42c449e664a1583cf894, type: 3}
   - {fileID: 21300000, guid: 9a7a8e7155b48864182c13b12093f388, type: 3}
   - {fileID: 21300000, guid: 37fccdb120241454c826e84c6f5f6f61, type: 3}
   - {fileID: 21300000, guid: 9a8723d1c7e22e44082632372b413aff, type: 3}
   - {fileID: 21300000, guid: d2a699d19ae45ce449f3f61ae55fc849, type: 3}
+  - {fileID: 21300000, guid: 1453e34203519ee4ead74bf769239854, type: 3}
+  - {fileID: 21300000, guid: 114e50626c2fd9a4aa5ca263e7937667, type: 3}
+  - {fileID: 21300000, guid: 4ca8bf92ece29e142a5acb634ea4fbf8, type: 3}
+  - {fileID: 21300000, guid: 982522f2f7a57f5419aa0c822737b41e, type: 3}
   - {fileID: 21300000, guid: f9192d03a93cb734b86b7a329437f2c4, type: 3}
   - {fileID: 21300000, guid: 06d4cb3393c227e43a1c7c4944bb3b70, type: 3}
   - {fileID: 21300000, guid: b19dd5833805e6f45879354ef80190a5, type: 3}
   - {fileID: 21300000, guid: 4d8bdc5494da6634fb5e4b0b37b93b9e, type: 3}
   - {fileID: 21300000, guid: 5dda3eb4a7779c040b610b88105436e5, type: 3}
+  - {fileID: 21300000, guid: e45a11d4e0088804da74d653dc48a88a, type: 3}
   - {fileID: 21300000, guid: 452c5415444feda4bb8e2929ea15919d, type: 3}
   - {fileID: 21300000, guid: a92f6a157a1460d40b60d55d50ce6bd2, type: 3}
   - {fileID: 21300000, guid: b52e31858faa71d47aadccd8c6da0e16, type: 3}
   - {fileID: 21300000, guid: c2a1239563aa5904ba5b319a4bbb9f1a, type: 3}
   - {fileID: 21300000, guid: 8f1c859531c3d6347b47db7a8d295df7, type: 3}
   - {fileID: 21300000, guid: 99e35895e36b079448256602f7ea1e0a, type: 3}
+  - {fileID: 21300000, guid: 682253c5176bd574db53cbc105d14d38, type: 3}
   - {fileID: 21300000, guid: eca632d544959d047b2f9d234dcff56d, type: 3}
   - {fileID: 21300000, guid: 55c068362a714b94491af765017e950c, type: 3}
   - {fileID: 21300000, guid: 91f2dc762f3b31149a275a2ff209d1fd, type: 3}
@@ -209,22 +217,33 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 6d27ffe69d4330947a4a2545d773230e, type: 3}
   - {fileID: 21300000, guid: 2e5f1f17ba552c04393d081ad914ecc1, type: 3}
   - {fileID: 21300000, guid: 2b5e5657fd2dfed4d886d81cae74402f, type: 3}
+  - {fileID: 21300000, guid: 87e34008174ef554aac68ab0df8800fa, type: 3}
   - {fileID: 21300000, guid: c22db388dcd9c3444b988457b95457c7, type: 3}
   - {fileID: 21300000, guid: 50a96a8895da6544db4c6e3f595389bd, type: 3}
+  - {fileID: 21300000, guid: 4b4f18a8c373c2a41a61a6ff11f4260a, type: 3}
+  - {fileID: 21300000, guid: 3d1839e8f9670fc4a90287fd08d8d1c3, type: 3}
   - {fileID: 21300000, guid: ea215b39c3c2d7d42a8317874437b1d8, type: 3}
   - {fileID: 21300000, guid: 8b135f498e03d7a488f97261ed1ecf29, type: 3}
   - {fileID: 21300000, guid: 78f96f69e95bcc146b20c202b8513910, type: 3}
   - {fileID: 21300000, guid: 438d9b89d41794a4a8db93f29037afcb, type: 3}
   - {fileID: 21300000, guid: 20a78999b0b6ac142adb6961a0fb44e0, type: 3}
+  - {fileID: 21300000, guid: fb49436ab50ddf746a03faaccf1ed51a, type: 3}
   - {fileID: 21300000, guid: 92f1f4aab9269404e80964dcf92101d0, type: 3}
   - {fileID: 21300000, guid: c65896ba407914048816067aaa577c20, type: 3}
   - {fileID: 21300000, guid: ac5c30fae23e8dd4f8f0c9ae3c7cabb1, type: 3}
+  - {fileID: 21300000, guid: 5b7e931b1b4f891499f3cce8e705e1a7, type: 3}
   - {fileID: 21300000, guid: d685772b6b0704949a9084f9b5467056, type: 3}
+  - {fileID: 21300000, guid: c60c877bd45bf0948b73e211f7e67127, type: 3}
   - {fileID: 21300000, guid: 54b7879cc036bd145877efea5fe29060, type: 3}
+  - {fileID: 21300000, guid: 569287ac884c40045a86955055f7e4cc, type: 3}
   - {fileID: 21300000, guid: 9a971edce0a1949438171607ed2afbe7, type: 3}
+  - {fileID: 21300000, guid: 13b424fc9075d2146bfac6af179f593e, type: 3}
+  - {fileID: 21300000, guid: f03a1bfc3cae70d4cb65b8ea9cf249c7, type: 3}
+  - {fileID: 21300000, guid: 498b2ddd0fbf64b4eba22bbfd0dfd103, type: 3}
   - {fileID: 21300000, guid: 0931d30ef2ffff6499f8bd040d234b6e, type: 3}
   - {fileID: 21300000, guid: 7028c93ed3d4a8e4ab1518921a294259, type: 3}
   - {fileID: 21300000, guid: bef4d05e59065f5498b01bcffd271977, type: 3}
+  - {fileID: 21300000, guid: 7e9df9ae4801c494b80c74200401b64c, type: 3}
   - {fileID: 21300000, guid: f8eba41fb4dcfc540aaa7df639d609eb, type: 3}
   - {fileID: 21300000, guid: db15f73f1dc6d5d4fa6195f1c44a1c37, type: 3}
   - {fileID: 21300000, guid: eae2dd5f8afe40949aff9984beff957f, type: 3}
@@ -327,6 +346,7 @@ SpriteAtlas:
   - {fileID: 1786911407, guid: 438e487f394a2df44bcc36cd1668c39c, type: 3}
   - {fileID: 21300000, guid: 25d62e9fc602b5d4e883810475eef5b3, type: 3}
   m_PackedSpriteNamesToIndex:
+  - "Robo_Despeda\xE7ado4"
   - toleset organizado2_138
   - toleset organizado2_141
   - toleset organizado2_139
@@ -474,21 +494,28 @@ SpriteAtlas:
   - toleset organizado2_61
   - Tronco3
   - pedra5
+  - Lustre4
   - CorpoMorto2
   - Tronco1
   - Tronco5
   - Planta1
+  - Lustre8
+  - Lustre1
+  - "\xB4Corpo1"
+  - Pedrinhas
   - jh
   - Folhas6.2
   - Arbusto4
   - Folhas4.2
   - pedra2
+  - "Robo_Despeda\xE7ado2"
   - hgjhgjgh
   - CorpoMorto7
   - Tronco4
   - Concreto2
   - pedra9
   - Folhas2
+  - "Robo_Despeda\xE7ado6"
   - Folhas4.1
   - Folhas6.3
   - CorpoMorto3
@@ -498,22 +525,33 @@ SpriteAtlas:
   - pedra3
   - pedra1
   - CorpoMorto1
+  - "Robo_Despeda\xE7ado7"
   - CorpoMorto6
   - Troncos
+  - Corpo2
+  - Lustre6
   - Planta2
   - Folhas5
   - Folhas6.1
   - pedra4
   - h
+  - Lustre7
   - Tronco2
   - preenchimento
   - pedra6
+  - Vinhas
   - pedra8
+  - "Robo_Despeda\xE7ado1"
   - CorpoMorto4
+  - "Robo_Despeda\xE7ado3"
   - Concreto1
+  - Lustre5
+  - "Robo_Despeda\xE7ado5"
+  - Lustre3
   - Planta3
   - Folhas3
   - Arbusto1
+  - Lustre2
   - CorpoMorto5
   - Tronco6
   - cenario teste
