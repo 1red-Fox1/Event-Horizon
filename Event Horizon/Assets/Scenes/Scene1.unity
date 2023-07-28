@@ -8233,5 +8233,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: MonstroTronco
       objectReference: {fileID: 0}
+    - target: {fileID: 5397131963448990198, guid: b96c72309208aca4b970c83dd390d7a1, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b96c72309208aca4b970c83dd390d7a1, type: 3}

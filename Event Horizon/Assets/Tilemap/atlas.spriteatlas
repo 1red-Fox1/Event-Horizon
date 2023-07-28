@@ -38,6 +38,7 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 52e7150043f61994cb3793384b168c8b, type: 3}
   - {fileID: 21300000, guid: cd9e9e701101de9448e8fa34ec9f216c, type: 3}
   - {fileID: 848051895, guid: 8cca850123679d649acb6b0b765c9dd2, type: 3}
   - {fileID: 2036375024, guid: 8cca850123679d649acb6b0b765c9dd2, type: 3}
@@ -346,6 +347,7 @@ SpriteAtlas:
   - {fileID: 1786911407, guid: 438e487f394a2df44bcc36cd1668c39c, type: 3}
   - {fileID: 21300000, guid: 25d62e9fc602b5d4e883810475eef5b3, type: 3}
   m_PackedSpriteNamesToIndex:
+  - cenario 1 finalizado
   - "Robo_Despeda\xE7ado4"
   - toleset organizado2_138
   - toleset organizado2_141
