@@ -208,6 +208,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: c2a1239563aa5904ba5b319a4bbb9f1a, type: 3}
   - {fileID: 21300000, guid: 8f1c859531c3d6347b47db7a8d295df7, type: 3}
   - {fileID: 21300000, guid: 99e35895e36b079448256602f7ea1e0a, type: 3}
+  - {fileID: 21300000, guid: 441834b5359e7d340a41e25d56193c1f, type: 3}
   - {fileID: 21300000, guid: 682253c5176bd574db53cbc105d14d38, type: 3}
   - {fileID: 21300000, guid: eca632d544959d047b2f9d234dcff56d, type: 3}
   - {fileID: 21300000, guid: 55c068362a714b94491af765017e950c, type: 3}
@@ -222,6 +223,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: c22db388dcd9c3444b988457b95457c7, type: 3}
   - {fileID: 21300000, guid: 50a96a8895da6544db4c6e3f595389bd, type: 3}
   - {fileID: 21300000, guid: 4b4f18a8c373c2a41a61a6ff11f4260a, type: 3}
+  - {fileID: 21300000, guid: bda955b81e6277a4eb377f133aebdfdb, type: 3}
   - {fileID: 21300000, guid: 3d1839e8f9670fc4a90287fd08d8d1c3, type: 3}
   - {fileID: 21300000, guid: ea215b39c3c2d7d42a8317874437b1d8, type: 3}
   - {fileID: 21300000, guid: 8b135f498e03d7a488f97261ed1ecf29, type: 3}
@@ -235,6 +237,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 5b7e931b1b4f891499f3cce8e705e1a7, type: 3}
   - {fileID: 21300000, guid: d685772b6b0704949a9084f9b5467056, type: 3}
   - {fileID: 21300000, guid: c60c877bd45bf0948b73e211f7e67127, type: 3}
+  - {fileID: 21300000, guid: 8943072c5443cb240bc2a950180d144e, type: 3}
   - {fileID: 21300000, guid: 54b7879cc036bd145877efea5fe29060, type: 3}
   - {fileID: 21300000, guid: 569287ac884c40045a86955055f7e4cc, type: 3}
   - {fileID: 21300000, guid: 9a971edce0a1949438171607ed2afbe7, type: 3}
@@ -517,6 +520,7 @@ SpriteAtlas:
   - Concreto2
   - pedra9
   - Folhas2
+  - Arbusto5
   - "Robo_Despeda\xE7ado6"
   - Folhas4.1
   - Folhas6.3
@@ -531,6 +535,7 @@ SpriteAtlas:
   - CorpoMorto6
   - Troncos
   - Corpo2
+  - Arbusto6
   - Lustre6
   - Planta2
   - Folhas5
@@ -544,6 +549,7 @@ SpriteAtlas:
   - Vinhas
   - pedra8
   - "Robo_Despeda\xE7ado1"
+  - Arbusto7
   - CorpoMorto4
   - "Robo_Despeda\xE7ado3"
   - Concreto1

@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1.5
-  jumpSpeed: 2.5
+  jumpSpeed: 3
   counterJump: 0.25
   isGrounded: 0
   footstepSound:
