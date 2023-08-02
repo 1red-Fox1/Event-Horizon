@@ -197,6 +197,14 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 4ca8bf92ece29e142a5acb634ea4fbf8, type: 3}
   - {fileID: 21300000, guid: 982522f2f7a57f5419aa0c822737b41e, type: 3}
   - {fileID: 21300000, guid: f9192d03a93cb734b86b7a329437f2c4, type: 3}
+  - {fileID: -826234827, guid: 7f03d733bc9e62842b0a0d58fee37ad8, type: 3}
+  - {fileID: 297037421, guid: 7f03d733bc9e62842b0a0d58fee37ad8, type: 3}
+  - {fileID: 1613343718, guid: 7f03d733bc9e62842b0a0d58fee37ad8, type: 3}
+  - {fileID: -359488767, guid: 7f03d733bc9e62842b0a0d58fee37ad8, type: 3}
+  - {fileID: 1428591815, guid: 7f03d733bc9e62842b0a0d58fee37ad8, type: 3}
+  - {fileID: -661294706, guid: 7f03d733bc9e62842b0a0d58fee37ad8, type: 3}
+  - {fileID: 1524499928, guid: 7f03d733bc9e62842b0a0d58fee37ad8, type: 3}
+  - {fileID: 2144270297, guid: 7f03d733bc9e62842b0a0d58fee37ad8, type: 3}
   - {fileID: 21300000, guid: 06d4cb3393c227e43a1c7c4944bb3b70, type: 3}
   - {fileID: 21300000, guid: b19dd5833805e6f45879354ef80190a5, type: 3}
   - {fileID: 21300000, guid: 4d8bdc5494da6634fb5e4b0b37b93b9e, type: 3}
@@ -211,7 +219,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 441834b5359e7d340a41e25d56193c1f, type: 3}
   - {fileID: 21300000, guid: 682253c5176bd574db53cbc105d14d38, type: 3}
   - {fileID: 21300000, guid: eca632d544959d047b2f9d234dcff56d, type: 3}
+  - {fileID: 21300000, guid: 38870af58f6413148ac62b2252a0b4f3, type: 3}
   - {fileID: 21300000, guid: 55c068362a714b94491af765017e950c, type: 3}
+  - {fileID: 21300000, guid: 3a248a76ea341874e9d749759f0e6eb3, type: 3}
   - {fileID: 21300000, guid: 91f2dc762f3b31149a275a2ff209d1fd, type: 3}
   - {fileID: 21300000, guid: a72a33b63ad0d174dad5e548b4ffd333, type: 3}
   - {fileID: 21300000, guid: de2834d677b4ad749b9ce4e20ba80ebd, type: 3}
@@ -230,19 +240,25 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 78f96f69e95bcc146b20c202b8513910, type: 3}
   - {fileID: 21300000, guid: 438d9b89d41794a4a8db93f29037afcb, type: 3}
   - {fileID: 21300000, guid: 20a78999b0b6ac142adb6961a0fb44e0, type: 3}
+  - {fileID: 21300000, guid: 70b30a99779951d44ad2c530fc5a1808, type: 3}
+  - {fileID: -1766312111, guid: 81967ec98570a7445a4c8afc7f887fae, type: 3}
+  - {fileID: 823982323, guid: 81967ec98570a7445a4c8afc7f887fae, type: 3}
+  - {fileID: 21300000, guid: 157ddd2abaef4db429d04905f0159ced, type: 3}
   - {fileID: 21300000, guid: fb49436ab50ddf746a03faaccf1ed51a, type: 3}
   - {fileID: 21300000, guid: 92f1f4aab9269404e80964dcf92101d0, type: 3}
-  - {fileID: 21300000, guid: c65896ba407914048816067aaa577c20, type: 3}
   - {fileID: 21300000, guid: ac5c30fae23e8dd4f8f0c9ae3c7cabb1, type: 3}
+  - {fileID: 21300000, guid: 1538ff0b17cbf6b4788992053e4f361b, type: 3}
   - {fileID: 21300000, guid: 5b7e931b1b4f891499f3cce8e705e1a7, type: 3}
   - {fileID: 21300000, guid: d685772b6b0704949a9084f9b5467056, type: 3}
   - {fileID: 21300000, guid: c60c877bd45bf0948b73e211f7e67127, type: 3}
+  - {fileID: 21300000, guid: cb286ccb87031514290e8f4a9f74f629, type: 3}
   - {fileID: 21300000, guid: 8943072c5443cb240bc2a950180d144e, type: 3}
   - {fileID: 21300000, guid: 54b7879cc036bd145877efea5fe29060, type: 3}
   - {fileID: 21300000, guid: 569287ac884c40045a86955055f7e4cc, type: 3}
   - {fileID: 21300000, guid: 9a971edce0a1949438171607ed2afbe7, type: 3}
   - {fileID: 21300000, guid: 13b424fc9075d2146bfac6af179f593e, type: 3}
   - {fileID: 21300000, guid: f03a1bfc3cae70d4cb65b8ea9cf249c7, type: 3}
+  - {fileID: 21300000, guid: 013433cd077196f40a3a2c528a2be418, type: 3}
   - {fileID: 21300000, guid: 498b2ddd0fbf64b4eba22bbfd0dfd103, type: 3}
   - {fileID: 21300000, guid: 0931d30ef2ffff6499f8bd040d234b6e, type: 3}
   - {fileID: 21300000, guid: 7028c93ed3d4a8e4ab1518921a294259, type: 3}
@@ -509,6 +525,14 @@ SpriteAtlas:
   - "\xB4Corpo1"
   - Pedrinhas
   - jh
+  - Ground1_6
+  - Ground1_7
+  - Ground1_4
+  - Ground1_5
+  - Ground1_2
+  - Ground1_3
+  - Ground1_0
+  - Ground1_1
   - Folhas6.2
   - Arbusto4
   - Folhas4.2
@@ -523,7 +547,9 @@ SpriteAtlas:
   - Arbusto5
   - "Robo_Despeda\xE7ado6"
   - Folhas4.1
+  - "\xB4Ground3"
   - Folhas6.3
+  - Raizes4
   - CorpoMorto3
   - Arbusto2
   - Arbusto3
@@ -542,19 +568,25 @@ SpriteAtlas:
   - Folhas6.1
   - pedra4
   - h
+  - bg3
+  - Ground2_1
+  - Ground2_0
+  - bg2
   - Lustre7
   - Tronco2
-  - preenchimento
   - pedra6
+  - bg1
   - Vinhas
   - pedra8
   - "Robo_Despeda\xE7ado1"
+  - Raizes2
   - Arbusto7
   - CorpoMorto4
   - "Robo_Despeda\xE7ado3"
   - Concreto1
   - Lustre5
   - "Robo_Despeda\xE7ado5"
+  - Raizes1
   - Lustre3
   - Planta3
   - Folhas3

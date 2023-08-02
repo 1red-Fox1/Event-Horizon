@@ -51,6 +51,16 @@ public class playerMove : MonoBehaviour
             facingRight = false;
         }
 
+        if(facingRight && isGrounded && moveX == 0)
+        {
+            anim.SetBool("IdleL", false);
+        }
+
+        if (!facingRight && isGrounded && moveX == 0)
+        {
+            anim.SetBool("IdleL", true);
+        }
+
         if (moveX < 0 && isGrounded)
         {
             anim.SetBool("WalkL", true);
@@ -112,29 +122,19 @@ public class playerMove : MonoBehaviour
             anim.SetBool("JumpR", false);
             anim.SetBool("FallR", true);
         }
-        //else
-        //{
-        //    anim.SetBool("JumpR", false);
-        //    anim.SetBool("FallR", false);
-        //}
         #endregion 
 
         #region Pulo parado para a esquerda
-        //if (moveX == 0 && !isGrounded && speedY > 0 && !facingRight)
-        //{
-        //    anim.SetBool("JumpL", true);
-        //    anim.SetBool("FallL", false);
-        //}
-        //else if (moveX == 0 && !isGrounded && speedY < 0 && !facingRight)
-        //{
-        //    anim.SetBool("JumpL", false);
-        //    anim.SetBool("FallL", true);
-        //}
-        //else
-        //{
-        //    anim.SetBool("JumpL", false);
-        //    anim.SetBool("FallL", false);
-        //}
+        if (moveX == 0 && !isGrounded && speedY > 0 && !facingRight)
+        {
+            anim.SetBool("JumpL", true);
+            anim.SetBool("FallL", false);
+        }
+        else if (moveX == 0 && !isGrounded && speedY < 0 && !facingRight)
+        {
+            anim.SetBool("JumpL", false);
+            anim.SetBool("FallL", true);
+        }
         #endregion 
 
         if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space)) && isGrounded && !isJumping)
