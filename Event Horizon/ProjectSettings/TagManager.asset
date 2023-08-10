@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ground
   - enemyPlatformer
+  - Buraco
+  - Grama
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - player
   - Tronco
   - Velocity
-  - 
+  - Buraco
   - 
   - 
   - 

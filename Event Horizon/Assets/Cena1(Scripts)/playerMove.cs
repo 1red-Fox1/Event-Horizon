@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class playerMove : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class playerMove : MonoBehaviour
     private bool facingRight;
     private float moveX;
     private float speedY;
+    public string sceneName;
+    private const float doubleClick = .2f;
+    private float lastClickTime;
+    public bool isRunning = false;
 
     [Header("Variáveis de pulo do player")]
     [SerializeField] private float jumpSpeed;
@@ -21,18 +26,30 @@ public class playerMove : MonoBehaviour
     public bool isGrounded;
     private bool isJumping;
     private bool hasJumped;
+    private bool isFallingIdle;
 
     [Header("Sonoplastia do personagem")]
-    [SerializeField] private AudioClip[] footstepSound;
+    [SerializeField] private AudioClip[] passosGrama;
+    [SerializeField] private AudioClip[] passosPlataforma;
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip landingSound;
+    private bool estaNaPlataforma = false;
+    private bool estaNaGrama = false;
+
+    public Slider slider;
+    public float maxStamina = 100f;
+    public float currentStamina;
+    public bool outStamina = false;
+    public bool runAnimation = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
-
+        currentStamina = maxStamina;
+        slider.maxValue = maxStamina;
+        slider.value = currentStamina;
         facingRight = true;
     }
 
@@ -41,102 +58,92 @@ public class playerMove : MonoBehaviour
         moveX = Input.GetAxisRaw("Horizontal");
         speedY = rb.velocity.y;
 
-        if (Input.GetKeyUp(KeyCode.RightArrow))
+        #region Flip do Personagem
+        if (moveX < 0 && !facingRight)
         {
+            Flip();
             facingRight = true;
         }
-
-        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        else if (moveX > 0 && facingRight)
         {
+            Flip();
             facingRight = false;
         }
+        #endregion
 
-        if(facingRight && isGrounded && moveX == 0)
+        #region Animação de Andar
+        if (moveX != 0 && isGrounded)
         {
-            anim.SetBool("IdleL", false);
-        }
-
-        if (!facingRight && isGrounded && moveX == 0)
-        {
-            anim.SetBool("IdleL", true);
-        }
-
-        if (moveX < 0 && isGrounded)
-        {
-            anim.SetBool("WalkL", true);
-        }
-        else if (moveX > 0 && isGrounded)
-        {
-            anim.SetBool("WalkR", true);
+            if (runAnimation)
+            {
+                anim.SetBool("Run", true);
+                anim.SetBool("Walk", false);
+            }
+            else
+            {
+                anim.SetBool("Walk", true);
+                anim.SetBool("Run", false);
+            }
         }
         else
         {
-            anim.SetBool("WalkR", false);
-            anim.SetBool("WalkL", false);
-        }
-
-        #region Pulo para direita
-        if (moveX > 0 && !isGrounded && speedY > 0)
-        {
-            anim.SetBool("JumpR", true);
-            anim.SetBool("FallR", false);
-        }
-        else if (moveX > 0 && !isGrounded && speedY < 0)
-        {
-            anim.SetBool("JumpR", false);
-            anim.SetBool("FallR", true);
-        }
-        else
-        {
-            anim.SetBool("JumpR", false);
-            anim.SetBool("FallR", false);
+            anim.SetBool("Walk", false);
+            anim.SetBool("Run", false);
         }
         #endregion
 
-        #region Pulo para esquerda
-        if (moveX < 0 && !isGrounded && speedY > 0)
+        #region Animação de Correr do Personagem
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            anim.SetBool("JumpL", true);
-            anim.SetBool("FallL", false);
+            if (CheckDoubleClick())
+            {
+                isRunning = true;
+            }
+            else
+            {
+                isRunning = false;
+            }
         }
-        else if (moveX < 0 && !isGrounded && speedY < 0)
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            anim.SetBool("JumpL", false);
-            anim.SetBool("FallL", true);
+            if (CheckDoubleClick())
+            {
+                isRunning = true;
+            }
+            else
+            {
+                isRunning = false;
+            }
         }
-        else
+        if (currentStamina > 100f)
         {
-            anim.SetBool("JumpL", false);
-            anim.SetBool("FallL", false);
+            currentStamina = 100f;
+        }
+        if (currentStamina < 0f)
+        {
+            currentStamina = 0f;
         }
         #endregion
 
-        #region Pulo parado para a direita
-        if (moveX == 0 && !isGrounded && speedY > 0)
+        #region Animação de Pulo e Queda em movimento
+        if (speedY > 0 && !isGrounded)
         {
-            anim.SetBool("JumpR", true);
-            anim.SetBool("FallR", false);
+            anim.SetBool("Jump", true);
+            anim.SetBool("Fall", false);
         }
-        else if (moveX == 0 && !isGrounded && speedY < 0)
+        else if (speedY < 0 && !isGrounded)
         {
-            anim.SetBool("JumpR", false);
-            anim.SetBool("FallR", true);
+            anim.SetBool("Fall", true);
+            anim.SetBool("Jump", false);
         }
-        #endregion 
+        else
+        {
+            anim.SetBool("Fall", false);
+            anim.SetBool("Jump", false);
+        }
+        #endregion      
 
-        #region Pulo parado para a esquerda
-        if (moveX == 0 && !isGrounded && speedY > 0 && !facingRight)
-        {
-            anim.SetBool("JumpL", true);
-            anim.SetBool("FallL", false);
-        }
-        else if (moveX == 0 && !isGrounded && speedY < 0 && !facingRight)
-        {
-            anim.SetBool("JumpL", false);
-            anim.SetBool("FallL", true);
-        }
-        #endregion 
-
+        #region Pulo do Personagem
         if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space)) && isGrounded && !isJumping)
         {
             if (!hasJumped)
@@ -157,6 +164,7 @@ public class playerMove : MonoBehaviour
             isJumping = false;
             counterJump = 0.25f;
         }
+        #endregion
     }
 
     void FixedUpdate()
@@ -174,35 +182,126 @@ public class playerMove : MonoBehaviour
                 isJumping = false;
             }
         }
+
+        if (isRunning == true && moveX != 0)
+        {
+            currentStamina -= 40f * Time.deltaTime;
+            slider.value = currentStamina;
+        }
+
+        if (isRunning == false || moveX == 0)
+        {
+            currentStamina += 35f * Time.deltaTime;
+            slider.value = currentStamina;
+        }
+
+        if (currentStamina <= 0f)
+        {
+            outStamina = true;
+        }
+
+        if (currentStamina > 0f && isRunning == false)
+        {
+            outStamina = false;
+        }
+
+        if (isRunning == true || outStamina == false)
+        {
+            moveSpeed = 2.5f;
+        }
+
+        if (isRunning == false || outStamina == true)
+        {
+            moveSpeed = 1.2f;
+        }
+        
+        if (moveSpeed == 2.5f)
+        {
+            runAnimation = true;
+        }
+
+        if (moveSpeed == 1.2f)
+        {
+            runAnimation = false;
+        }
+
     }
 
+    private bool CheckDoubleClick()
+    {
+        float timeSinceLastClick = Time.time - lastClickTime;
+        if (timeSinceLastClick <= doubleClick)
+        {
+            lastClickTime = 0f;
+            return true;
+        }
+        else
+        {
+            lastClickTime = Time.time;
+            return false;
+        }
+    }
+
+    #region Flip do Player
     void Flip()
     {
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
+    #endregion
 
+    #region Colisão
     private void OnTriggerEnter2D(Collider2D collision)
     {
         isGrounded = true;
         hasJumped = false;
 
-        if (collision.gameObject.tag == "ground")
+        if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "Grama")
         {
             audioSource.PlayOneShot(landingSound);
         }
+        if (collision.gameObject.tag == "Buraco")
+        {
+            SceneManager.LoadScene(sceneName);
+        }
+        if (collision.gameObject.tag == "ground")
+        {
+            estaNaPlataforma = true;
+        }
+        if (collision.gameObject.tag == "Grama")
+        {
+            estaNaGrama = true;
+        }
     }
-
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "ground")
+        if (collision.gameObject.tag == "ground" || collision.gameObject.tag == "Grama")
         {
             isGrounded = false;
         }
+        if (collision.gameObject.tag == "ground")
+        {
+            estaNaPlataforma = false;
+        }
+        if (collision.gameObject.tag == "Grama")
+        {
+            estaNaGrama = false;
+        }
     }
+    #endregion
 
+    #region Sonoplastia 
     private void Passos()
     {
-        audioSource.PlayOneShot(footstepSound[Random.Range(0, footstepSound.Length)]);
+        if (estaNaGrama)
+        {
+            audioSource.PlayOneShot(passosGrama[Random.Range(0, passosGrama.Length)]);
+        }
+
+        if (estaNaPlataforma)
+        {
+            audioSource.PlayOneShot(passosPlataforma[Random.Range(0, passosPlataforma.Length)]);
+        }
     }
+    #endregion
 }
