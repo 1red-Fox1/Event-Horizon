@@ -8,6 +8,7 @@ TagManager:
   - enemyPlatformer
   - Buraco
   - Grama
+  - ProximaFase
   layers:
   - Default
   - TransparentFX
