@@ -100,28 +100,16 @@ public class playerMove : MonoBehaviour
         #endregion
 
         #region Animação de Correr do Personagem
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
         {
-            if (CheckDoubleClick())
-            {
-                isRunning = true;
-            }
-            else
-            {
-                isRunning = false;
-            }
+            isRunning = true;
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+
+        if (Input.GetKeyUp(KeyCode.LeftShift) || Input.GetKeyUp(KeyCode.RightShift))
         {
-            if (CheckDoubleClick())
-            {
-                isRunning = true;
-            }
-            else
-            {
-                isRunning = false;
-            }
+            isRunning = false;
         }
+
         if (currentStamina > 100f)
         {
             currentStamina = 100f;
@@ -232,21 +220,6 @@ public class playerMove : MonoBehaviour
             runAnimation = false;
         }
 
-    }
-
-    private bool CheckDoubleClick()
-    {
-        float timeSinceLastClick = Time.time - lastClickTime;
-        if (timeSinceLastClick <= doubleClick)
-        {
-            lastClickTime = 0f;
-            return true;
-        }
-        else
-        {
-            lastClickTime = Time.time;
-            return false;
-        }
     }
 
     #region Flip do Player

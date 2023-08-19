@@ -7,6 +7,7 @@ public class EnemyTronco : MonoBehaviour
     private Animator anim;
     private AudioSource audioSource;
     public AudioClip[] ataqueInimigo;
+    public AudioClip[] passosGrama;
 
     #region Variaveis de Patrulha
     public Transform[] moveSpots;
@@ -87,15 +88,7 @@ public class EnemyTronco : MonoBehaviour
     }
 
     void Attack()
-    {
-        //isAttaking = true;
-        //if (isAttaking)
-        //{
-        //    isAttaking = false;
-        //    anim.SetBool("Attack", true);
-        //    StartCoroutine(StartTimer());
-        //    isAttaking = true;
-        //}
+    {     
         if (alert)
         {
             anim.SetBool("Attack", true);
@@ -140,6 +133,11 @@ public class EnemyTronco : MonoBehaviour
     private void SomDeAtaque()
     {
         audioSource.PlayOneShot(ataqueInimigo[Random.Range(0, ataqueInimigo.Length)]);        
+    }
+
+    private void Passos()
+    {
+        audioSource.PlayOneShot(passosGrama[Random.Range(0, passosGrama.Length)]);
     }
 }
 
