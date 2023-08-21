@@ -16,8 +16,6 @@ public class playerMove : MonoBehaviour
     private float moveX;
     private float speedY;
     public string sceneName;
-    private const float doubleClick = .2f;
-    private float lastClickTime;
     public bool isRunning = false;
 
     [Header("Variáveis de pulo do player")]
@@ -26,7 +24,6 @@ public class playerMove : MonoBehaviour
     public bool isGrounded;
     private bool isJumping;
     private bool hasJumped;
-    private bool isFallingIdle;
     public float maxFallSpeed;
 
     [Header("Sonoplastia do personagem")]
@@ -44,6 +41,9 @@ public class playerMove : MonoBehaviour
     public bool outStamina = false;
     public bool runAnimation = false;
 
+    public bool DefenseCooling = false;
+    public bool CanMove = true;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -57,12 +57,35 @@ public class playerMove : MonoBehaviour
 
     void Update()
     {
-        moveX = Input.GetAxisRaw("Horizontal");
-        speedY = rb.velocity.y;
+        if (CanMove)
+        {
+            moveX = Input.GetAxisRaw("Horizontal");
+            speedY = rb.velocity.y;
+        }
 
         if (rb.velocity.y < 0)
         {
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Max(rb.velocity.y, -maxFallSpeed));
+        }
+
+        if(Input.GetKeyDown(KeyCode.Z) && isGrounded)
+        {
+            anim.SetBool("DefenseOn", true);
+            anim.SetBool("Walk", false);
+            anim.SetBool("Run", false);
+            CanMove = false;
+        }
+        if (Input.GetKeyUp(KeyCode.Z))
+        {
+            anim.SetBool("DefenseOn", false);
+            anim.SetBool("DefenseOff", true);
+            if (DefenseCooling == true)
+            {
+                anim.SetBool("DefenseOff", false);
+                anim.SetBool("DefenseOn", false);
+                DefenseCooling = false;
+                CanMove = true;
+            }
         }
 
         #region Flip do Personagem
@@ -139,7 +162,7 @@ public class playerMove : MonoBehaviour
         #endregion      
 
         #region Pulo do Personagem
-        if ((Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space)) && isGrounded && !isJumping)
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space) && isGrounded && !isJumping)
         {
             if (!hasJumped)
             {
@@ -150,11 +173,11 @@ public class playerMove : MonoBehaviour
                 hasJumped = true;
             }
         }
-        if (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space))
         {
             counterJump -= Time.deltaTime;
         }
-        if (Input.GetKeyUp(KeyCode.Z) || Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.Space))
         {
             isJumping = false;
             counterJump = 0.25f;
@@ -288,4 +311,9 @@ public class playerMove : MonoBehaviour
         }
     }
     #endregion
+
+    void defenseCooling()
+    {
+        DefenseCooling = true;
+    }
 }

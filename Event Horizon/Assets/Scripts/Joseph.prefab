@@ -152,7 +152,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.025194883, y: -0.31797078}
+  m_Offset: {x: 0.037328362, y: -0.31797078}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -163,7 +163,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.23064852, y: 0.016888559}
+  m_Size: {x: 0.13799262, y: 0.016888559}
   m_EdgeRadius: 0
 --- !u!70 &3912712739457757612
 CapsuleCollider2D:
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1.2
-  sceneName: Fase1
+  sceneName: Fase2
   isRunning: 0
   jumpSpeed: 3.5
   counterJump: 0.25
@@ -216,6 +216,8 @@ MonoBehaviour:
   currentStamina: 0
   outStamina: 0
   runAnimation: 0
+  DefenseCooling: 0
+  CanMove: 1
 --- !u!82 &1122004605565355915
 AudioSource:
   m_ObjectHideFlags: 0

@@ -232,6 +232,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3a248a76ea341874e9d749759f0e6eb3, type: 3}
   - {fileID: 21300000, guid: 91f2dc762f3b31149a275a2ff209d1fd, type: 3}
   - {fileID: 21300000, guid: a72a33b63ad0d174dad5e548b4ffd333, type: 3}
+  - {fileID: 265470063, guid: e94128b671a951e4bb7038f491bd00ce, type: 3}
+  - {fileID: -121580429, guid: e94128b671a951e4bb7038f491bd00ce, type: 3}
+  - {fileID: -53220185, guid: e94128b671a951e4bb7038f491bd00ce, type: 3}
   - {fileID: 21300000, guid: de2834d677b4ad749b9ce4e20ba80ebd, type: 3}
   - {fileID: 21300000, guid: 43e4f4e6f7fa4c54f96ce12df6739085, type: 3}
   - {fileID: 21300000, guid: 6d27ffe69d4330947a4a2545d773230e, type: 3}
@@ -263,6 +266,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 6ed79f8b1f27e614d95776ccf3694f14, type: 3}
   - {fileID: 21300000, guid: cb286ccb87031514290e8f4a9f74f629, type: 3}
   - {fileID: 21300000, guid: f8a4e9fbda429674cb2fba39ac26882c, type: 3}
+  - {fileID: 21300000, guid: 508e9a1cd7f25d1429629e3816e68e24, type: 3}
   - {fileID: 21300000, guid: 8943072c5443cb240bc2a950180d144e, type: 3}
   - {fileID: 21300000, guid: 54b7879cc036bd145877efea5fe29060, type: 3}
   - {fileID: 21300000, guid: 569287ac884c40045a86955055f7e4cc, type: 3}
@@ -573,6 +577,9 @@ SpriteAtlas:
   - Raizes4
   - CorpoMorto3
   - Arbusto2
+  - Platform_2
+  - Platform_1
+  - Platform_0
   - Arbusto3
   - Folhas1
   - pedra3
@@ -604,6 +611,7 @@ SpriteAtlas:
   - parte 2
   - Raizes2
   - BgAzul
+  - BgFase2
   - Arbusto7
   - CorpoMorto4
   - "Robo_Despeda\xE7ado3"
