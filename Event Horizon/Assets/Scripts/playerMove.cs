@@ -57,10 +57,17 @@ public class playerMove : MonoBehaviour
 
     void Update()
     {
-        if (CanMove)
+        moveX = Input.GetAxisRaw("Horizontal");
+        speedY = rb.velocity.y;
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            moveX = Input.GetAxisRaw("Horizontal");
-            speedY = rb.velocity.y;
+            SceneManager.LoadScene("Fase1");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            SceneManager.LoadScene("Fase2");
         }
 
         if (rb.velocity.y < 0)
@@ -162,7 +169,7 @@ public class playerMove : MonoBehaviour
         #endregion      
 
         #region Pulo do Personagem
-        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space) && isGrounded && !isJumping)
+        if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) && isGrounded && !isJumping)
         {
             if (!hasJumped)
             {
@@ -173,11 +180,11 @@ public class playerMove : MonoBehaviour
                 hasJumped = true;
             }
         }
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
         {
             counterJump -= Time.deltaTime;
         }
-        if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.UpArrow) || Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W))
         {
             isJumping = false;
             counterJump = 0.25f;
