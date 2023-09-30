@@ -5,10 +5,18 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
-  - enemyPlatformer
   - Buraco
   - Grama
   - ProximaFase
+  - BuracoFase2
+  - Inimigo
+  - projectile
+  - fimEstala
+  - ProximaFase3
+  - playerRange
+  - mediumplayerRange
+  - ColisorChaoParaOJoseph
+  - defenseRange
   layers:
   - Default
   - TransparentFX
@@ -21,7 +29,7 @@ TagManager:
   - Tronco
   - Velocity
   - Buraco
-  - 
+  - ProximaFase
   - 
   - 
   - 
