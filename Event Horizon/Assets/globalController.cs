@@ -11,25 +11,12 @@ public class globalController : MonoBehaviour
     public playerMove playerMove;
     public string sceneName;
 
-    public SpriteRenderer bg1;
-    public SpriteRenderer bg2;
-    public SpriteRenderer bg3;
-    private Color corOriginalBg1;
-    private Color corOriginalBg2;
-    private Color corOriginalBg3;
-
     public GameObject Ok1;
     public GameObject Ok2;
     public GameObject FullScreenYes;
     public GameObject FullScreenNo;
     public menu_Controller options;
 
-    void Start()
-    {
-        corOriginalBg1 = bg1.color;
-        corOriginalBg2 = bg2.color;
-        corOriginalBg3 = bg3.color;
-    }
 
     void Update()
     {
@@ -58,26 +45,7 @@ public class globalController : MonoBehaviour
         {
             FullScreenYes.SetActive(false);
             FullScreenNo.SetActive(true);
-        }
-
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            corOriginalBg1.a = 1.0f;
-            corOriginalBg2.a = 1.0f;
-            corOriginalBg3.a = 1.0f;
-            bg1.color = corOriginalBg1;
-            bg2.color = corOriginalBg2;
-            bg3.color = corOriginalBg3;
-        }
-        if (Input.GetKeyDown(KeyCode.O))
-        {
-            corOriginalBg1.a = 0.0f;
-            corOriginalBg2.a = 0.0f;
-            corOriginalBg3.a = 0.0f;
-            bg1.color = corOriginalBg1;
-            bg2.color = corOriginalBg2;
-            bg3.color = corOriginalBg3;
-        }
+        }       
     }
     void fadeIn()
     {

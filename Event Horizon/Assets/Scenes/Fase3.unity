@@ -3187,9 +3187,6 @@ MonoBehaviour:
   fadeSpeed: 0.5
   playerMove: {fileID: 877934657}
   sceneName: Fase3
-  bg1: {fileID: 673337614}
-  bg2: {fileID: 330801280}
-  bg3: {fileID: 1393603275}
   Ok1: {fileID: 1030137133}
   Ok2: {fileID: 2056539881}
   FullScreenYes: {fileID: 934278361}
@@ -87495,7 +87492,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484918022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.646685, y: -5.4707985, z: -10}
+  m_LocalPosition: {x: -11.642146, y: -5.4703345, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -87547,7 +87544,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PositionMode: 0
   m_RotationMode: 1
-  m_UpdateMethod: 2
+  m_UpdateMethod: 1
   m_Targets:
   - target: {fileID: 1974773104}
     weight: 1

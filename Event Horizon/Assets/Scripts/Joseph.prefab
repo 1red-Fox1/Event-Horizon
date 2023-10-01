@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 135921330}
   - component: {fileID: 135921331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: limitLookAhead
   m_TagString: limitLookAhead
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 229327832}
   - component: {fileID: 229327834}
   - component: {fileID: 229327833}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: lookAheadTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,6 +107,7 @@ MonoBehaviour:
   referenceObject: {fileID: 4169936055952317604}
   moveSpeed: 2
   timeLimit: 2
+  control: {fileID: 0}
 --- !u!50 &229327834
 Rigidbody2D:
   serializedVersion: 4
@@ -165,7 +166,7 @@ GameObject:
   - component: {fileID: 424972358}
   - component: {fileID: 424972360}
   - component: {fileID: 424972359}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SomPasso1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +315,7 @@ GameObject:
   - component: {fileID: 721942033}
   - component: {fileID: 721942032}
   - component: {fileID: 721942031}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundColisor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,6 +381,8 @@ MonoBehaviour:
   sceneId: 2
   control: {fileID: 0}
   landingSound: {fileID: 8300000, guid: 958212b9b2742be4dad051c11f285101, type: 3}
+  loadingSpeed: 0
+  text: {fileID: 0}
 --- !u!82 &721942031
 AudioSource:
   m_ObjectHideFlags: 0
@@ -486,7 +489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 786897790}
   - component: {fileID: 786897791}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: shortAttackRange
   m_TagString: playerRange
   m_Icon: {fileID: 0}
@@ -555,7 +558,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1424497513}
   - component: {fileID: 1424497515}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mediumAttackRange (1)
   m_TagString: mediumplayerRange
   m_Icon: {fileID: 0}
@@ -626,7 +629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 84524076647114863}
   - component: {fileID: 667997365322548721}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: defenceRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2828848971243806587}
   - component: {fileID: 864791780219998862}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: damageColisor
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -743,7 +746,7 @@ GameObject:
   - component: {fileID: 3912712739457757612}
   - component: {fileID: 4169936055952317627}
   - component: {fileID: 1122004605565355913}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Joseph
   m_TagString: Player
   m_Icon: {fileID: 0}
