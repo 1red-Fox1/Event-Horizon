@@ -5,43 +5,77 @@ using UnityEngine;
 public class lookAheadObject : MonoBehaviour
 {
     public Transform referenceObject;
-    public Transform limitLookAhead;
-    public float maxYLimit;
     public float moveSpeed;
+    private bool podeIr = true;
     private bool isMoving = false;
     private Vector3 initialPosition;
+    private float timeLimitLookAhead;
+    public float timeLimit;
+    public menu_Controller control;
 
     private void Start()
     {
         initialPosition = transform.position;
+        timeLimitLookAhead = 0f;
     }
 
     private void Update()
     {
-        float limitDistance = limitLookAhead.position.y;
-        if (Input.GetKeyDown(KeyCode.DownArrow) && !isMoving)
+        if (control.defaultControl)
         {
-            float distance = initialPosition.y - transform.position.y;
-
-            if (distance >= limitDistance)
+            if (Input.GetKeyDown(KeyCode.DownArrow) && !isMoving)
             {
                 isMoving = true;
             }
-            else
+
+            if (Input.GetKeyUp(KeyCode.DownArrow))
             {
+                timeLimitLookAhead = 0f;
                 isMoving = false;
+                transform.position = new Vector3(transform.position.x, referenceObject.position.y, transform.position.z);
+            }
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.S) && !isMoving)
+            {
+                isMoving = true;
+            }
+
+            if (Input.GetKeyUp(KeyCode.S))
+            {
+                timeLimitLookAhead = 0f;
+                isMoving = false;
+                transform.position = new Vector3(transform.position.x, referenceObject.position.y, transform.position.z);
             }
         }
 
-        if (Input.GetKey(KeyCode.DownArrow) && isMoving)
+        if (isMoving)
         {
-            transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
+            if (podeIr)
+            {
+                timeLimitLookAhead += Time.deltaTime;
+                if(timeLimitLookAhead >= timeLimit)
+                {
+                    transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
+                }
+            }
         }
+    }
 
-        if (Input.GetKeyUp(KeyCode.DownArrow))
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("limitLookAhead"))
         {
-            isMoving = false;
-            transform.position = new Vector3(transform.position.x, referenceObject.position.y, transform.position.z);
+            podeIr = false;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("limitLookAhead"))
+        {
+            podeIr = true;
         }
     }
 }

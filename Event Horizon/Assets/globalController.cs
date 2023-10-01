@@ -18,6 +18,12 @@ public class globalController : MonoBehaviour
     private Color corOriginalBg2;
     private Color corOriginalBg3;
 
+    public GameObject Ok1;
+    public GameObject Ok2;
+    public GameObject FullScreenYes;
+    public GameObject FullScreenNo;
+    public menu_Controller options;
+
     void Start()
     {
         corOriginalBg1 = bg1.color;
@@ -30,6 +36,28 @@ public class globalController : MonoBehaviour
         if (playerMove.isDeath)
         {
             fadeIn();
+        }
+
+        if (options.defaultControl)
+        {
+            Ok1.SetActive(true);
+            Ok2.SetActive(false);
+        }
+        else
+        {
+            Ok1.SetActive(false);
+            Ok2.SetActive(true);
+        }
+
+        if (options.fullScreen)
+        {
+            FullScreenYes.SetActive(true);
+            FullScreenNo.SetActive(false);
+        }
+        else
+        {
+            FullScreenYes.SetActive(false);
+            FullScreenNo.SetActive(true);
         }
 
         if (Input.GetKeyDown(KeyCode.I))

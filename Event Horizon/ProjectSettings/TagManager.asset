@@ -17,6 +17,7 @@ TagManager:
   - mediumplayerRange
   - ColisorChaoParaOJoseph
   - defenseRange
+  - limitLookAhead
   layers:
   - Default
   - TransparentFX

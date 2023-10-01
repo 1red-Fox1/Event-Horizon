@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class GroundColisor : MonoBehaviour
 {
     public GameObject LoadingScreen;
-    public GameObject Ok1;
-    public GameObject Ok2;
     public Slider LoadingBar;
     public playerMove playerMove;
     public int sceneId;
@@ -19,16 +17,6 @@ public class GroundColisor : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        if (control.defaultControl)
-        {
-            Ok1.SetActive(true);
-            Ok2.SetActive(false);
-        }
-        else
-        {
-            Ok1.SetActive(false);
-            Ok2.SetActive(true);
-        }
     }
 
     public void LoadScene(int sceneId)

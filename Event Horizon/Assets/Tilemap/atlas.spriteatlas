@@ -471,6 +471,7 @@ SpriteAtlas:
   - {fileID: -121580429, guid: e94128b671a951e4bb7038f491bd00ce, type: 3}
   - {fileID: -53220185, guid: e94128b671a951e4bb7038f491bd00ce, type: 3}
   - {fileID: 21300000, guid: de2834d677b4ad749b9ce4e20ba80ebd, type: 3}
+  - {fileID: 21300000, guid: 01f9dbd6c1646744f977453bb1cb0f07, type: 3}
   - {fileID: 21300000, guid: 43e4f4e6f7fa4c54f96ce12df6739085, type: 3}
   - {fileID: 21300000, guid: 6d27ffe69d4330947a4a2545d773230e, type: 3}
   - {fileID: 134676520, guid: ece96ff6d03210a4f88fb9eb1771225d, type: 3}
@@ -1353,6 +1354,7 @@ SpriteAtlas:
   - Platform_1
   - Platform_0
   - Arbusto3
+  - X pixelart
   - Folhas1
   - pedra3
   - Tilemap fase3_116
