@@ -7,7 +7,6 @@ public class EnemyTronco : MonoBehaviour
     private Animator anim;
     private AudioSource audioSource;
     public AudioClip[] ataqueInimigo;
-    public AudioClip[] passosGrama;
     public AudioClip deathSound;
 
     #region Variaveis de Patrulha
@@ -42,6 +41,7 @@ public class EnemyTronco : MonoBehaviour
     public int lifeEnemy;
     public bool isDeath = false;
     public bool podeMover = true;
+    public bool Passo = false;
     void Start()
     {
         waitTime = startWaitTime;
@@ -191,7 +191,7 @@ public class EnemyTronco : MonoBehaviour
 
     private void Passos()
     {
-        audioSource.PlayOneShot(passosGrama[Random.Range(0, passosGrama.Length)]);
+        Passo = true;
     }
     private void isAttacking()
     {

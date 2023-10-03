@@ -499,6 +499,7 @@ GameObject:
   - component: {fileID: 219220312}
   - component: {fileID: 219220314}
   - component: {fileID: 219220313}
+  - component: {fileID: 219220315}
   m_Layer: 5
   m_Name: HUD vida/estamina
   m_TagString: Untagged
@@ -566,6 +567,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 219220311}
   m_CullTransparentMesh: 1
+--- !u!114 &219220315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219220311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66100e9a56f0dab4d94aa0e963d7ff61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sliderObject: {fileID: 219220311}
+  shakeDuration: 0.5
+  shakeMagnitude: 2
+  playerMove: {fileID: 877934657}
 --- !u!1 &261565988
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,7 +843,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1763,7 +1780,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2380,6 +2397,10 @@ PrefabInstance:
       propertyPath: control
       value: 
       objectReference: {fileID: 1484918029}
+    - target: {fileID: 229327832, guid: d4bf089a58a7e0045a004662715f7bff, type: 3}
+      propertyPath: timeLimit
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 721942032, guid: d4bf089a58a7e0045a004662715f7bff, type: 3}
       propertyPath: Ok1
       value: 
@@ -6271,7 +6292,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -86966,7 +86987,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87492,7 +87513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484918022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.642146, y: -5.4703345, z: -10}
+  m_LocalPosition: {x: -11.641907, y: -5.4703097, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

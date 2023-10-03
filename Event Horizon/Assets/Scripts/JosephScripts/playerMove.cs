@@ -73,6 +73,9 @@ public class playerMove : MonoBehaviour
     public float attackStamina;
     public bool semStamina = false;
     public menu_Controller control;
+    public bool atk1 = false;
+    public bool atk2 = false;
+    public bool atk3 = false;
     #endregion
 
     void Start()
@@ -187,14 +190,14 @@ public class playerMove : MonoBehaviour
         #region Ataque do personagem
         if (control.defaultControl)
         {
-            if (Input.GetKeyDown(KeyCode.X) && !atacando && !isDeath && currentStamina >= 10f)
+            if (Input.GetKeyDown(KeyCode.X) && !atacando && !isDeath && currentStamina >= 11f)
             {
                 currentStamina = currentStamina - attackStamina;
                 slider.value = currentStamina;
                 atacando = true;
                 anim.SetTrigger("" + combo);
             }
-            if (Input.GetKeyDown(KeyCode.X) && currentStamina <= 9f)
+            if (Input.GetKeyDown(KeyCode.X) && currentStamina <= 10f)
             {
                 semStamina = true;
             }
@@ -508,6 +511,18 @@ public class playerMove : MonoBehaviour
     private void somMorte()
     {
         audioSource.PlayOneShot(sommorte);
+    }
+    private void somAtk1()
+    {
+        atk1 = true;
+    }
+    private void somAtk2()
+    {
+        atk2 = true;
+    }
+    private void somAtk3()
+    {
+        atk3 = true;
     }
     void deathTrigger()
     {

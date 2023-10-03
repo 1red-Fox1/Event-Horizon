@@ -12,11 +12,6 @@ public class shakeStaminaBar : MonoBehaviour
     private Vector3 originalPosition;
     public playerMove playerMove;
 
-    void Start()
-    {
-        originalPosition = sliderObject.transform.position;
-    }
-
     private void Update()
     {
         if (playerMove.semStamina)
@@ -24,6 +19,7 @@ public class shakeStaminaBar : MonoBehaviour
             ShakeSlider();
             playerMove.semStamina = false;
         }
+        originalPosition = sliderObject.transform.position;
     }
 
     public void ShakeSlider()
