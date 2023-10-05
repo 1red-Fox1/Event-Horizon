@@ -18,6 +18,8 @@ TagManager:
   - ColisorChaoParaOJoseph
   - defenseRange
   - limitLookAhead
+  - cutScene
+  - aranhaGigante
   layers:
   - Default
   - TransparentFX

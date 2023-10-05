@@ -10,6 +10,7 @@ public class GroundColisor : MonoBehaviour
     public Slider LoadingBar;
     public playerMove playerMove;
     public int sceneId;
+    public int cutScene;
     private AudioSource audioSource;
     public menu_Controller control;
     [SerializeField] private AudioClip landingSound;
@@ -28,7 +29,7 @@ public class GroundColisor : MonoBehaviour
 
     private void Update()
     {
-        if (isLoading && LoadingBar.value >= 1.0f && Input.GetKeyDown(KeyCode.Space))
+        if (isLoading && LoadingBar.value >= 1.0f && Input.GetKeyDown(KeyCode.Return))
         {
             StartCoroutine(LoadSceneAsyncCoroutine(sceneToLoad));
         }
@@ -106,6 +107,10 @@ public class GroundColisor : MonoBehaviour
         if (collision.gameObject.tag == "ProximaFase3")
         {
             LoadScene(sceneId);
+        }
+        if(collision.gameObject.tag == "cutScene")
+        {
+            LoadScene(cutScene);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
