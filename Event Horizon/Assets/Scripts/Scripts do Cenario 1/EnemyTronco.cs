@@ -19,10 +19,6 @@ public class EnemyTronco : MonoBehaviour
     private bool facingRight;
     #endregion
 
-    #region Variaveis de Ataque
-
-    #endregion
-
     public playerMove playerMove;
     public colisorEnemy colisorEnemy;
     public bool isEnemyKnockback = false;

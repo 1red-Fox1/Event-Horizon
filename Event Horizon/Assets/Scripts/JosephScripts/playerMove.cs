@@ -141,7 +141,7 @@ public class playerMove : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            SceneManager.LoadScene("Fase2");
+            SceneManager.LoadScene("Fase2.0");
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3))

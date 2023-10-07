@@ -21,7 +21,7 @@ public class loadingController : MonoBehaviour
 
     private void Update()
     {
-        if (isLoading && LoadingBar.value >= 1.0f && Input.GetKeyDown(KeyCode.Space))
+        if (isLoading && LoadingBar.value >= 1.0f && Input.GetKeyDown(KeyCode.Return))
         {
             StartCoroutine(LoadSceneAsyncCoroutine(sceneToLoad));
         }

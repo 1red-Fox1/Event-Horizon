@@ -14,7 +14,7 @@ public class cutSceneScript : MonoBehaviour
 
     IEnumerator NextScene()
     {
-        yield return new WaitForSeconds(8.55f);
+        yield return new WaitForSeconds(9.55f);
         SceneManager.LoadScene(sceneId);
     }
 }

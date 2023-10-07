@@ -24,7 +24,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Luzes
   - Water
   - UI
   - ground
@@ -56,4 +56,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3675639459
+    locked: 0
+  - name: AranhaGigante
+    uniqueID: 1966142307
     locked: 0

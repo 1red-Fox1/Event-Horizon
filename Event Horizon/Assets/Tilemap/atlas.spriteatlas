@@ -369,6 +369,7 @@ SpriteAtlas:
   - {fileID: -1620652763, guid: 3fab277380c002a429efe412e5a2e760, type: 3}
   - {fileID: 1404834852, guid: 3fab277380c002a429efe412e5a2e760, type: 3}
   - {fileID: 21300000, guid: b19dd5833805e6f45879354ef80190a5, type: 3}
+  - {fileID: 21300000, guid: 0b4865937a084de4b82bbc9701027e6b, type: 3}
   - {fileID: 21300000, guid: 7caae00455f943242897e8da541c21b9, type: 3}
   - {fileID: 21300000, guid: f33e75242ac69d64186c83e03c160fd4, type: 3}
   - {fileID: 21300000, guid: 4d8bdc5494da6634fb5e4b0b37b93b9e, type: 3}
@@ -595,7 +596,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: d88454075d659c4478197e10e81d13a8, type: 3}
   - {fileID: 21300000, guid: 2e5f1f17ba552c04393d081ad914ecc1, type: 3}
   - {fileID: 21300000, guid: 53724027aefadf44ea3a1de3cb82d5a7, type: 3}
-  - {fileID: 21300000, guid: 0415ad37bd2f6ea4a91fadbd10c75b6a, type: 3}
   - {fileID: 21300000, guid: 03d4e747f2ce1a8468fdfa803889616a, type: 3}
   - {fileID: 21300000, guid: 5f06f057a731b684da7ba78eeea55c18, type: 3}
   - {fileID: 21300000, guid: 2b5e5657fd2dfed4d886d81cae74402f, type: 3}
@@ -782,6 +782,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 498b2ddd0fbf64b4eba22bbfd0dfd103, type: 3}
   - {fileID: 21300000, guid: 137e5efd514306740a29d78fc4b15878, type: 3}
   - {fileID: 21300000, guid: 0931d30ef2ffff6499f8bd040d234b6e, type: 3}
+  - {fileID: 21300000, guid: 893b8a1ed80654a4899fec78e1218095, type: 3}
   - {fileID: 21300000, guid: 7028c93ed3d4a8e4ab1518921a294259, type: 3}
   - {fileID: -761945457, guid: 66c55e4e11e1744409e800ee74ecd1df, type: 3}
   - {fileID: 1409472582, guid: 66c55e4e11e1744409e800ee74ecd1df, type: 3}
@@ -1253,6 +1254,7 @@ SpriteAtlas:
   - cachoira loop-Sheet_4
   - cachoira loop-Sheet_5
   - Arbusto4
+  - LogoEmpresa
   - Raiz1
   - carrinhpo  foda
   - Folhas4.2
@@ -1479,7 +1481,6 @@ SpriteAtlas:
   - estaquitite1
   - pedra1
   - estalaquitite2
-  - LogoJogo
   - caixa de intem aberto parte 2
   - jsdjdf
   - CorpoMorto1
@@ -1666,6 +1667,7 @@ SpriteAtlas:
   - Lustre3
   - Pedra2
   - Planta3
+  - LogoJogo
   - Folhas3
   - plataforma media 1_4
   - plataforma media 1_5
