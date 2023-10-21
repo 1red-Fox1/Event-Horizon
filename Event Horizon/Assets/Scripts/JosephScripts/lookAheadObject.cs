@@ -90,7 +90,6 @@ public class lookAheadObject : MonoBehaviour
         float poste7Position = referenceObject.transform.position.x - Poste7.transform.position.x;
         float poste8Position = referenceObject.transform.position.x - Poste8.transform.position.x;
         float poste9Position = referenceObject.transform.position.x - Poste9.transform.position.x;
-        print(poste3Position);
 
         if(poste1Position >= -6f && poste1Position < 0f)
         {

@@ -368,6 +368,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 4ca8bf92ece29e142a5acb634ea4fbf8, type: 3}
   - {fileID: 21300000, guid: e18610a2ea96d6846bd23e2d6063eadc, type: 3}
   - {fileID: 21300000, guid: cd93d8c2348c3fe4483dcde26463d9ed, type: 3}
+  - {fileID: 21300000, guid: f91bb1d2912c89145a135e37f647ab25, type: 3}
   - {fileID: -1604797319, guid: 432ba9d256ac13a4db18efdf165f55ca, type: 3}
   - {fileID: -408092286, guid: 432ba9d256ac13a4db18efdf165f55ca, type: 3}
   - {fileID: 1356644235, guid: 432ba9d256ac13a4db18efdf165f55ca, type: 3}
@@ -712,7 +713,6 @@ SpriteAtlas:
   - {fileID: -510876527, guid: 43e328578f6f5ed449056d4dc9f71188, type: 3}
   - {fileID: -1665883088, guid: 43e328578f6f5ed449056d4dc9f71188, type: 3}
   - {fileID: 1079354339, guid: 43e328578f6f5ed449056d4dc9f71188, type: 3}
-  - {fileID: 21300000, guid: d7c869879dbf96b4da285856a0623865, type: 3}
   - {fileID: 1911925979, guid: d1aa5097b2a069941a52dbdfbfeccab6, type: 3}
   - {fileID: 1619932024, guid: d1aa5097b2a069941a52dbdfbfeccab6, type: 3}
   - {fileID: -1306356420, guid: d1aa5097b2a069941a52dbdfbfeccab6, type: 3}
@@ -1497,6 +1497,7 @@ SpriteAtlas:
   - "\xB4Corpo1"
   - Pedra5
   - cano 3
+  - senm ta cheio
   - com grade 2_0
   - com grade 2_1
   - com grade 2_2
@@ -1841,7 +1842,6 @@ SpriteAtlas:
   - plataforma 3_1
   - plataforma 3_11
   - plataforma 3_10
-  - finalizado
   - com grade 1 _3
   - com grade 1 _2
   - com grade 1 _1
