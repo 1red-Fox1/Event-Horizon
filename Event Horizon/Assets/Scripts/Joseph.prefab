@@ -160,7 +160,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.041168213, y: -0.050197124}
+  m_Offset: {x: -0.025485039, y: -0.050197124}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -171,7 +171,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25897598, y: 0.25873852}
+  m_Size: {x: 0.12566948, y: 0.25873852}
   m_EdgeRadius: 0
 --- !u!1 &424972357
 GameObject:
@@ -537,9 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 786897790}
   - component: {fileID: 786897791}
-  - component: {fileID: 427705300}
-  - component: {fileID: 427705299}
-  m_Layer: 7
+  m_Layer: 2
   m_Name: shortAttackRange
   m_TagString: playerRange
   m_Icon: {fileID: 0}
@@ -598,49 +596,6 @@ PolygonCollider2D:
       - {x: -0.10441971, y: 0.4399538}
       - {x: -0.20994377, y: 0.40514755}
       - {x: -0.29168415, y: 0.31577486}
---- !u!50 &427705300
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786897789}
-  m_BodyType: 2
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!66 &427705299
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 786897789}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths: []
-  m_CompositePaths:
-    m_Paths: []
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
 --- !u!1 &869928239
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,7 +620,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869928239}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.437, y: 0, z: 0}
+  m_LocalPosition: {x: 0.437, y: 0.052, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -961,9 +916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1424497513}
   - component: {fileID: 1424497515}
-  - component: {fileID: 1021612659}
-  - component: {fileID: 1021612658}
-  m_Layer: 7
+  m_Layer: 2
   m_Name: mediumAttackRange (1)
   m_TagString: mediumplayerRange
   m_Icon: {fileID: 0}
@@ -1024,49 +977,6 @@ PolygonCollider2D:
       - {x: 0.17662048, y: 0.5638523}
       - {x: -0.12230873, y: 0.5683317}
       - {x: -0.27053165, y: 0.51522154}
---- !u!50 &1021612659
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424497512}
-  m_BodyType: 2
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!66 &1021612658
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424497512}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths: []
-  m_CompositePaths:
-    m_Paths: []
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
 --- !u!1 &1826891352
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,7 +1004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1826891352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.20800018, y: 0, z: -1}
+  m_LocalPosition: {x: 0.298, y: 0.052, z: -1}
   m_LocalScale: {x: 0.3234819, y: 1.3447318, z: 1.505752}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1124,11 +1034,11 @@ MonoBehaviour:
   m_rigidbody: {fileID: 4169936055952317624}
   rotateOverTime: 1
   rotationSpeed: 17.6
-  hasMaxDistance: 0
-  maxDistnace: 5
+  hasMaxDistance: 1
+  maxDistnace: 6
   launchToPoint: 1
   launchType: 0
-  launchSpeed: 8
+  launchSpeed: 7
   autoConfigureDistance: 0
   targetDistance: 3
   targetFrequncy: 1
@@ -1189,9 +1099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 84524076647114863}
   - component: {fileID: 667997365322548721}
-  - component: {fileID: 648542394}
-  - component: {fileID: 648542393}
-  m_Layer: 7
+  m_Layer: 2
   m_Name: defenceRange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1245,49 +1153,6 @@ PolygonCollider2D:
       - {x: -0.20451492, y: -0.31910217}
       - {x: 0.018884301, y: -0.06388736}
       - {x: 0.068182945, y: 0.060918987}
---- !u!50 &648542394
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366300109767086289}
-  m_BodyType: 2
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!66 &648542393
-CompositeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1366300109767086289}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_GeometryType: 0
-  m_GenerationType: 0
-  m_EdgeRadius: 0
-  m_ColliderPaths: []
-  m_CompositePaths:
-    m_Paths: []
-  m_VertexDistance: 0.0005
-  m_OffsetDistance: 0.00005
 --- !u!1 &2680543088628006014
 GameObject:
   m_ObjectHideFlags: 0

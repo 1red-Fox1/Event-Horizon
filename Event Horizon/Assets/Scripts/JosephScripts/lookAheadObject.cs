@@ -86,10 +86,10 @@ public class lookAheadObject : MonoBehaviour
         float poste3Position = referenceObject.transform.position.x - Poste3.transform.position.x;
         float poste4Position = referenceObject.transform.position.x - Poste4.transform.position.x;
         float poste5Position = referenceObject.transform.position.x - Poste5.transform.position.x;
-        float poste6Position = referenceObject.transform.position.x - Poste6.transform.position.x;
-        float poste7Position = referenceObject.transform.position.x - Poste7.transform.position.x;
-        float poste8Position = referenceObject.transform.position.x - Poste8.transform.position.x;
-        float poste9Position = referenceObject.transform.position.x - Poste9.transform.position.x;
+        //float poste6Position = referenceObject.transform.position.x - Poste6.transform.position.x;
+        //float poste7Position = referenceObject.transform.position.x - Poste7.transform.position.x;
+        //float poste8Position = referenceObject.transform.position.x - Poste8.transform.position.x;
+        //float poste9Position = referenceObject.transform.position.x - Poste9.transform.position.x;
 
         if(poste1Position >= -6f && poste1Position < 0f)
         {
@@ -100,7 +100,7 @@ public class lookAheadObject : MonoBehaviour
             poste1 = false;
         }
 
-        if (poste2Position >= -4.7f && poste2Position < 0f)
+        if (poste2Position >= -5f && poste2Position < 0f)
         {
             poste2 = true;
         }
@@ -118,7 +118,7 @@ public class lookAheadObject : MonoBehaviour
             poste3 = false;
         }
 
-        if (poste4Position >= -6f && poste4Position < 0f)
+        if (poste4Position >= -6.5f && poste4Position < 0f)
         {
             poste4 = true;
         }

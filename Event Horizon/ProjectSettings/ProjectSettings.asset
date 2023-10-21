@@ -44,8 +44,6 @@ PlayerSettings:
     duration: 2
   - logo: {fileID: 21300000, guid: 0b4865937a084de4b82bbc9701027e6b, type: 3}
     duration: 2
-  - logo: {fileID: 21300000, guid: 893b8a1ed80654a4899fec78e1218095, type: 3}
-    duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920

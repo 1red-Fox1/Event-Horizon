@@ -8,10 +8,6 @@ public class GrappGun : MonoBehaviour
     [Header("Scripts Ref:")]
     public grappRope grappleRope;
 
-    [Header("Layers Settings:")]
-    [SerializeField] private bool grappleToAll = false;
-    [SerializeField] private int grappableLayerNumber = 9;
-
     [Header("Main Camera:")]
     public Camera m_camera;
 
@@ -52,6 +48,7 @@ public class GrappGun : MonoBehaviour
     [HideInInspector] public Vector2 grappleDistanceVector;
     public GameObject targetObject;
     public playerMove playerMove;
+    public acidPipe acidPipe;
 
     private void Start()
     {
@@ -119,7 +116,7 @@ public class GrappGun : MonoBehaviour
         if (Physics2D.Raycast(firePoint.position, distanceVector.normalized))
         {
             RaycastHit2D _hit = Physics2D.Raycast(firePoint.position, distanceVector.normalized);
-            if (_hit.transform.gameObject.layer == grappableLayerNumber || grappleToAll)
+            if (_hit.transform.gameObject.layer == 14)
             {
                 if (Vector2.Distance(_hit.point, firePoint.position) <= maxDistnace || !hasMaxDistance)
                 {

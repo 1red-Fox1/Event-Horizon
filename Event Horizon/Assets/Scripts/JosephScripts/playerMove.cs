@@ -77,6 +77,7 @@ public class playerMove : MonoBehaviour
     public bool atk2 = false;
     public bool atk3 = false;
     public bool canGrapp = false;
+    public acidPipe acidPipe;
     #endregion
 
     void Start()
@@ -216,6 +217,19 @@ public class playerMove : MonoBehaviour
                 anim.SetBool("Hook", false);
                 podeMover = true;
                 canGrapp = false;
+            }
+        }
+        if (acidPipe.isHit)
+        {
+            anim.SetBool("Hook", false);
+            KBCounter = KBTotalTime;
+            if (transform.position.x <= transform.position.x)
+            {
+                KnockFromRight = true;
+            }
+            if (transform.position.x > transform.position.x)
+            {
+                KnockFromRight = false;
             }
         }
         #endregion
