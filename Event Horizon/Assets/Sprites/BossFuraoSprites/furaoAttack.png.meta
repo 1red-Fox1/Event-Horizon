@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4db4cc1ce1a6cfd46b10ca64b38f06b4
+guid: 356590b8294710d4ba1cdf5d0d2cd40f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -124,15 +124,15 @@ TextureImporter:
         y: 0
         width: 223
         height: 96
-      alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 268ce6bb439acc74896272075e413e8e
-      internalID: -1021893389
+      spriteID: 4d236cb8fc4242846b250f811e3d65d4
+      internalID: 867042308
       vertices: []
       indices: 
       edges: []
@@ -145,15 +145,15 @@ TextureImporter:
         y: 0
         width: 223
         height: 96
-      alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d500a92d3d0d984a973e34af49e545f
-      internalID: -538912799
+      spriteID: 877e244365f1e544686d5cafbe1cc73d
+      internalID: -310310821
       vertices: []
       indices: 
       edges: []
@@ -166,15 +166,15 @@ TextureImporter:
         y: 0
         width: 223
         height: 96
-      alignment: 9
-      pivot: {x: 0.4, y: 0.5}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 555b287df0250a342b43b1212fb6e68c
-      internalID: 55635862
+      spriteID: 976f115cba2899a4ca892f8eec1de0ae
+      internalID: -872311396
       vertices: []
       indices: 
       edges: []
@@ -190,9 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      furaoAttack_1: -538912799
-      furaoAttack_0: -1021893389
-      furaoAttack_2: 55635862
+      furaoAttack_1: -310310821
+      furaoAttack_0: 867042308
+      furaoAttack_2: -872311396
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

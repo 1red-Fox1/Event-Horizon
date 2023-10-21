@@ -13,7 +13,7 @@ public class playerMove : MonoBehaviour
 
     [Header("Variável de movimentação")]
     [SerializeField] public float moveSpeed;
-    private bool facingRight;
+    public bool facingRight;
     private float moveX;
     private float speedY;
     public bool isRunning = false;
@@ -76,6 +76,7 @@ public class playerMove : MonoBehaviour
     public bool atk1 = false;
     public bool atk2 = false;
     public bool atk3 = false;
+    public bool canGrapp = false;
     #endregion
 
     void Start()
@@ -187,6 +188,38 @@ public class playerMove : MonoBehaviour
         }
         #endregion
 
+        #region Grapp Hook
+        if (control.defaultControl)
+        {
+            if (Input.GetKeyDown(KeyCode.C) && isGrounded && !isDeath)
+            {
+                anim.SetBool("Hook", true);
+                anim.SetBool("Walk", false);
+                anim.SetBool("Run", false);
+            }
+            if (Input.GetKeyUp(KeyCode.C))
+            {
+                anim.SetBool("Hook", false);
+                canGrapp = false;
+            }
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.L) && isGrounded && !isDeath)
+            {
+                anim.SetBool("Hook", true);
+                anim.SetBool("Walk", false);
+                anim.SetBool("Run", false);
+            }
+            if (Input.GetKeyUp(KeyCode.L))
+            {
+                anim.SetBool("Hook", false);
+                podeMover = true;
+                canGrapp = false;
+            }
+        }
+        #endregion
+
         #region Ataque do personagem
         if (control.defaultControl)
         {
@@ -219,15 +252,13 @@ public class playerMove : MonoBehaviour
         #endregion
 
         #region Flip do Personagem
-        if (moveX < 0 && !facingRight)
+        if (moveX < 0)
         {
-            Flip();
-            facingRight = true;
+            UnFlip();
         }
-        else if (moveX > 0 && facingRight)
+        else if (moveX > 0)
         {
             Flip();
-            facingRight = false;
         }
         #endregion
 
@@ -461,8 +492,13 @@ public class playerMove : MonoBehaviour
     #region Flip do Player
     void Flip()
     {
-        facingRight = !facingRight;
-        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        //facingRight = !facingRight;
+        transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+    }
+    void UnFlip()
+    {
+        //facingRight = !facingRight;
+        transform.rotation = Quaternion.Euler(0f, 0f, 0f);
     }
     #endregion
 
@@ -488,6 +524,11 @@ public class playerMove : MonoBehaviour
     #endregion
 
     #region Metodos chamados nas Animações 
+
+    void CanGrapp()
+    {
+        canGrapp = true;
+    }
     private void JumpSound()
     {
         audioSource.PlayOneShot(jumpSound);

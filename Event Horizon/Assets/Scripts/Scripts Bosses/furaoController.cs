@@ -13,7 +13,8 @@ public class furaoController : MonoBehaviour
     private Vector2 previousPosition;
     private bool facingRight;
     public GameObject player;
-
+    public int attackCount;
+    public bool isAttacking = false;
     private void Start()
     {
         waitTime = startWaitTime;
@@ -25,6 +26,7 @@ public class furaoController : MonoBehaviour
     private void Update()
     {
         Patrol();
+        Attack();
     }
 
     private void Patrol()
@@ -57,16 +59,17 @@ public class furaoController : MonoBehaviour
         {
             anim.SetBool("Walk", false);
 
-            // Virar para o jogador quando parado
             if (player != null)
             {
                 if (transform.position.x > player.transform.position.x && !facingRight)
                 {
                     Flip();
+                    attackCount = 3;
                 }
                 else if (transform.position.x < player.transform.position.x && facingRight)
                 {
                     Flip();
+                    attackCount = 3;
                 }
             }
         }
@@ -81,6 +84,32 @@ public class furaoController : MonoBehaviour
             Flip();
             facingRight = false;
         }
+    }
+
+    void Attack()
+    {
+        if(transform.position.x == previousPosition.x && attackCount > 0)
+        {
+            anim.SetBool("Attack", true);
+        }
+        else if (attackCount <= 0)
+        {
+            anim.SetBool("Attack", false);
+        }
+    }
+
+    void AttackCount()
+    {
+        attackCount--;
+    }
+
+    void onAttack()
+    {
+        isAttacking = true;
+    }
+    void notAttack()
+    {
+        isAttacking = false;
     }
 
     private void Flip()

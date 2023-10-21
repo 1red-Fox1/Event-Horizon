@@ -20,6 +20,16 @@ TagManager:
   - limitLookAhead
   - cutScene
   - aranhaGigante
+  - Poste1
+  - Poste2
+  - Poste3
+  - Poste4
+  - Poste5
+  - Poste6
+  - Poste7
+  - Poste8
+  - Poste9
+  - Acid
   layers:
   - Default
   - TransparentFX
@@ -33,9 +43,9 @@ TagManager:
   - Velocity
   - Buraco
   - ProximaFase
-  - 
-  - 
-  - 
+  - Cipos
+  - AranhaGigante
+  - Poste
   - 
   - 
   - 
@@ -62,4 +72,7 @@ TagManager:
     locked: 0
   - name: AranhaGigante
     uniqueID: 1966142307
+    locked: 0
+  - name: Ground
+    uniqueID: 3240330497
     locked: 0

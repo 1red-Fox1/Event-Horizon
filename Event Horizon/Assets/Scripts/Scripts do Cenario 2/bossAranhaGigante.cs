@@ -18,6 +18,7 @@ public class bossAranhaGigante : MonoBehaviour
     public float velocity1;
     public float velocity2;
     private bool damaged = false;
+    private bool naopodeMover = true;
     void Start()
     {
         if (spots.Length > 0)
@@ -43,32 +44,24 @@ public class bossAranhaGigante : MonoBehaviour
             moveSpeed = velocity0;
         }
 
-        if (playerMove.isDeath)
-        {
-            Collider[] colliders = GetComponentsInChildren<Collider>();
-            foreach (Collider collider in colliders)
-            {
-                collider.isTrigger = true;
-            }
-        }
-        else
+        if (naopodeMover)
         {
             walk();
         }
 
         if (damaged)
         {
-                playerMove.KBCounter = playerMove.KBTotalTime;
-                if (playerMove.transform.position.x <= transform.position.x)
-                {
-                    playerMove.KnockFromRight = true;
-                }
-                if (playerMove.transform.position.x > transform.position.x)
-                {
-                    playerMove.KnockFromRight = false;
-                }
-                playerMove.currentHealth = playerMove.currentHealth - damage;
-                playerMove.healthBar.value = playerMove.currentHealth;
+            playerMove.KBCounter = playerMove.KBTotalTime;
+            if (playerMove.transform.position.x <= transform.position.x)
+            {
+                playerMove.KnockFromRight = true;
+            }
+            if (playerMove.transform.position.x > transform.position.x)
+            {
+                playerMove.KnockFromRight = false;
+            }
+            playerMove.currentHealth = playerMove.currentHealth - damage;
+            playerMove.healthBar.value = playerMove.currentHealth;
             damaged = false;
         }
     }
@@ -93,6 +86,13 @@ public class bossAranhaGigante : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             damaged = true;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "ColisorChaoParaOJoseph")
+        {
+            naopodeMover = false;
         }
     }
 }
