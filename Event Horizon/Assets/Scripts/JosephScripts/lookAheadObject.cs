@@ -68,7 +68,7 @@ public class lookAheadObject : MonoBehaviour
             }
         }
 
-        if (isMoving)
+        if (isMoving && !(poste9 && poste1 && poste2 && poste3 && poste4 && poste5 && poste6 && poste7 && poste8))
         {
             if (podeIr)
             {
@@ -80,18 +80,13 @@ public class lookAheadObject : MonoBehaviour
             }
         }
         #region Postes
-
         float poste1Position = referenceObject.transform.position.x - Poste1.transform.position.x;
         float poste2Position = referenceObject.transform.position.x - Poste2.transform.position.x;
         float poste3Position = referenceObject.transform.position.x - Poste3.transform.position.x;
         float poste4Position = referenceObject.transform.position.x - Poste4.transform.position.x;
         float poste5Position = referenceObject.transform.position.x - Poste5.transform.position.x;
-        //float poste6Position = referenceObject.transform.position.x - Poste6.transform.position.x;
-        //float poste7Position = referenceObject.transform.position.x - Poste7.transform.position.x;
-        //float poste8Position = referenceObject.transform.position.x - Poste8.transform.position.x;
-        //float poste9Position = referenceObject.transform.position.x - Poste9.transform.position.x;
 
-        if(poste1Position >= -6f && poste1Position < 0f)
+        if (poste1Position >= -6f && poste1Position < 0f)
         {
             poste1 = true;
         }
@@ -135,48 +130,42 @@ public class lookAheadObject : MonoBehaviour
         {
             poste5 = false;
         }
-        if (!isMoving)
+
+        if (poste1 && !(poste2 && poste3 && poste4 && poste5 && poste6 && poste7 && poste8 && poste9))
         {
-            if (poste1 && !(poste2 && poste3 && poste4 && poste5 && poste6 && poste7 && poste8 && poste9))
-            {
-                transform.position = new Vector3(Poste1.position.x, transform.position.y, transform.position.z);
-            }
-            else if (poste2 && !(poste1 && poste3 && poste4 && poste5 && poste6 && poste7 && poste8 && poste9))
-            {
-                transform.position = new Vector3(Poste2.position.x, transform.position.y, transform.position.z);
-            }
-            else if (poste3 && !(poste1 && poste2 && poste4 && poste5 && poste6 && poste7 && poste8 && poste9))
-            {
-                transform.position = new Vector3(Poste3.position.x, transform.position.y, transform.position.z);
-            }
-            else if (poste4 && !(poste1 && poste2 && poste3 && poste5 && poste6 && poste7 && poste8 && poste9))
-            {
-                transform.position = new Vector3(Poste4.position.x, transform.position.y, transform.position.z);
-            }
-            else if (poste5 && !(poste1 && poste2 && poste3 && poste4 && poste6 && poste7 && poste8 && poste9))
-            {
-                transform.position = new Vector3(Poste5.position.x, transform.position.y, transform.position.z);
-            }
-            else if (poste6 && !(poste1 && poste2 && poste3 && poste4 && poste5 && poste7 && poste8 && poste9))
-            {
-                transform.position = new Vector3(Poste6.position.x, transform.position.y, transform.position.z);
-            }
-            else if (poste7 && !(poste1 && poste2 && poste3 && poste4 && poste5 && poste6 && poste8 && poste9))
-            {
-                transform.position = new Vector3(Poste7.position.x, transform.position.y, transform.position.z);
-            }
-            else if (poste8 && !(poste1 && poste2 && poste3 && poste4 && poste5 && poste6 && poste7 && poste9))
-            {
-                transform.position = new Vector3(Poste8.position.x, transform.position.y, transform.position.z);
-            }
-            else if (poste9 && !(poste1 && poste2 && poste3 && poste4 && poste5 && poste6 && poste7 && poste8))
-            {
-                transform.position = new Vector3(Poste9.position.x, transform.position.y, transform.position.z);
-            }
-            else
-            {
-                transform.position = new Vector3(referenceObject.position.x, referenceObject.position.y, transform.position.z);
-            }
+            transform.position = new Vector3(Poste1.position.x, transform.position.y, transform.position.z);
+        }
+        else if (poste2 && !(poste1 && poste3 && poste4 && poste5 && poste6 && poste7 && poste8 && poste9))
+        {
+            transform.position = new Vector3(Poste2.position.x, transform.position.y, transform.position.z);
+        }
+        else if (poste3 && !(poste1 && poste2 && poste4 && poste5 && poste6 && poste7 && poste8 && poste9))
+        {
+            transform.position = new Vector3(Poste3.position.x, transform.position.y, transform.position.z);
+        }
+        else if (poste4 && !(poste1 && poste2 && poste3 && poste5 && poste6 && poste7 && poste8 && poste9))
+        {
+            transform.position = new Vector3(Poste4.position.x, transform.position.y, transform.position.z);
+        }
+        else if (poste5 && !(poste1 && poste2 && poste3 && poste4 && poste6 && poste7 && poste8 && poste9))
+        {
+            transform.position = new Vector3(Poste5.position.x, transform.position.y, transform.position.z);
+        }
+        else if (poste6 && !(poste1 && poste2 && poste3 && poste4 && poste5 && poste7 && poste8 && poste9))
+        {
+            transform.position = new Vector3(Poste6.position.x, transform.position.y, transform.position.z);
+        }
+        else if (poste7 && !(poste1 && poste2 && poste3 && poste4 && poste5 && poste6 && poste8 && poste9))
+        {
+            transform.position = new Vector3(Poste7.position.x, transform.position.y, transform.position.z);
+        }
+        else if (poste8 && !(poste1 && poste2 && poste3 && poste4 && poste5 && poste6 && poste7 && poste9))
+        {
+            transform.position = new Vector3(Poste8.position.x, transform.position.y, transform.position.z);
+        }
+        else if (poste9 && !(poste1 && poste2 && poste3 && poste4 && poste5 && poste6 && poste7 && poste8))
+        {
+            transform.position = new Vector3(Poste9.position.x, transform.position.y, transform.position.z);
         }
         else
         {

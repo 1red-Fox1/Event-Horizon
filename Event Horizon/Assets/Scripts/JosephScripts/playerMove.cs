@@ -218,18 +218,40 @@ public class playerMove : MonoBehaviour
                 podeMover = true;
                 canGrapp = false;
             }
-        }
-        if (acidPipe.isHit)
+        }       
+        #endregion
+
+        #region Personagem olhando pra baixo
+        if (control.defaultControl)
         {
-            anim.SetBool("Hook", false);
-            KBCounter = KBTotalTime;
-            if (transform.position.x <= transform.position.x)
+            if (Input.GetKeyDown(KeyCode.DownArrow) && isGrounded && !isDeath && !canGrapp)
             {
-                KnockFromRight = true;
+                anim.SetBool("LookAhead", true);
+                anim.SetBool("Walk", false);
+                anim.SetBool("Run", false);
+                podeMover = false;
             }
-            if (transform.position.x > transform.position.x)
+            if (Input.GetKeyUp(KeyCode.DownArrow) || canGrapp)
             {
-                KnockFromRight = false;
+                anim.SetBool("LookAhead", false);
+                podeMover = true;
+            }
+        }
+        else
+        {
+            if (Input.GetKeyDown(KeyCode.S) && isGrounded && !isDeath)
+            {
+                anim.SetBool("DefenseOn", true);
+                anim.SetBool("Walk", false);
+                anim.SetBool("Run", false);
+                isDefending = true;
+                podeMover = false;
+            }
+            if (Input.GetKeyUp(KeyCode.S))
+            {
+                anim.SetBool("DefenseOn", false);
+                podeMover = true;
+                isDefending = false;
             }
         }
         #endregion
@@ -501,6 +523,20 @@ public class playerMove : MonoBehaviour
             outStamina = false;
         }
         #endregion
+
+        if (acidPipe.isHit)
+        {
+            anim.SetBool("Hook", false);
+            KBCounter = KBTotalTime;
+            if (transform.position.x <= transform.position.x)
+            {
+                KnockFromRight = true;
+            }
+            if (transform.position.x > transform.position.x)
+            {
+                KnockFromRight = false;
+            }
+        }
     }
 
     #region Flip do Player

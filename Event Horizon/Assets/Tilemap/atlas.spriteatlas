@@ -65,6 +65,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3c98a370ecd626d4f9f82342ed2d335a, type: 3}
   - {fileID: 21300000, guid: 4b208870b38df674db030245d2e8f8e2, type: 3}
   - {fileID: 21300000, guid: cd9e9e701101de9448e8fa34ec9f216c, type: 3}
+  - {fileID: 21300000, guid: a0444680f6fcce34abe38dff1b543e3e, type: 3}
   - {fileID: 1812661261, guid: b5a3fba055e7b9f41971a4a0b1c7013a, type: 3}
   - {fileID: -1343683786, guid: b5a3fba055e7b9f41971a4a0b1c7013a, type: 3}
   - {fileID: -203489713, guid: b5a3fba055e7b9f41971a4a0b1c7013a, type: 3}
@@ -513,6 +514,7 @@ SpriteAtlas:
   - {fileID: -1581329501, guid: 20b86ee46ddea8440be27eed5a70cc67, type: 3}
   - {fileID: -169665311, guid: 20b86ee46ddea8440be27eed5a70cc67, type: 3}
   - {fileID: 21300000, guid: a92f6a157a1460d40b60d55d50ce6bd2, type: 3}
+  - {fileID: 21300000, guid: da667d15c18c6d84d899683d667b86b8, type: 3}
   - {fileID: 21300000, guid: c843c225a8c95bb44b045d561b44fb45, type: 3}
   - {fileID: 21300000, guid: 5893dc258a3c55f4f8e01e128cc8235a, type: 3}
   - {fileID: 21300000, guid: 2b0ae145016441f4c812276abd24afbf, type: 3}
@@ -946,6 +948,7 @@ SpriteAtlas:
   - {fileID: 823982323, guid: 81967ec98570a7445a4c8afc7f887fae, type: 3}
   - {fileID: 21300000, guid: da86f0e9b3c68e94ebc74352daa1bd06, type: 3}
   - {fileID: 21300000, guid: eb4b8e0ab039dc8438fa7a7bd8fb3c4a, type: 3}
+  - {fileID: 21300000, guid: fe9f7e1afd747dc43aaf285698ae6990, type: 3}
   - {fileID: 21300000, guid: eeace72a859e13f40a085bf85e30d56a, type: 3}
   - {fileID: -1167916710, guid: f7b48a2a2499d9b4c975d1769ea306ee, type: 3}
   - {fileID: -880289259, guid: f7b48a2a2499d9b4c975d1769ea306ee, type: 3}
@@ -1296,6 +1299,7 @@ SpriteAtlas:
   - Seta
   - poste 1 finalizado
   - "Robo_Despeda\xE7ado4"
+  - bg - 1
   - Agua2_0
   - Agua2_1
   - Agua2_2
@@ -1744,6 +1748,7 @@ SpriteAtlas:
   - plataforma grande_8
   - plataforma grande_9
   - CorpoMorto7
+  - bg - 2
   - cenario backgorund super repetitivo do esgoto com back back
   - Raiz2
   - cipoCogu4
@@ -2177,6 +2182,7 @@ SpriteAtlas:
   - Ground2_0
   - cipoCogu1
   - novo ovoinhos
+  - bg - 3
   - para sliderssssss-export
   - pltaforma 2_2
   - pltaforma 2_3
