@@ -1339,7 +1339,8 @@ SpriteAtlas:
   - {fileID: -2081973622, guid: e8b010eaff4877e44a37fc5eb0cdef84, type: 3}
   - {fileID: -1341315299, guid: e8b010eaff4877e44a37fc5eb0cdef84, type: 3}
   - {fileID: 1251762909, guid: e8b010eaff4877e44a37fc5eb0cdef84, type: 3}
-  - {fileID: 21300000, guid: 6bb7b0ea80987fc41a9922ef9dcac70d, type: 3}
+  - {fileID: -260978035, guid: 6bb7b0ea80987fc41a9922ef9dcac70d, type: 3}
+  - {fileID: 115834003, guid: 6bb7b0ea80987fc41a9922ef9dcac70d, type: 3}
   - {fileID: 21300000, guid: ac5c30fae23e8dd4f8f0c9ae3c7cabb1, type: 3}
   - {fileID: 21300000, guid: d6bf71facdcbc11488b6a329e3bfd3a2, type: 3}
   - {fileID: 21300000, guid: 7e88490beecb3fd41b8d99908f17019e, type: 3}
@@ -2955,7 +2956,8 @@ SpriteAtlas:
   - parede grande ruim_0
   - parede grande ruim_3
   - parede grande ruim_2
-  - background
+  - background_0
+  - background_1
   - pedra6
   - Agua
   - parte 2

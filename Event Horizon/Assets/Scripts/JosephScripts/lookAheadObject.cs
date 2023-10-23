@@ -68,7 +68,7 @@ public class lookAheadObject : MonoBehaviour
             }
         }
 
-        if (isMoving && !(poste9 && poste1 && poste2 && poste3 && poste4 && poste5 && poste6 && poste7 && poste8))
+        if (isMoving && !poste9 && !poste1 && !poste2 && !poste3 && !poste4 && !poste5 && !poste6 && !poste7 && !poste8)
         {
             if (podeIr)
             {
@@ -167,7 +167,7 @@ public class lookAheadObject : MonoBehaviour
         {
             transform.position = new Vector3(Poste9.position.x, transform.position.y, transform.position.z);
         }
-        else
+        else if(!poste9 && !poste1 && !poste2 && !poste3 && !poste4 && !poste5 && !poste6 && !poste7 && !poste8 && !isMoving)
         {
             transform.position = new Vector3(referenceObject.position.x, referenceObject.position.y, transform.position.z);
         }

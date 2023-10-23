@@ -78,6 +78,7 @@ public class playerMove : MonoBehaviour
     public bool atk3 = false;
     public bool canGrapp = false;
     public acidPipe acidPipe;
+    private bool isLook;
     #endregion
 
     void Start()
@@ -149,6 +150,11 @@ public class playerMove : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             SceneManager.LoadScene("Fase3");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            SceneManager.LoadScene("Fase4");
         }
         #endregion
 
@@ -232,11 +238,13 @@ public class playerMove : MonoBehaviour
                 anim.SetBool("Walk", false);
                 anim.SetBool("Run", false);
                 podeMover = false;
+                isLook = true;
             }
             if (Input.GetKeyUp(KeyCode.DownArrow) || canGrapp)
             {
                 anim.SetBool("LookAhead", false);
                 podeMover = true;
+                isLook = false;
             }
         }
         else
@@ -246,14 +254,14 @@ public class playerMove : MonoBehaviour
                 anim.SetBool("DefenseOn", true);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Run", false);
-                isDefending = true;
+                isLook = true;
                 podeMover = false;
             }
             if (Input.GetKeyUp(KeyCode.S))
             {
                 anim.SetBool("DefenseOn", false);
+                isLook = false;
                 podeMover = true;
-                isDefending = false;
             }
         }
         #endregion
@@ -381,7 +389,7 @@ public class playerMove : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space) && !encimaDoInimigo && !isJumping)
             {
-                if (isGrounded && !isDeath && !isDefending && !atacando)
+                if (isGrounded && !isDeath && !isDefending && !atacando && !isLook)
                 {
                     rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
                 }
@@ -445,7 +453,7 @@ public class playerMove : MonoBehaviour
                 anim.SetBool("Hook", false);
             }
         }
-        if(isGrounded && !isDefending && !atacando && !isDeath)
+        if(isGrounded && !isDefending && !atacando && !isDeath && !isLook)
         {
             anim.SetBool("Damage", false);
             podeMover = true;
@@ -458,7 +466,7 @@ public class playerMove : MonoBehaviour
         #endregion
 
         #region Pulo
-        if (isJumping && !isDeath && !isDefending)
+        if (isJumping && !isDeath && !isDefending && !isLook)
         {
             if (counterJump > 0)
             {
