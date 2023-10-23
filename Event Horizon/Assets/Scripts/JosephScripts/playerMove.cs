@@ -197,6 +197,7 @@ public class playerMove : MonoBehaviour
                 anim.SetBool("Hook", true);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Run", false);
+                canGrapp = true;
             }
             if (Input.GetKeyUp(KeyCode.C))
             {
@@ -211,6 +212,7 @@ public class playerMove : MonoBehaviour
                 anim.SetBool("Hook", true);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Run", false);
+                canGrapp = true;
             }
             if (Input.GetKeyUp(KeyCode.L))
             {
@@ -440,6 +442,7 @@ public class playerMove : MonoBehaviour
                 anim.SetBool("Run", false);
                 anim.SetBool("Jump", false);
                 anim.SetBool("Fall", false);
+                anim.SetBool("Hook", false);
             }
         }
         if(isGrounded && !isDefending && !atacando && !isDeath)
@@ -522,21 +525,7 @@ public class playerMove : MonoBehaviour
         {
             outStamina = false;
         }
-        #endregion
-
-        if (acidPipe.isHit)
-        {
-            anim.SetBool("Hook", false);
-            KBCounter = KBTotalTime;
-            if (transform.position.x <= transform.position.x)
-            {
-                KnockFromRight = true;
-            }
-            if (transform.position.x > transform.position.x)
-            {
-                KnockFromRight = false;
-            }
-        }
+        #endregion        
     }
 
     #region Flip do Player

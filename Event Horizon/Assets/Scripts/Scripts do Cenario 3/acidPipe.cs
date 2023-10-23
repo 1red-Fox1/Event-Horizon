@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCounters;
 
 public class acidPipe : MonoBehaviour
 {
@@ -19,6 +20,23 @@ public class acidPipe : MonoBehaviour
         originalPosition = transform.position;
         anim = GetComponent <Animator>();
         InvokeRepeating("ShakeAndToggle", 0.0f, activationInterval);
+    }
+
+    private void Update()
+    {
+        if (isHit)
+        {
+            playerMove.canGrapp = false;
+            playerMove.KBCounter = playerMove.KBTotalTime;
+            if (playerMove.transform.position.x <= transform.position.x)
+            {
+                playerMove.KnockFromRight = true;
+            }
+            if (playerMove.transform.position.x > transform.position.x)
+            {
+                playerMove.KnockFromRight = false;
+            }
+        }
     }
 
     private void ShakeAndToggle()
@@ -66,7 +84,6 @@ public class acidPipe : MonoBehaviour
         if (collision.gameObject.tag == "Player" && canHit)
         {
             isHit = true;
-            playerMove.canGrapp = false;
         }
     }
 

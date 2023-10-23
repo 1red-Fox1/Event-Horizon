@@ -44750,6 +44750,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d7460f1d3ac25243b1b9fecf3405b59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    pixelsPerUnit: 24
+    renderingLayerMask:
+      mask: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    textureScale: 0.5
+    preview: 0
+  simulation:
+    stiffness: 70
+    damping: 3
+    blurStrength: 0.5
+    maxDeltaTime: 0.034
+  blitShader: {fileID: 0}
 --- !u!114 &1570598581
 MonoBehaviour:
   m_ObjectHideFlags: 0
