@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,7441 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: seotr 2_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 30
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27df7f1e172ad5842a4b7a657587d31a
+      internalID: -2002297746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 30
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d839633d51b2e4e884995ecfb2dc2d
+      internalID: 1719616780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 30
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b14c791fde15f47b91138145966975
+      internalID: 660798929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_3
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 30
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a586343c7913b499228e5003355414
+      internalID: -187095994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 30
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce70dbba3e56519439df256aea2a1fbe
+      internalID: 1823496238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d08deb55295ae40ba2ca7b148acd0f
+      internalID: 307723741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea03a25f0e4af234aa30adc8ff20f85d
+      internalID: 1653390587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcba1067b8eeee8489d3c8d085ca8772
+      internalID: -537304344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aab657d4ea39ab4e85c22ae653249bd
+      internalID: 1976641406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_9
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a46188388c4184887475f68f3b4feb
+      internalID: 558182815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baebefceaf4c0cd40992f50525f87e24
+      internalID: -1812237281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2f182d3451b594bb31fc67c1d293ad
+      internalID: 474554822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6509d921c291d46aad142e9fab62e7
+      internalID: 1133039370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad3ba4e4757674fb4864432eeb1499
+      internalID: 1509575213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_14
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a763ebc1ca84b434aa24e6cc21c27cef
+      internalID: -91870034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_15
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e60f3be1426ee43a7924e046b63e85
+      internalID: -349956018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94641c3073713547aea591094865907
+      internalID: -1889064698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b64c60021365944bae47badd7433a0c
+      internalID: -173926570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a8a7ee6f2760b478bfa2297503d082
+      internalID: 723489504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_19
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df2af39fa280b148a9d9b91a40bab81
+      internalID: 1975082726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce1656678e391e4bb3a12fb252f9ccf
+      internalID: 1395897105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f9082abbaead8429bed9625a4a439f
+      internalID: 405046640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_22
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4b7159ed0561f478af0b0afc313a33
+      internalID: -1768312427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_23
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092d48e26c943c642b63d4eafe83b7a5
+      internalID: 733246163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_24
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1cf51ffa7c75c41a1f918aaa5678f3
+      internalID: -867511484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24aaf86927d49d45b6afc70f71eee93
+      internalID: 335033460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a65e358253131458b0542fff38272e
+      internalID: 824695173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71083080c057f97458cbd1bf78ee24ed
+      internalID: -1688436255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_28
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386207c52f6f5d942a2214307d9a89d2
+      internalID: 1582084608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300bb69e39a2d68498a002ad72e4cba3
+      internalID: 1171292142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ad32d9c69adc044b839b0f2316003e
+      internalID: 2014548369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_31
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abce245709cb0a4687de316ffeda404
+      internalID: -286871992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56da74ae5ed83dd458f3a8765b3f0ac7
+      internalID: 570447880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b115157eafeaf00499925ad9239f1a19
+      internalID: 462483882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4f75fb135a5e84e8f380630be17e38
+      internalID: 1316277892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8533ad3652d271c49880b09f8383321f
+      internalID: 1720402632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_36
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9769d2391714b4d8d453d5e1cd7769
+      internalID: 594085048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8034bcb3b3afdc46bfafe3ca189e83e
+      internalID: 961748308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513fa1f9f57af7640878c4c0538277e7
+      internalID: 1246137675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_39
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d414ca573ddb6394ea56cbffd9d67d3c
+      internalID: 877369521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_40
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab1b7d47de740409e7898d3ff1c54c
+      internalID: 1261180304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83eccd7a773f72b4ea2706d0c6637798
+      internalID: -1699800187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_42
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2a807836cdea44c86c3cd5e85b463c
+      internalID: 1479380597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_43
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6177055e257616a478a453e18109f9fb
+      internalID: -2082966009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_44
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72822f3605ce0604c8d2af021446e0cc
+      internalID: 1730811142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5292b14f062d1140a6cc3303bad0312
+      internalID: -368747729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_46
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20e34ff4d635e942b7695e383088af2
+      internalID: -557577424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_47
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff9251c59e34664d9cf72ff454c7722
+      internalID: -1801116172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe1899a638064841b5fd2aacf4f0ed1
+      internalID: -2075717646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2eb3e393b3c07147b4a5aa3a9fe6045
+      internalID: 577306721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_50
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3edceb57b19727c40b6b7a6e4ee285e8
+      internalID: 1672032456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27e2f8204ed57e4893273ff9d37a372
+      internalID: 62505610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d140e216ccaba17478f25a2a8a468757
+      internalID: 1812860310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_53
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11941a94e0fffe245b59a00ad0081253
+      internalID: 829858839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_54
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df402561bc465f1449f8daaac672778e
+      internalID: -1796440694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_55
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3c37ed0c3cf574ab733e2c8e9eca7d
+      internalID: 445612317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_56
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5306dde39a0aa5049b7b54e647e8488c
+      internalID: 303887865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8424119ec0beea341af82afa00f2be00
+      internalID: -1263932943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6dc87cd249cfd4fa4fec70d7ec2bc5
+      internalID: -1641213576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_59
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171700e437715dc42ab4fd965a3b6b81
+      internalID: -1082524191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_60
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60a618abffda43479b09bdab63b6ee3
+      internalID: -841596563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_61
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2812847ed32db42a05aa3c986f54be
+      internalID: 1251407131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_62
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a7fcf408ca64e4f88c4e18370fc5ad
+      internalID: -2104687742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_63
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaaf460f65fec249ac5c0c2d192f68f
+      internalID: 1916742108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_64
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502e810ee5689ee42a299e9e394dd1fa
+      internalID: 1242490478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_65
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9751791a11bd9547886a856b7c6b09f
+      internalID: 1189560600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_66
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339c76517d67cc549a7025433a6621f4
+      internalID: 1345020022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_67
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec78fd1b6f7444418ff629072adae50
+      internalID: -747830517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_68
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a25d4363c2f675488692868334c8ad2
+      internalID: 434507701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaed0d742fb8fd4da71b7919d555e9f
+      internalID: -1643371289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_70
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e6b640a751c3245a01aa00a83db97f
+      internalID: -1227655605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_71
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607db6407c45839439c52ab7dbca943a
+      internalID: -1669677037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_72
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7428ba7f3075c84e8deb1a31e92f437
+      internalID: -1244089525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36ca1bea2e98ad49b41a43bb00087d7
+      internalID: -1143129632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_74
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7f4ca04f5af4146a0b78e80bb15631
+      internalID: 1117075481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_75
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66fe23993e4cb640ad6496526827b94
+      internalID: 657457156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_76
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881581c30d74eda49838f6c18d401ba4
+      internalID: -65195451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_77
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cceb8fac0dfc04d98a58691b4f4465
+      internalID: 1477579018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_78
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ea77cde74bc4b4c91158ca8e416cb5
+      internalID: 368199177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_79
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44ad4fb12d43734cb30f74f0115a221
+      internalID: -1799574050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_80
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a5a2af2a476b5438a853a23891ca0d
+      internalID: -336099911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02ef89707acd1746a14ef98eef93359
+      internalID: -1370987908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69478738e4de744ebab1c1c6c08f85e
+      internalID: 663506535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_83
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a48c54c13e16147b2fa4fb281b9d3b
+      internalID: 1749595966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_84
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccecb7b21d19b1d43ac1bb52b7828cf7
+      internalID: 684097785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_85
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dc0854107a8bb42b0979acfcda2f61
+      internalID: 129499192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_86
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59693fb02b370fb48ab3041d09ac9fba
+      internalID: 1052947379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_87
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f9e38b82fc6ee46989c53c47d49be8
+      internalID: -1640257767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_88
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2534b04dc05b64e42b09f2c5b06ff397
+      internalID: -1368158809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_89
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8a6b7d33bbf6a45b3d9aee49d625ab
+      internalID: -483180178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_90
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 25
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be51ebd84da9ac649990b37a47af7bc6
+      internalID: -1574759078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae9850cf9a50a540bfa02d3b71bcc0d
+      internalID: -7437915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_92
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08cff2a8804453642bf790236a4e95ca
+      internalID: 294021684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_93
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d27c95d8a9e62499ffa89bc2984378
+      internalID: 1332884483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_94
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba4510515d881242a9ebd0134be5f13
+      internalID: -2113510247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_95
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1874b55d39c8346a4297fa8cc4b83c
+      internalID: 884364566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_96
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05922b3915757245bb45ae63a0ba6df
+      internalID: -1940831107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_97
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6ac8e76e4ce134b8fb748bda4cf257
+      internalID: 1645562096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_98
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a79e8c79121f448790c94992facb5
+      internalID: 19879248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_99
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c611aea6b0ca94c8d1b7d84e128c9a
+      internalID: -1689524290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_100
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 24
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341cba2e499181341be190791f6ff7f8
+      internalID: 838366047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a32c27eb357f64d8bdcb80925e57d9
+      internalID: 644811144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_102
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819ab2ba9fca694419e78a3c3dcf977d
+      internalID: 2108480767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_103
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487597b0facc7af45b04d60486ab0719
+      internalID: 534091274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_104
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31991235978c01742a82b9a7bef98d5e
+      internalID: -1086837265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_105
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede83c5e2a56b3d4bb5c2fce4137e5f3
+      internalID: -1496012041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_106
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0cadfe0ad93804fa67fb34f9d67e00
+      internalID: -2104397140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_107
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765f31e9bd6a9514c8ed944746ea9eb7
+      internalID: 786787608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_108
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6b6f38594e4a54baf89a82bdf7ce91
+      internalID: 949871618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229a80b60aab4b043a5679f760b3b807
+      internalID: 1029864635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_110
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 22
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659dbaa1319662a45835f9b600f389f0
+      internalID: 878545404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_111
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 22
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd52e80cff05f643855d1dfdce9d269
+      internalID: 793873551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_112
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 22
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80413b377d61a1941bd7708a53095a45
+      internalID: -956610385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_113
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 22
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281c2638797af2d43a50f5755bc80333
+      internalID: 527357623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_114
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 22
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a842d1aaa7537f94a983b29c05931c1f
+      internalID: -422771766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_115
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 22
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4921aa9894dbc2f47975200ec1129857
+      internalID: -192155014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_116
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 22
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074d8307d053d84b983e16e68624b8b
+      internalID: 747257156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa01e0b8678c3f343af96c097f5c2fd3
+      internalID: -333097859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_118
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 21
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c14d13ae716794aa33c133c6f7aa2b
+      internalID: 599239120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_119
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 21
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfff01dd9b28a94cbcc3028a2ed01b3
+      internalID: 2044327789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_120
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 21
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311dbf656cc084b459b4804958f6cacc
+      internalID: 151824717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_121
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 21
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6120426a88890394ea9e956294d89471
+      internalID: -1936189895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_122
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 21
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074bcb500ef6d45448bb07c207f3c0a4
+      internalID: 1415255540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_123
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 21
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef28e1c54ab7cdf4b8a1f38532f75d17
+      internalID: -2144188610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_124
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 21
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d98ef644c78c541b6304317dafe6ba
+      internalID: 1945850638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2a935b3fac8da498879e8aa928d167
+      internalID: -501140449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_126
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4856e8648a77ae545850a0ac2d54427f
+      internalID: 2016593031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_127
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9883d990362aef4cb913c542ad06cd4
+      internalID: 936334252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_128
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7928f2d79d9ab4aaa136b021eaed93
+      internalID: 662160950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_129
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933f2a028c8928340b78595b7610356f
+      internalID: 483038018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_130
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071c95590baa8d7469c50022c5f3ce1b
+      internalID: 2064055234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_131
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d85c46bc60e6c4f80a2c5b9ba1ff2c
+      internalID: 283376042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_132
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615b32cd1febc6c46b248ee99641def2
+      internalID: -738160136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_133
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 20
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1db048e46f3d9e478abdc3ef1205454
+      internalID: -351869370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_134
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46087bb26283e8742b427f58dedb248a
+      internalID: -157222091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_135
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bf4e4888577e34fa27c78fc600d016
+      internalID: -519788993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_136
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0018862aad0cb7947b38c8885eb8ed58
+      internalID: -377037820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_137
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237a0bf04a6e670449deca1459240ac6
+      internalID: -1478746545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_138
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fc318bd95d49d4e9eba354f4ed6518
+      internalID: -1978391148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_139
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2732042ce7b6320469f91115ef6ce898
+      internalID: 1858782964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_140
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c113ad843453c478b77cf79855f511
+      internalID: 616377671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_141
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f872c314a28a4db08b364b33a65f3
+      internalID: -988763905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_142
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1cba351395801439d48f9c59d16961
+      internalID: 3592078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_143
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc071d95697b86f4dbae39cee4ed4baf
+      internalID: 71713778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_144
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1906a49b4b5e1ea4ea714b0ae3be7ca6
+      internalID: -88331903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_145
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970330ee84ea67147a07990966ebcd63
+      internalID: 1134606640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_146
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f370c237c6d58c46807823f33248ab1
+      internalID: -1290265090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_147
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d867018b97a0ef044b09e04f96894a6e
+      internalID: 709172157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_148
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd78a35c3d0e819439fd5f3e42e78945
+      internalID: 2109726887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_149
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bebfcebf766a84c9674ef6b724a395
+      internalID: 15041039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_150
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dac9f31435f914f81c02925d30f4e5
+      internalID: 1569581235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_151
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9384cbecc8c0d2b4eb5b3320f5f1f7f5
+      internalID: 1599292208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_152
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 19
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5b54d793bbf9b49b5a6f19590e61e8
+      internalID: 240087990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ebee2ad7257f44f959862991ec2083
+      internalID: 1000555060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_154
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17693d968a034f4c80953b77f051cd6
+      internalID: 51525518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_155
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8ff84f7c8c0044f9aa6f7b341504eb
+      internalID: 748733100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_156
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dda48d157a45f0489cbbd03ceccaabe
+      internalID: -187875801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_157
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a984abf61d13a854180c791796ec9958
+      internalID: -511499385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_158
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d843257a8e0a3c34fb1ae892ce4cac86
+      internalID: 1794997030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_159
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e553150af9a8e548b890e89fdab598c
+      internalID: 2118184277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_160
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e72929c6a2a90a4f9433733622ccb3e
+      internalID: -1693500530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_161
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483f6011e612c34f9f9f872da84e95e
+      internalID: 1886956559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_162
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b76174adc3e48448e6999ebb010c0d
+      internalID: -3150752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_163
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe365af5db4300d4b8638fe7cc96c3d2
+      internalID: -1412945691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_164
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dde20686ac9b7b48bfb89c73edca32e
+      internalID: 1462926531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_165
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d092465432d6f3f49be6abd083f1761e
+      internalID: 765492039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_166
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b620151d9a821db4abffcb42c2a3c432
+      internalID: 1699521160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_167
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308c4b1cc2e506c46828311f0e367069
+      internalID: 18954005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_168
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c0de07c5e9cff42b4b789a9dd402b8
+      internalID: -1711023713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_169
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8b92c970cc356468937f9538372688
+      internalID: 1590928967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_170
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84887761f8f2c2a4c809857b8251bf51
+      internalID: -626629085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_171
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 18
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154bcef3ac0746d46a597b3d94c8b520
+      internalID: -13125344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b840539337ac44281da5be6e39a438
+      internalID: -1089331458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_173
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d430595edf8d84c967efd314d92887
+      internalID: 1189041112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_174
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1efc89e432e13043987e6bceaba65b0
+      internalID: -1322693439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_175
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f379418988fa1d74dab452557496d1b3
+      internalID: -354683923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_176
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0a4890c1ec38b4784bae10da7cbc72
+      internalID: -1467886517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_177
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f653df23243719645b55112732902b1c
+      internalID: 1644477147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_178
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bb93507f808324b80acb4faff6f280
+      internalID: -328670980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_179
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7e1fd652d6bc648b1a580f5cf3412b
+      internalID: -215847974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_180
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d503d7a254715314aacd9c294d4028ab
+      internalID: -12113030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_181
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75926d3a1b0714b4187653cc5bedd22d
+      internalID: 94685378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_182
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88f48985c45c584cbb153adaf5a745e
+      internalID: 1135076784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_183
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711f27d2213362d41b010f4f1f8358b4
+      internalID: 960609205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_184
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc28f7dde710f1241b5924c76dff4464
+      internalID: 1388435460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_185
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccc2ba0e254d964a8fb44da55ea6838
+      internalID: -75637124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_186
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2e50b37674c8744b7f56dd48d4c329
+      internalID: 1959858359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_187
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0385d5e2b12079740838cf60ccd2828f
+      internalID: 509704175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_188
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5289378b577ce84e9ff10346afcbdc1
+      internalID: 1119167960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_189
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 17
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6edec96719cf354a8629e3183544306
+      internalID: -401417874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac98c48c8fc99624b9b17b48fea596c2
+      internalID: -977683270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_191
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9db6a50981e3104bbd301a090080c89
+      internalID: -1259171748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_192
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f034952d3da621e479e3a78dbcf82e9c
+      internalID: 1672340048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_193
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f52ef73fae1084eab9900a7b1b0b3e
+      internalID: -1422194090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_194
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b10fc2778c0d6043b7f369fe9c1ce45
+      internalID: -181547331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_195
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9723cedf25a024199ddd234af0a5b5
+      internalID: -533994807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_196
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6f57ca600c95e4db2bedd655ce4217
+      internalID: -1619093710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_197
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076cf6984e8a6c84faf93e2d06e9ee44
+      internalID: -1757740017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_198
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 16
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0172660cd51d3044183b0a0e13f5146c
+      internalID: 1174193721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a560b2608a8abb4ba01ad9f12c0326a
+      internalID: -1539262673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_200
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f1f62afbc618e4e851df45031920f9
+      internalID: -35594247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_201
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92356776b7982e243a5f88c7afe79652
+      internalID: -977630389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_202
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d369f9faea60f46a768a2d6132257f
+      internalID: 1465867728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_203
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a198fa3c8be5849926a8d3ebe9a752
+      internalID: -1475200504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_204
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559463ef2589b1644add0f10b885bd14
+      internalID: -187543124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_205
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5da4c9c4c6e64746bbb46bb80110da3
+      internalID: 1654692544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_206
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a92266d513a5f4097bbe78906b74a3
+      internalID: -2146916141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_207
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 15
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deae7fab8bbe6a429bdf3ed73ab2705
+      internalID: 1400644989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b49af67a889764b8c9d9fc4587c1ad
+      internalID: 1598567175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_209
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c586d6758149a754aab23a75530dc8a7
+      internalID: -1872970237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_210
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5e37bb1e6b49a46b199744223be6c0
+      internalID: -1798642449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_211
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b91a46e72ef6640bd5b40f25a808f4
+      internalID: 91089642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_212
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdc85974baf7024f94f7e60d936433a
+      internalID: 384209256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_213
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edee8fb839031b4ebf3295d25e6ead4
+      internalID: 1567193585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_214
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866576a906959ab4fbde9f5b99d9238e
+      internalID: -1443203758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_215
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139e8ac34c2003c439c7e4ed75222bc9
+      internalID: -1787645655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_216
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 14
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7491cc541bd6f46a9cee2cc165df52
+      internalID: 1781884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628e1c17bb9d3894b8d4971c97cd0adf
+      internalID: -1220840725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_218
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a03b7769068cb489a4416945a52256
+      internalID: 231630771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_219
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f12cb0aa179b4642b31b71406b9ad57
+      internalID: 224442605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_220
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba8789d2bd0beb4381510b05ec77422
+      internalID: -607864109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_221
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118d5a14773fc454cabf6c6dcb28773e
+      internalID: -1743147126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_222
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3182c384873394dabf9b5ff14942b9
+      internalID: 726974628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_223
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8156b95b69cbee3428eda92792039459
+      internalID: 904355693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_224
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa5f9920bcde644688c80304ae2011d
+      internalID: 899692636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_225
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0674b5380fe8d24cb0e05262c4bef30
+      internalID: 1644041593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_226
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089317fcea9453a4ca3a17325fc84894
+      internalID: -818843321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_227
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 13
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36703ac3fc95adb499f6ffb590af36a8
+      internalID: -1941451532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_228
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd826c07ec6525545bb8056a8c8e7245
+      internalID: -990449728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_229
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bec50fc11b458499c4ed89f7549be9
+      internalID: 404262988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_230
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a0c0d098bdbda468304bf227507ba9
+      internalID: -1627445679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_231
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8036dd304e45f4fb874d375db23356
+      internalID: 509814494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_232
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4cbedbb431e8d4e9fcb64511495a72
+      internalID: -1585798065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_233
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f7ddf9a7f1f9243a89a3d9798a6f6d
+      internalID: -1274722358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_234
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d3cee5e3592274fa73578693d6403b
+      internalID: 2021482026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_235
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f33d192c9b91034a9c9dc96691e2eeb
+      internalID: -150023616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_236
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60625e83bed724f9ce1a38b60ca80c
+      internalID: 1114188812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_237
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d3794392cd30546a7df17f9ce457ab
+      internalID: 1924772179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_238
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 12
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba582fee00daccb42a8f5f4d2904801b
+      internalID: 772891487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_239
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bf7cac8e6120f44b025bbd4ff5896e
+      internalID: 638697106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_240
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ef18ea31ed3d042a186bbd8c8e38cf
+      internalID: 55431384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_241
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c7eafd18cabf45b2f97640d964ddf
+      internalID: -1111886606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_242
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f35b720b818974c84ddc24b643738d
+      internalID: 244875951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_243
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803fefdea6bb7f74086bd671baa76227
+      internalID: 1699261817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_244
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370a91ae29ea2e54f88f1fea9babf607
+      internalID: -645862385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_245
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3afec7df67eaa4a9827e02077026ba
+      internalID: -599065675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_246
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dd7e6f0244e0e40afe401f6c06d13b
+      internalID: 1268263673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_247
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f971c2124d21b414e8dfeae714851cdb
+      internalID: 766584656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_248
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 11
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351f3305503582447bf6e67df8933833
+      internalID: 892313494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_249
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2d26db023806044ae39ad75eebd8d1
+      internalID: -215673439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_250
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c252db7682ef2469d80a9a0fbde48e
+      internalID: 357274296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_251
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd9e79900f3cb846809576d57201b90
+      internalID: -662235563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_252
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e94546f5e1c534a8feb9cf3136b4c6
+      internalID: 1182585438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_253
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4046377bf5d5bc842aa48f3d1575d2ad
+      internalID: 262680120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_254
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845db9c5db728ac4b977a805c1ba1ef2
+      internalID: 285794462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_255
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ac7e731217cc649a159edcbb6385b9
+      internalID: -37353714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_256
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afba5ece05cfbfb43bc91fcb147348fb
+      internalID: -1007523596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_257
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da69aab513af00147bdca0c0fa31b5b6
+      internalID: -389809716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_258
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4efff36fd47524481f3c60ce73182f
+      internalID: -792760096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_259
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc059ea1d68ff428baac718325642d
+      internalID: 1108088716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_260
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c957a8670417cdb4a987c8e41c98e22f
+      internalID: -100215249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_261
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324b648c30b4dd44e8557a52bde5cf33
+      internalID: 34219113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_262
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 10
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0f4b27b500a3743a4d9d01e2451385
+      internalID: 987724783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_263
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea6a11a239f9164f826f7d9d383422f
+      internalID: -169310821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_264
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbb1c0f47dbc0a44b7805cba0b6f153
+      internalID: 1142701353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_265
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4224a0a2a48f7e7499bb19c33e77dfbe
+      internalID: -1513733008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_266
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5389e4ef432ef4a92b71b9a61bd56f
+      internalID: 418356142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_267
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e9c24f742c263468e49ea07939de94
+      internalID: 1473697619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_268
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a530483c54d7f41b6c39363c769b9b
+      internalID: -616454290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_269
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ce0e45d35d07546b655d7a6c5aac92
+      internalID: 961415536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_270
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a4abda1d0219e4da4b8ae2a9e14d39
+      internalID: 325581948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_271
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84319f285eeb6b44d87e1e2fef1b20e6
+      internalID: 2050259050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_272
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab5a96391b5c804c9aa697f135e852d
+      internalID: -532190212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_273
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef824b2f41fbd6a408c68178424ab2d4
+      internalID: 25379430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_274
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd82882efdf6ad14e8409d47c1da8aa1
+      internalID: -1511099111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_275
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9029db95e10e375458b0f0e5dce288bc
+      internalID: 362248239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_276
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 9
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83cf908ae616b2e4192c773d74b97fd4
+      internalID: 1199697188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_277
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccc2006bc2f74f40a88af5037559f89
+      internalID: -1300527131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_278
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1eb5fb11d815c74eb457261beee7272
+      internalID: 1853478416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_279
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5373171963081429ca0dabb0933ee0
+      internalID: -184284597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_280
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5e68c60dfc9764584b900944cc8797
+      internalID: -856700260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_281
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb195b22cbb0684d8c87008aba551d5
+      internalID: -1722100066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_282
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea19b5c89ee3547bda5465f12aa655
+      internalID: 644079576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_283
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294fbdaccad280349abea52db0461212
+      internalID: -416885776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_284
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c59537cd7f6ef419e17bcae71f6d81
+      internalID: 1781583107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_285
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676fc2c201309164aaec184fd2f04e1a
+      internalID: -814095711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_286
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b242563107523ee47aa452daf1170a84
+      internalID: -1900686085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_287
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628ce29d84963d9428213e465de63e07
+      internalID: 1714546985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_288
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb8c2ff5e4e9834da034f4765cd85ea
+      internalID: 95128621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_289
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b117f1643e80543b1a624ced74715e
+      internalID: -1104219478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_290
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f505953d94b9ef047a8fa26c39e99ef0
+      internalID: -1786016414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_291
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9589454d8332040ad7e6577b9a7b0b
+      internalID: 1627198817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_292
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 7
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3e180afe14b9a4d83b074f536aa924
+      internalID: 207361328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_293
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 7
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb7d62bf4436e248abb56fc90bcfac7
+      internalID: -659242114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_294
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 7
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5bceb7a1016fc42904549bca66dd64
+      internalID: 1911714346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_295
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 7
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a8e53ffceb5bd47b80038423f2b5f8
+      internalID: -17902131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_296
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 7
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e077ec4a4f06d342864fce07e867210
+      internalID: 501229791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_297
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 7
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6059d6a21769b418fbf9dd655730ff
+      internalID: -432016852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_298
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 7
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b0539d81fa1f34ea6497c21491ac52
+      internalID: 1995128448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_299
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 6
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b002f03cb418c147b04f526eb14e17d
+      internalID: 519153932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_300
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 6
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb85bdbd723face4cb9fec7f6fce3cbb
+      internalID: -1301510399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_301
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 6
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a95e1bfe43ef8b4cbbcd3df1fd9a87e
+      internalID: -111936734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_302
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 6
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49611631c888f8744bd041a178c7c4b0
+      internalID: 1501794219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_303
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 6
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18e0e5b96845748b35997ac18bdf65
+      internalID: 2087278255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_304
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 6
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a72c647f475b7540a12987113ac48dc
+      internalID: 1013408044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_305
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c609d7dc6b82cc47b5227276cfd94d8
+      internalID: 717835084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_306
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 5
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c654981e56b732408ca8e12c40747a9
+      internalID: -1819515199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_307
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aebe97a4e9016845b6676a7476a0114
+      internalID: -1131421533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_308
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ea1685b14ed8d48afd6078d8310863
+      internalID: -1988516944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_309
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 5
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477c0428f50179d4787309164c0aa479
+      internalID: -1989809444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_310
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088033bef9d865941bfacdfaaeddda63
+      internalID: -1451839792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_311
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d5684431d5ac14086286267b14305a
+      internalID: -1721543459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_312
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5367e7b2a6e99314c8a9fdbaf532c7f6
+      internalID: -322892888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_313
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8092c73684a338f49ae518c1e77bcdfe
+      internalID: -921160565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_314
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7abbd50ab43fa7489754fc1c9ee5101
+      internalID: -1759304008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_315
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695b2a14f767ed045913cc667281b582
+      internalID: -1500829633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_316
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328caa8e4a8980c47b216f4b61302b35
+      internalID: -17211418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_317
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f911d0e09bab947ae1ed333aa9a4f5
+      internalID: 1568206613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_318
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774c04225d6e2ae40b8f28d14994c4a7
+      internalID: 1020308586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_319
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b87d5387f2b0df4d90c9d3adedc6086
+      internalID: -385084061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_320
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131da5d105cf9324987e8b8cb797eba1
+      internalID: 1074318779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_321
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bf35471d6009041bf2fa81ed29485a
+      internalID: -1649559975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_322
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851ba7ff7055a254f8278112b74135d5
+      internalID: 302922295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_323
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5561f404186564b985502fbda2629b
+      internalID: 1528709614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_324
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb51a4a6fc326b64dbfb544f2c61af7d
+      internalID: -136250113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_325
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 4
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e11d532adcedb244925f293edd0d524
+      internalID: 582457850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_326
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4340e83a55b31504c9731c7d8f1cc611
+      internalID: -1230960683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_327
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc785db95919e0d4988ccb6b409d5d53
+      internalID: 1654616495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_328
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3547b6f143c3746881df2e9fe1c48d
+      internalID: 1332739937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_329
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f3373957b121444aaa36801f14b2d2
+      internalID: 2012558982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_330
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6fd7c7934f43641ac1acd26987dbfc
+      internalID: -812703495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_331
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a991f090ccb73bc418860063f08c2aca
+      internalID: -1308755756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_332
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707a88e909d917d47bcf65d682ac62e1
+      internalID: -248849744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_333
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ec9345e0dc53d468826ba43b9692a8
+      internalID: -1652349299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_334
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a819751dd0e7142910d16f042dd062
+      internalID: -1684011951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_335
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12655931b6ada4049986222f11d94bee
+      internalID: -1319778374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_336
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1902b53de1366cb4499e74f368710ac3
+      internalID: 629519185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_337
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec94acc95d43e949961a723757135d9
+      internalID: -1266773716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_338
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc9bf4fb93e0054cb7568d885238c92
+      internalID: -1390433162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_339
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 3
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de448d1c4443bf145b1f94162a2d98a4
+      internalID: 706035982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_340
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0d7fca99fc6a64182c9bb697e1bd84
+      internalID: 260541438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_341
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c637e390a45a9643aa311d630c592be
+      internalID: 301401225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_342
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c1146a3cb85a4449230af466e7ea9a
+      internalID: -143973236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_343
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8727dabe3c2d4254480a98f1f25c632a
+      internalID: 2049786864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_344
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeda1ff963daa749882b21e18086e59
+      internalID: 1061665447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_345
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdef068219a839949bc15073b4a519d2
+      internalID: -1683540660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_346
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af03e850c6817d24297a9bfa348b06f0
+      internalID: 536907911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_347
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9e59bffdff601408ec7c7d9237684d
+      internalID: -275298505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_348
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21f6d761b2c56b4fa3c8a915c4c3dac
+      internalID: 1945147268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_349
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb77f30d3ab10a4bae0126ddc9acec1
+      internalID: -183752235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_350
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006b2dd5b33079342a2c9458340edabb
+      internalID: 1286403322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_351
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7138fd3803d882c45aac1fb1f19ef1f8
+      internalID: 1377810861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_352
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261773f6b9ff4974f862af35e96f3e50
+      internalID: -385739804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seotr 2_353
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bfde58e45c50b4ab74600c29c76ef0
+      internalID: 61551492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +7560,361 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      seotr 2_122: 1415255540
+      seotr 2_84: 684097785
+      seotr 2_42: 1479380597
+      seotr 2_177: 1644477147
+      seotr 2_275: 362248239
+      seotr 2_40: 1261180304
+      seotr 2_133: -351869370
+      seotr 2_136: -377037820
+      seotr 2_246: 1268263673
+      seotr 2_331: -1308755756
+      seotr 2_311: -1721543459
+      seotr 2_322: 302922295
+      seotr 2_50: 1672032456
+      seotr 2_69: -1643371289
+      seotr 2_328: 1332739937
+      seotr 2_321: -1649559975
+      seotr 2_195: -533994807
+      seotr 2_1: 1719616780
+      seotr 2_281: -1722100066
+      seotr 2_8: 1976641406
+      seotr 2_9: 558182815
+      seotr 2_227: -1941451532
+      seotr 2_256: -1007523596
+      seotr 2_88: -1368158809
+      seotr 2_39: 877369521
+      seotr 2_304: 1013408044
+      seotr 2_189: -401417874
+      seotr 2_347: -275298505
+      seotr 2_121: -1936189895
+      seotr 2_327: 1654616495
+      seotr 2_268: -616454290
+      seotr 2_58: -1641213576
+      seotr 2_180: -12113030
+      seotr 2_323: 1528709614
+      seotr 2_143: 71713778
+      seotr 2_192: 1672340048
+      seotr 2_296: 501229791
+      seotr 2_233: -1274722358
+      seotr 2_166: 1699521160
+      seotr 2_315: -1500829633
+      seotr 2_160: -1693500530
+      seotr 2_298: 1995128448
+      seotr 2_352: -385739804
+      seotr 2_77: 1477579018
+      seotr 2_27: -1688436255
+      seotr 2_217: -1220840725
+      seotr 2_52: 1812860310
+      seotr 2_313: -921160565
+      seotr 2_19: 1975082726
+      seotr 2_220: -607864109
+      seotr 2_90: -1574759078
+      seotr 2_83: 1749595966
+      seotr 2_107: 786787608
+      seotr 2_346: 536907911
+      seotr 2_140: 616377671
+      seotr 2_119: 2044327789
+      seotr 2_170: -626629085
+      seotr 2_94: -2113510247
+      seotr 2_0: -2002297746
+      seotr 2_49: 577306721
+      seotr 2_200: -35594247
+      seotr 2_28: 1582084608
+      seotr 2_108: 949871618
+      seotr 2_280: -856700260
+      seotr 2_237: 1924772179
+      seotr 2_342: -143973236
+      seotr 2_91: -7437915
+      seotr 2_118: 599239120
+      seotr 2_86: 1052947379
+      seotr 2_76: -65195451
+      seotr 2_335: -1319778374
+      seotr 2_141: -988763905
+      seotr 2_78: 368199177
+      seotr 2_211: 91089642
+      seotr 2_60: -841596563
+      seotr 2_234: 2021482026
+      seotr 2_150: 1569581235
+      seotr 2_221: -1743147126
+      seotr 2_124: 1945850638
+      seotr 2_259: 1108088716
+      seotr 2_105: -1496012041
+      seotr 2_212: 384209256
+      seotr 2_262: 987724783
+      seotr 2_164: 1462926531
+      seotr 2_276: 1199697188
+      seotr 2_203: -1475200504
+      seotr 2_190: -977683270
+      seotr 2_96: -1940831107
+      seotr 2_56: 303887865
+      seotr 2_134: -157222091
+      seotr 2_6: 1653390587
+      seotr 2_235: -150023616
+      seotr 2_174: -1322693439
+      seotr 2_95: 884364566
+      seotr 2_229: 404262988
+      seotr 2_337: -1266773716
+      seotr 2_31: -286871992
+      seotr 2_92: 294021684
+      seotr 2_302: 1501794219
+      seotr 2_334: -1684011951
+      seotr 2_169: 1590928967
+      seotr 2_173: 1189041112
+      seotr 2_145: 1134606640
+      seotr 2_183: 960609205
+      seotr 2_264: 1142701353
+      seotr 2_207: 1400644989
+      seotr 2_308: -1988516944
+      seotr 2_320: 1074318779
+      seotr 2_2: 660798929
+      seotr 2_343: 2049786864
+      seotr 2_181: 94685378
+      seotr 2_202: 1465867728
+      seotr 2_163: -1412945691
+      seotr 2_97: 1645562096
+      seotr 2_10: -1812237281
+      seotr 2_348: 1945147268
+      seotr 2_289: -1104219478
+      seotr 2_326: -1230960683
+      seotr 2_218: 231630771
+      seotr 2_62: -2104687742
+      seotr 2_45: -368747729
+      seotr 2_293: -659242114
+      seotr 2_325: 582457850
+      seotr 2_199: -1539262673
+      seotr 2_161: 1886956559
+      seotr 2_64: 1242490478
+      seotr 2_205: 1654692544
+      seotr 2_70: -1227655605
+      seotr 2_111: 793873551
+      seotr 2_38: 1246137675
+      seotr 2_310: -1451839792
+      seotr 2_260: -100215249
+      seotr 2_29: 1171292142
+      seotr 2_81: -1370987908
+      seotr 2_126: 2016593031
+      seotr 2_182: 1135076784
+      seotr 2_171: -13125344
+      seotr 2_61: 1251407131
+      seotr 2_248: 892313494
+      seotr 2_204: -187543124
+      seotr 2_329: 2012558982
+      seotr 2_339: 706035982
+      seotr 2_198: 1174193721
+      seotr 2_26: 824695173
+      seotr 2_33: 462483882
+      seotr 2_283: -416885776
+      seotr 2_215: -1787645655
+      seotr 2_14: -91870034
+      seotr 2_353: 61551492
+      seotr 2_110: 878545404
+      seotr 2_303: 2087278255
+      seotr 2_344: 1061665447
+      seotr 2_3: -187095994
+      seotr 2_132: -738160136
+      seotr 2_172: -1089331458
+      seotr 2_35: 1720402632
+      seotr 2_317: 1568206613
+      seotr 2_67: -747830517
+      seotr 2_273: 25379430
+      seotr 2_103: 534091274
+      seotr 2_72: -1244089525
+      seotr 2_305: 717835084
+      seotr 2_138: -1978391148
+      seotr 2_318: 1020308586
+      seotr 2_243: 1699261817
+      seotr 2_109: 1029864635
+      seotr 2_46: -557577424
+      seotr 2_269: 961415536
+      seotr 2_99: -1689524290
+      seotr 2_25: 335033460
+      seotr 2_244: -645862385
+      seotr 2_73: -1143129632
+      seotr 2_79: -1799574050
+      seotr 2_12: 1133039370
+      seotr 2_151: 1599292208
+      seotr 2_209: -1872970237
+      seotr 2_288: 95128621
+      seotr 2_286: -1900686085
+      seotr 2_37: 961748308
+      seotr 2_115: -192155014
+      seotr 2_201: -977630389
+      seotr 2_349: -183752235
+      seotr 2_279: -184284597
+      seotr 2_165: 765492039
+      seotr 2_23: 733246163
+      seotr 2_242: 244875951
+      seotr 2_74: 1117075481
+      seotr 2_159: 2118184277
+      seotr 2_54: -1796440694
+      seotr 2_162: -3150752
+      seotr 2_89: -483180178
+      seotr 2_208: 1598567175
+      seotr 2_299: 519153932
+      seotr 2_247: 766584656
+      seotr 2_59: -1082524191
+      seotr 2_345: -1683540660
+      seotr 2_16: -1889064698
+      seotr 2_117: -333097859
+      seotr 2_75: 657457156
+      seotr 2_330: -812703495
+      seotr 2_206: -2146916141
+      seotr 2_309: -1989809444
+      seotr 2_127: 936334252
+      seotr 2_251: -662235563
+      seotr 2_210: -1798642449
+      seotr 2_216: 1781884
+      seotr 2_148: 2109726887
+      seotr 2_191: -1259171748
+      seotr 2_113: 527357623
+      seotr 2_116: 747257156
+      seotr 2_176: -1467886517
+      seotr 2_254: 285794462
+      seotr 2_93: 1332884483
+      seotr 2_112: -956610385
+      seotr 2_295: -17902131
+      seotr 2_223: 904355693
+      seotr 2_32: 570447880
+      seotr 2_267: 1473697619
+      seotr 2_154: 51525518
+      seotr 2_196: -1619093710
+      seotr 2_187: 509704175
+      seotr 2_241: -1111886606
+      seotr 2_245: -599065675
+      seotr 2_197: -1757740017
+      seotr 2_34: 1316277892
+      seotr 2_306: -1819515199
+      seotr 2_167: 18954005
+      seotr 2_139: 1858782964
+      seotr 2_44: 1730811142
+      seotr 2_120: 151824717
+      seotr 2_178: -328670980
+      seotr 2_51: 62505610
+      seotr 2_292: 207361328
+      seotr 2_340: 260541438
+      seotr 2_20: 1395897105
+      seotr 2_194: -181547331
+      seotr 2_11: 474554822
+      seotr 2_351: 1377810861
+      seotr 2_338: -1390433162
+      seotr 2_236: 1114188812
+      seotr 2_15: -349956018
+      seotr 2_98: 19879248
+      seotr 2_228: -990449728
+      seotr 2_22: -1768312427
+      seotr 2_153: 1000555060
+      seotr 2_316: -17211418
+      seotr 2_101: 644811144
+      seotr 2_41: -1699800187
+      seotr 2_225: 1644041593
+      seotr 2_258: -792760096
+      seotr 2_341: 301401225
+      seotr 2_278: 1853478416
+      seotr 2_230: -1627445679
+      seotr 2_87: -1640257767
+      seotr 2_186: 1959858359
+      seotr 2_185: -75637124
+      seotr 2_123: -2144188610
+      seotr 2_263: -169310821
+      seotr 2_271: 2050259050
+      seotr 2_48: -2075717646
+      seotr 2_137: -1478746545
+      seotr 2_55: 445612317
+      seotr 2_146: -1290265090
+      seotr 2_249: -215673439
+      seotr 2_4: 1823496238
+      seotr 2_106: -2104397140
+      seotr 2_287: 1714546985
+      seotr 2_144: -88331903
+      seotr 2_125: -501140449
+      seotr 2_71: -1669677037
+      seotr 2_252: 1182585438
+      seotr 2_57: -1263932943
+      seotr 2_219: 224442605
+      seotr 2_152: 240087990
+      seotr 2_265: -1513733008
+      seotr 2_257: -389809716
+      seotr 2_301: -111936734
+      seotr 2_350: 1286403322
+      seotr 2_261: 34219113
+      seotr 2_102: 2108480767
+      seotr 2_43: -2082966009
+      seotr 2_291: 1627198817
+      seotr 2_63: 1916742108
+      seotr 2_274: -1511099111
+      seotr 2_65: 1189560600
+      seotr 2_36: 594085048
+      seotr 2_114: -422771766
+      seotr 2_336: 629519185
+      seotr 2_277: -1300527131
+      seotr 2_142: 3592078
+      seotr 2_155: 748733100
+      seotr 2_175: -354683923
+      seotr 2_53: 829858839
+      seotr 2_282: 644079576
+      seotr 2_66: 1345020022
+      seotr 2_284: 1781583107
+      seotr 2_332: -248849744
+      seotr 2_285: -814095711
+      seotr 2_147: 709172157
+      seotr 2_85: 129499192
+      seotr 2_300: -1301510399
+      seotr 2_270: 325581948
+      seotr 2_314: -1759304008
+      seotr 2_135: -519788993
+      seotr 2_255: -37353714
+      seotr 2_158: 1794997030
+      seotr 2_290: -1786016414
+      seotr 2_149: 15041039
+      seotr 2_193: -1422194090
+      seotr 2_80: -336099911
+      seotr 2_238: 772891487
+      seotr 2_68: 434507701
+      seotr 2_333: -1652349299
+      seotr 2_7: -537304344
+      seotr 2_240: 55431384
+      seotr 2_250: 357274296
+      seotr 2_157: -511499385
+      seotr 2_232: -1585798065
+      seotr 2_266: 418356142
+      seotr 2_30: 2014548369
+      seotr 2_5: 307723741
+      seotr 2_272: -532190212
+      seotr 2_17: -173926570
+      seotr 2_307: -1131421533
+      seotr 2_47: -1801116172
+      seotr 2_312: -322892888
+      seotr 2_21: 405046640
+      seotr 2_231: 509814494
+      seotr 2_226: -818843321
+      seotr 2_104: -1086837265
+      seotr 2_13: 1509575213
+      seotr 2_131: 283376042
+      seotr 2_184: 1388435460
+      seotr 2_214: -1443203758
+      seotr 2_297: -432016852
+      seotr 2_128: 662160950
+      seotr 2_222: 726974628
+      seotr 2_324: -136250113
+      seotr 2_130: 2064055234
+      seotr 2_188: 1119167960
+      seotr 2_294: 1911714346
+      seotr 2_100: 838366047
+      seotr 2_224: 899692636
+      seotr 2_24: -867511484
+      seotr 2_168: -1711023713
+      seotr 2_18: 723489504
+      seotr 2_213: 1567193585
+      seotr 2_179: -215847974
+      seotr 2_129: 483038018
+      seotr 2_239: 638697106
+      seotr 2_319: -385084061
+      seotr 2_156: -187875801
+      seotr 2_82: 663506535
+      seotr 2_253: 262680120
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
