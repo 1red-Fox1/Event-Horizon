@@ -198,14 +198,13 @@ public class playerMove : MonoBehaviour
         #region Grapp Hook
         if (control.defaultControl)
         {
-            if (Input.GetKeyDown(KeyCode.C) && isGrounded && !isDeath)
+            if (Input.GetKeyDown(KeyCode.C) && isGrounded && !isDeath && moveX == 0f)
             {
                 anim.SetBool("Hook", true);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Run", false);
-                canGrapp = true;
             }
-            if (Input.GetKeyUp(KeyCode.C))
+            if (Input.GetKeyUp(KeyCode.C) || moveX != 0f)
             {
                 anim.SetBool("Hook", false);
                 canGrapp = false;
@@ -213,17 +212,15 @@ public class playerMove : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.L) && isGrounded && !isDeath)
+            if (Input.GetKeyDown(KeyCode.L) && isGrounded && !isDeath && moveX == 0f)
             {
                 anim.SetBool("Hook", true);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Run", false);
-                canGrapp = true;
             }
-            if (Input.GetKeyUp(KeyCode.L))
+            if (Input.GetKeyUp(KeyCode.L) || moveX != 0f)
             {
                 anim.SetBool("Hook", false);
-                podeMover = true;
                 canGrapp = false;
             }
         }       
