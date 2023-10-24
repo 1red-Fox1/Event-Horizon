@@ -38,6 +38,7 @@ public class RatoController : MonoBehaviour
     public int lifeEnemy;
     public bool isDeath = false;
     public bool podeMover = true;
+    public bool morteRato;
     void Start()
     {
         waitTime = startWaitTime;
@@ -226,8 +227,8 @@ public class RatoController : MonoBehaviour
         audioSource.PlayOneShot(ataqueInimigo);
     }
 
-    private void DeathSound()
+    void DeathSound()
     {
-        audioSource.PlayOneShot(deathSound);
+        morteRato = true;
     }
 }

@@ -17,7 +17,7 @@ public class aranhaCanhaoAnim : MonoBehaviour
     public bool isDeath = false;
     private AudioSource audioSource;
     public AudioClip attackSound;
-    public AudioClip deathSound;
+    public bool morteAranhaCanhao;
 
     private void Start()
     {
@@ -145,6 +145,6 @@ public class aranhaCanhaoAnim : MonoBehaviour
 
     void DeathSound()
     {
-        audioSource.PlayOneShot(deathSound);
+        morteAranhaCanhao = true;
     }
 }

@@ -7,7 +7,6 @@ public class EnemyTronco : MonoBehaviour
     private Animator anim;
     private AudioSource audioSource;
     public AudioClip[] ataqueInimigo;
-    public AudioClip deathSound;
 
     #region Variaveis de Patrulha
     public Transform[] moveSpots;
@@ -38,6 +37,7 @@ public class EnemyTronco : MonoBehaviour
     public bool isDeath = false;
     public bool podeMover = true;
     public bool Passo = false;
+    public bool morteTronco;
     void Start()
     {
         waitTime = startWaitTime;
@@ -206,6 +206,10 @@ public class EnemyTronco : MonoBehaviour
     {
         Destroy(gameObject);
     }
+    void DeathSound()
+    {
+        morteTronco = true;
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -220,10 +224,6 @@ public class EnemyTronco : MonoBehaviour
         {
             isInRange = false;
         }
-    }
-    void DeathSound()
-    {
-        audioSource.PlayOneShot(deathSound);
     }
 }
 
