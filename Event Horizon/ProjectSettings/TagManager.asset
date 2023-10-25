@@ -30,6 +30,8 @@ TagManager:
   - Poste8
   - Poste9
   - Acid
+  - BossFurao
+  - ProximaFase4
   layers:
   - Default
   - TransparentFX

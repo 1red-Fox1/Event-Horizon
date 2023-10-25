@@ -53,11 +53,19 @@ public class GroundColisor : MonoBehaviour
         {
             fade1 = true;
         }
+        if (collision.gameObject.tag == "BossFurao")
+        {
+            fade1 = true;
+        }
+        if (collision.gameObject.tag == "ProximaFase4")
+        {
+            fade1 = true;
+        }
         if (collision.gameObject.tag == "ProximaFase3")
         {
             fade1 = true;
         }
-        if(collision.gameObject.tag == "cutScene")
+        if (collision.gameObject.tag == "cutScene")
         {
             SceneManager.LoadScene(cutScene);
         }        
@@ -82,3 +90,4 @@ public class GroundColisor : MonoBehaviour
         }       
     }
 }
+
