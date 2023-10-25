@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bb89f8867bb8f5444a3792856ba95b07
+guid: 63c23248586f18b4492432680e85ad52
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,23 +101,137 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: acido reto_0
+      name: boca de esgoto 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5870fd25585e6014cbd62c0def53a8de
+      internalID: -596793258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boca de esgoto 1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d056f4c312303498b557b1e64ce46f
+      internalID: 1324201086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boca de esgoto 1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a02d4be895258f43b16583fa5197a47
+      internalID: 1698099454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boca de esgoto 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c479f6e85a2de7419350d59c7aca0c6
+      internalID: -1736220548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boca de esgoto 1_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6c1ffdbb859a24788f0a575bf0d756
+      internalID: -869308891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boca de esgoto 1_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf996abbf9fd20749a413c0c4a39a28f
+      internalID: -152572638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boca de esgoto 1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f2e8e4867a729a42be2a6e97390cbb8
-      internalID: 1694029923
+      spriteID: e8531485bf8d65f4c9ae74d460a2325c
+      internalID: -59579529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acido reto_1
+      name: boca de esgoto 1_7
       rect:
         serializedVersion: 2
         x: 32
@@ -152,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 395e9d770bf87f442b81f180d02181a2
-      internalID: 547763480
+      spriteID: c1a8a7fdd9b3df14082e13fdc17fdc3a
+      internalID: -757240699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: acido reto_2
+      name: boca de esgoto 1_8
       rect:
         serializedVersion: 2
         x: 64
@@ -173,71 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f11760ab6fcbe645a712eb7ed55b5a3
-      internalID: -261919669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: acido reto_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60accf36b43342448a0de9e97180e6fa
-      internalID: -2021085758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: acido reto_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df0d4f6abab9097429e0061503045527
-      internalID: 243392200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: acido reto_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79d03958eda96234ba8bbd6628556705
-      internalID: 1775920656
+      spriteID: b4d79d506d7a4644b8af9b1132e7e6e9
+      internalID: 1527516757
       vertices: []
       indices: 
       edges: []
@@ -253,12 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      acido reto_3: -2021085758
-      acido reto_1: 547763480
-      acido reto_0: 1694029923
-      acido reto_4: 243392200
-      acido reto_2: -261919669
-      acido reto_5: 1775920656
+      boca de esgoto 1_1: 1324201086
+      boca de esgoto 1_2: 1698099454
+      boca de esgoto 1_7: -757240699
+      boca de esgoto 1_6: -59579529
+      boca de esgoto 1_5: -152572638
+      boca de esgoto 1_8: 1527516757
+      boca de esgoto 1_4: -869308891
+      boca de esgoto 1_3: -1736220548
+      boca de esgoto 1_0: -596793258
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
