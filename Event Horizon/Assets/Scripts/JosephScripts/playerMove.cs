@@ -246,19 +246,19 @@ public class playerMove : MonoBehaviour
         }
         else
         {
-            if (Input.GetKeyDown(KeyCode.S) && isGrounded && !isDeath)
+            if (Input.GetKeyDown(KeyCode.S) && isGrounded && !isDeath && !canGrapp)
             {
-                anim.SetBool("DefenseOn", true);
+                anim.SetBool("LookAhead", true);
                 anim.SetBool("Walk", false);
                 anim.SetBool("Run", false);
-                isLook = true;
                 podeMover = false;
+                isLook = true;
             }
-            if (Input.GetKeyUp(KeyCode.S))
+            if (Input.GetKeyUp(KeyCode.S) || canGrapp)
             {
-                anim.SetBool("DefenseOn", false);
-                isLook = false;
+                anim.SetBool("LookAhead", false);
                 podeMover = true;
+                isLook = false;
             }
         }
         #endregion
@@ -414,7 +414,7 @@ public class playerMove : MonoBehaviour
         }
         else
         {
-            if (!isDefending && !atacando)
+            if (!isDefending)
             {
                 if(KnockFromRight == true && !isDeath)
                 {
@@ -450,7 +450,7 @@ public class playerMove : MonoBehaviour
                 anim.SetBool("Hook", false);
             }
         }
-        if(isGrounded && !isDefending && !atacando && !isDeath && !isLook)
+        if(isGrounded && !isDefending && !isDeath && !isLook)
         {
             anim.SetBool("Damage", false);
             podeMover = true;
@@ -536,12 +536,10 @@ public class playerMove : MonoBehaviour
     #region Flip do Player
     void Flip()
     {
-        //facingRight = !facingRight;
         transform.rotation = Quaternion.Euler(0f, 180f, 0f);
     }
     void UnFlip()
     {
-        //facingRight = !facingRight;
         transform.rotation = Quaternion.Euler(0f, 0f, 0f);
     }
     #endregion

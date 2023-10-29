@@ -437,6 +437,7 @@ SpriteAtlas:
   - {fileID: -1733140200, guid: 432ba9d256ac13a4db18efdf165f55ca, type: 3}
   - {fileID: -201103665, guid: 432ba9d256ac13a4db18efdf165f55ca, type: 3}
   - {fileID: 267770186, guid: 432ba9d256ac13a4db18efdf165f55ca, type: 3}
+  - {fileID: 21300000, guid: 21e4bdd2ddbf2404689248c78328db4d, type: 3}
   - {fileID: 21300000, guid: 078915e2ea6d0004e9efef1a8271077c, type: 3}
   - {fileID: 21300000, guid: 982522f2f7a57f5419aa0c822737b41e, type: 3}
   - {fileID: -2071674125, guid: 225b36f28bfab5b4a968d11117005199, type: 3}
@@ -1415,6 +1416,7 @@ SpriteAtlas:
   - {fileID: 8464818, guid: 409c3c6a4e559f143b0b884802dd696c, type: 3}
   - {fileID: -1565267330, guid: 409c3c6a4e559f143b0b884802dd696c, type: 3}
   - {fileID: -1717749178, guid: 409c3c6a4e559f143b0b884802dd696c, type: 3}
+  - {fileID: 21300000, guid: 108e8f6a12ba73442bfe18a7d9ee17ec, type: 3}
   - {fileID: 21300000, guid: 78c0619aa20707a4cbda6f4b44575fd0, type: 3}
   - {fileID: 21300000, guid: a215629a9da1b34479b8247d1979c7cb, type: 3}
   - {fileID: 21300000, guid: 87dd079a62fa0d74685efa69b3e99ec8, type: 3}
@@ -1625,6 +1627,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0931d30ef2ffff6499f8bd040d234b6e, type: 3}
   - {fileID: 21300000, guid: a1b3321eef1e99342aef06286b987665, type: 3}
   - {fileID: 21300000, guid: 893b8a1ed80654a4899fec78e1218095, type: 3}
+  - {fileID: 21300000, guid: 5a02132e07ec87b4f89892052e9e20d8, type: 3}
   - {fileID: 21300000, guid: 36e8982e95555a64d97dfd7495065133, type: 3}
   - {fileID: 21300000, guid: 39aa6d2eda5b9e740ba73e6cfa69609a, type: 3}
   - {fileID: 21300000, guid: 7028c93ed3d4a8e4ab1518921a294259, type: 3}
@@ -1806,6 +1809,15 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 5ffa4ccf0042134419a6511477be162e, type: 3}
   - {fileID: 21300000, guid: b41d36df40eeec54581e88afbd6f02a5, type: 3}
   - {fileID: 21300000, guid: 5972d9ff29068f141a2a0e3a980b8f20, type: 3}
+  - {fileID: -1795362699, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
+  - {fileID: -1453605830, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
+  - {fileID: -626136763, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
+  - {fileID: -2118517583, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
+  - {fileID: -304615290, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
+  - {fileID: -1214119221, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
+  - {fileID: -2078433517, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
+  - {fileID: -1011971740, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
+  - {fileID: -106637612, guid: 38b40dffe9238f340a4a0c422c076f63, type: 3}
   m_PackedSpriteNamesToIndex:
   - cano2
   - cenario 1 finalizado
@@ -2206,6 +2218,7 @@ SpriteAtlas:
   - com grade 2_3
   - com grade 2_4
   - com grade 2_5
+  - POS BOSS 2
   - parte 3
   - Pedrinhas
   - plataforma azul_8
@@ -2320,7 +2333,7 @@ SpriteAtlas:
   - Chaopedra1_3
   - Chaopedra1_0
   - Chaopedra1_1
-  - menu para A 4 PARTE
+  - d
   - "barras de ferro varia\xE7\xE3o 3_2"
   - "barras de ferro varia\xE7\xE3o 3_1"
   - "barras de ferro varia\xE7\xE3o 3_0"
@@ -3184,6 +3197,7 @@ SpriteAtlas:
   - com grade 1 _0
   - com grade 1 _5
   - com grade 1 _4
+  - pos fase1
   - cano 1
   - "menu e introdu\xE7\xE3o do tcc"
   - cristal 11
@@ -3394,6 +3408,7 @@ SpriteAtlas:
   - Planta3
   - poste 3 quebrado 3
   - LogoJogo
+  - menu para A 4 PARTE 2
   - cor do ceu da fase
   - cano6
   - Folhas3
@@ -3575,6 +3590,15 @@ SpriteAtlas:
   - parede pequena 3
   - "decora\xE7\xE3o pedras 11"
   - Cogumelo3
+  - gas 3 fase_1
+  - gas 3 fase_0
+  - gas 3 fase_3
+  - gas 3 fase_2
+  - gas 3 fase_5
+  - gas 3 fase_4
+  - gas 3 fase_7
+  - gas 3 fase_6
+  - gas 3 fase_8
   m_RenderDataMap: {}
   m_Tag: atlas
   m_IsVariant: 0

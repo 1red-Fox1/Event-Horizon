@@ -8,10 +8,16 @@ public class alertColisorRigSpider : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        alert = true;
+        if(collision.gameObject.tag == "Player")
+        {
+            alert = true;
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        alert = false;
+        if (collision.gameObject.tag == "Player")
+        {
+            alert = false;
+        }
     }
 }
