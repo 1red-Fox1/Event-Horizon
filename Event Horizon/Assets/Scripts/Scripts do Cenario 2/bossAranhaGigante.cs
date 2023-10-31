@@ -18,7 +18,6 @@ public class bossAranhaGigante : MonoBehaviour
     public float velocity1;
     public float velocity2;
     private bool damaged = false;
-    private bool naopodeMover = true;
     void Start()
     {
         if (spots.Length > 0)
@@ -44,10 +43,7 @@ public class bossAranhaGigante : MonoBehaviour
             moveSpeed = velocity0;
         }
 
-        if (naopodeMover)
-        {
-            walk();
-        }
+        walk();
 
         if (damaged)
         {
@@ -86,13 +82,6 @@ public class bossAranhaGigante : MonoBehaviour
         if(collision.gameObject.tag == "Player")
         {
             damaged = true;
-        }
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "ColisorChaoParaOJoseph")
-        {
-            naopodeMover = false;
         }
     }
 }

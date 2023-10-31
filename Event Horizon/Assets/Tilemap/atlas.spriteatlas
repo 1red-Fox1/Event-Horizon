@@ -582,6 +582,11 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 7b6f5e15b9a90814e872c25ac72c1231, type: 3}
   - {fileID: 21300000, guid: c843c225a8c95bb44b045d561b44fb45, type: 3}
   - {fileID: 21300000, guid: 5893dc258a3c55f4f8e01e128cc8235a, type: 3}
+  - {fileID: 885684285, guid: 2279f135b3805444ebbe0d5b9775887a, type: 3}
+  - {fileID: 1591826347, guid: 2279f135b3805444ebbe0d5b9775887a, type: 3}
+  - {fileID: 1996899518, guid: 2279f135b3805444ebbe0d5b9775887a, type: 3}
+  - {fileID: -2002853678, guid: 2279f135b3805444ebbe0d5b9775887a, type: 3}
+  - {fileID: -842563436, guid: 2279f135b3805444ebbe0d5b9775887a, type: 3}
   - {fileID: 21300000, guid: 2b0ae145016441f4c812276abd24afbf, type: 3}
   - {fileID: 993478176, guid: 8e3fea65dc2e4324d9148a46ccdaea23, type: 3}
   - {fileID: 1930963754, guid: 8e3fea65dc2e4324d9148a46ccdaea23, type: 3}
@@ -1536,6 +1541,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 5b98fc2c372175b4794f347bcdd94c8f, type: 3}
   - {fileID: 21300000, guid: e16c4f2c26fd9ce49a0a602bc04b91a3, type: 3}
   - {fileID: 21300000, guid: 1738763c73eea9641afa9e958c5e32d7, type: 3}
+  - {fileID: 21300000, guid: 7cdbd35cd96188842930b1994861e90b, type: 3}
   - {fileID: 21300000, guid: a055fc5c9f9e44a4aa8c080f83b04529, type: 3}
   - {fileID: 21300000, guid: 47e7f27cfc4c96647b96a2489f6c55eb, type: 3}
   - {fileID: 21300000, guid: b4af3a7cc4a698f4fbef8eb8f1efb579, type: 3}
@@ -1669,6 +1675,15 @@ SpriteAtlas:
   - {fileID: 21300000, guid: f25e1e3f6200197408e8f817e569d972, type: 3}
   - {fileID: 21300000, guid: 78f78f3faa61f6d458ee8c71be69ff8b, type: 3}
   - {fileID: 21300000, guid: abe8574f51fd7984abdd2fa1eea48219, type: 3}
+  - {fileID: 2138248358, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
+  - {fileID: -1165055075, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
+  - {fileID: 1897907562, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
+  - {fileID: -1528272336, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
+  - {fileID: 962503064, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
+  - {fileID: 564786637, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
+  - {fileID: 1047387610, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
+  - {fileID: 1497752141, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
+  - {fileID: -936198251, guid: d35a8a4f596214a428aa40cfeceb04da, type: 3}
   - {fileID: 1022138967, guid: 01a5cf4f83026344a97157d84482ad88, type: 3}
   - {fileID: -1350792761, guid: 01a5cf4f83026344a97157d84482ad88, type: 3}
   - {fileID: -1633614689, guid: 01a5cf4f83026344a97157d84482ad88, type: 3}
@@ -1806,6 +1821,15 @@ SpriteAtlas:
   - {fileID: -684944751, guid: cd71bf9fa33305049a076dccdccb867d, type: 3}
   - {fileID: 2125078568, guid: cd71bf9fa33305049a076dccdccb867d, type: 3}
   - {fileID: 21300000, guid: d60a7fafc3d4feb49aef03f20dd8991b, type: 3}
+  - {fileID: 426677589, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
+  - {fileID: 364569881, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
+  - {fileID: -153923399, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
+  - {fileID: -1240019375, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
+  - {fileID: 552843272, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
+  - {fileID: -635878301, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
+  - {fileID: -889651480, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
+  - {fileID: -1639975283, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
+  - {fileID: -586311835, guid: cbc1b2bf4626a784f9db7cb13e4f0c92, type: 3}
   - {fileID: 21300000, guid: 5ffa4ccf0042134419a6511477be162e, type: 3}
   - {fileID: 21300000, guid: b41d36df40eeec54581e88afbd6f02a5, type: 3}
   - {fileID: 21300000, guid: 5972d9ff29068f141a2a0e3a980b8f20, type: 3}
@@ -2363,6 +2387,11 @@ SpriteAtlas:
   - "bagulho s\xF3 que igual"
   - cenario backgorund super repetitivo do esgoto com back back
   - Raiz2
+  - cristal em maquinas -Sheet_4
+  - cristal em maquinas -Sheet_3
+  - cristal em maquinas -Sheet_2
+  - cristal em maquinas -Sheet_1
+  - cristal em maquinas -Sheet_0
   - cipoCogu4
   - parede grande 1_7
   - parede grande 1_6
@@ -3317,6 +3346,7 @@ SpriteAtlas:
   - Seta
   - 'cristal em maquinas '
   - bagulho 4
+  - rgb que deu certo
   - "decora\xE7\xE3o pedras 12"
   - para slidersss
   - poste 1 quebrado
@@ -3450,6 +3480,15 @@ SpriteAtlas:
   - lixo dois2
   - cenario backgorund super repetitivo do esgoto
   - cipoCogu3
+  - eletrizidada para cabo 1-Sheet_6
+  - eletrizidada para cabo 1-Sheet_7
+  - eletrizidada para cabo 1-Sheet_4
+  - eletrizidada para cabo 1-Sheet_5
+  - eletrizidada para cabo 1-Sheet_2
+  - eletrizidada para cabo 1-Sheet_3
+  - eletrizidada para cabo 1-Sheet_0
+  - eletrizidada para cabo 1-Sheet_1
+  - eletrizidada para cabo 1-Sheet_8
   - medkit Idle_8
   - medkit Idle_9
   - medkit Idle_0
@@ -3587,6 +3626,15 @@ SpriteAtlas:
   - "po\xE7o parede fundo ou ch\xE3o_10"
   - "po\xE7o parede fundo ou ch\xE3o_11"
   - luz bem mal feita
+  - eletrizidada para cabo 2-Sheet_8
+  - eletrizidada para cabo 2-Sheet_1
+  - eletrizidada para cabo 2-Sheet_0
+  - eletrizidada para cabo 2-Sheet_3
+  - eletrizidada para cabo 2-Sheet_2
+  - eletrizidada para cabo 2-Sheet_5
+  - eletrizidada para cabo 2-Sheet_4
+  - eletrizidada para cabo 2-Sheet_7
+  - eletrizidada para cabo 2-Sheet_6
   - parede pequena 3
   - "decora\xE7\xE3o pedras 11"
   - Cogumelo3

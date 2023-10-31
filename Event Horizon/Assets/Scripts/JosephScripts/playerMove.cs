@@ -79,6 +79,7 @@ public class playerMove : MonoBehaviour
     public bool canGrapp = false;
     public acidPipe acidPipe;
     private bool isLook;
+    private Vector2 previousPosition;
     #endregion
 
     void Start()
@@ -195,17 +196,35 @@ public class playerMove : MonoBehaviour
         }
         #endregion
 
+        previousPosition = transform.position;
+
+        if(Time.timeScale == 0f)
+        {
+            print("Pausado");
+        }
+        else
+        {
+            print(Time.timeScale);
+        }
+
         #region Grapp Hook
         if (control.defaultControl)
         {
             if (Input.GetKeyDown(KeyCode.C) && isGrounded && !isDeath && moveX == 0f)
             {
-                anim.SetBool("Hook", true);
-                anim.SetBool("Walk", false);
-                anim.SetBool("Run", false);
+                if(previousPosition.x != 0f)
+                {
+                    anim.SetBool("HookInAir", false);
+                    anim.SetBool("Hook", true);
+                }
+                else
+                {
+                    anim.SetBool("HookInAir", true);
+                }
             }
             if (Input.GetKeyUp(KeyCode.C) || moveX != 0f)
             {
+                anim.SetBool("HookInAir", false);
                 anim.SetBool("Hook", false);
                 canGrapp = false;
             }
