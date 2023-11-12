@@ -32,6 +32,9 @@ TagManager:
   - Acid
   - BossFurao
   - ProximaFase4
+  - furaoAttack
+  - bossGolem
+  - fase3.1
   layers:
   - Default
   - TransparentFX
@@ -49,7 +52,7 @@ TagManager:
   - AranhaGigante
   - Poste
   - Cupins
-  - 
+  - fallPlatform
   - 
   - 
   - 

@@ -97,6 +97,8 @@ public class playerMove : MonoBehaviour
     }
     void Update()
     {
+        previousPosition = transform.position;
+
         #region Input de Movimento
         moveX = 0f;
         if (podeMover)
@@ -173,8 +175,8 @@ public class playerMove : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.Z))
             {
                 anim.SetBool("DefenseOn", false);
-                podeMover = true;
                 isDefending = false;
+                podeMover = true;
             }
         }
         else
@@ -190,22 +192,11 @@ public class playerMove : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.J))
             {
                 anim.SetBool("DefenseOn", false);
-                podeMover = true;
                 isDefending = false;
+                podeMover = true;
             }
         }
         #endregion
-
-        previousPosition = transform.position;
-
-        if(Time.timeScale == 0f)
-        {
-            print("Pausado");
-        }
-        else
-        {
-            print(Time.timeScale);
-        }
 
         #region Grapp Hook
         if (control.defaultControl)
@@ -259,8 +250,8 @@ public class playerMove : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.DownArrow) || canGrapp)
             {
                 anim.SetBool("LookAhead", false);
-                podeMover = true;
                 isLook = false;
+                podeMover = true;
             }
         }
         else
@@ -276,8 +267,8 @@ public class playerMove : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.S) || canGrapp)
             {
                 anim.SetBool("LookAhead", false);
-                podeMover = true;
                 isLook = false;
+                podeMover = true;
             }
         }
         #endregion
@@ -291,6 +282,7 @@ public class playerMove : MonoBehaviour
                 slider.value = currentStamina;
                 atacando = true;
                 anim.SetTrigger("" + combo);
+                podeMover = false;
             }
             if (Input.GetKeyDown(KeyCode.X) && currentStamina <= 10f)
             {
@@ -498,7 +490,7 @@ public class playerMove : MonoBehaviour
         #region Corrida
         if (isRunning == true && moveX != 0)
         {
-            currentStamina -= 30f * Time.deltaTime;
+            currentStamina -= 20f * Time.deltaTime;
             slider.value = currentStamina;
         }
 
@@ -580,12 +572,27 @@ public class playerMove : MonoBehaviour
                     KnockFromRight = false;
                 }
             }
-        }               
+        }
+        if (collision.gameObject.tag == "furaoAttack" && !isDefending && !atacando)
+        {
+            if (!isDeath)
+            {
+                KBCounter = KBTotalTime;
+                if (collision.transform.position.x >= transform.position.x)
+                {
+                    KnockFromRight = true;
+                }
+                if (collision.transform.position.x < transform.position.x)
+                {
+                    KnockFromRight = false;
+                }
+            }
+        }
+
     }
     #endregion
 
     #region Metodos chamados nas Animações 
-
     void CanGrapp()
     {
         canGrapp = true;

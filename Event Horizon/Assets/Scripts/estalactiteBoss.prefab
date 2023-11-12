@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 258892122504671728}
   m_Layer: 0
   m_Name: estalactiteBoss
-  m_TagString: Untagged
+  m_TagString: projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,4 +160,4 @@ MonoBehaviour:
   shakeMagnitude: 0.01
   shakeDuration: 0.2
   attacked: 0
-  health: 20
+  health: 10

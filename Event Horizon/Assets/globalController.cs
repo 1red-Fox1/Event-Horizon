@@ -17,11 +17,12 @@ public class globalController : MonoBehaviour
     public GameObject FullScreenNo;
     public menu_Controller options;
 
-    private int menuVariable = 0;
+    private int menuVariable = 2;
     public GameObject menuButton;
     public GameObject menuBG;
     public GameObject menuPanel;
     public GameObject configPanel;
+    public GameObject screensPanel;
     private bool podePausar = true;
 
     void Update()
@@ -89,6 +90,7 @@ public class globalController : MonoBehaviour
         menuBG.SetActive(false);
         menuPanel.SetActive(false);
         configPanel.SetActive(false);
+        screensPanel.SetActive(false);
         Time.timeScale = 1f;
         podePausar = true;
     }

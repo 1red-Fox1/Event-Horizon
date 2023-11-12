@@ -12,8 +12,7 @@ public class cupimController : MonoBehaviour
     private Rigidbody2D rb;
     public float maxDistance;
     private bool podeMover = false;
-    public float timer = 0.0f;
-    public float destructionTime;
+    public bool encostou = false;
 
     private void Start()
     {
@@ -40,13 +39,7 @@ public class cupimController : MonoBehaviour
             {
                 Vector2 moveDirection = new Vector2(-1f, 0f);
                 rb.velocity = moveDirection * moveSpeed;
-            }
-            timer += Time.deltaTime;
-
-            if (timer >= destructionTime)
-            {
-                Destroy(gameObject);
-            }
+            }          
         }
 
         if (rb.velocity.x > 0f)
@@ -78,12 +71,21 @@ public class cupimController : MonoBehaviour
         {
             attackRange = true;
         }
+        if(collision.gameObject.tag == "MainCamera" && !encostou)
+        {
+            encostou = true;
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
             attackRange = false;
+        }
+        if(collision.gameObject.tag  == "MainCamera" && encostou)
+        {
+            encostou = false;
+            Destroy(gameObject);
         }
     }
 }

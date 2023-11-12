@@ -18,32 +18,51 @@ public class bossAranhaGigante : MonoBehaviour
     public float velocity1;
     public float velocity2;
     private bool damaged = false;
+    private AudioSource audioSource;
+    public AudioClip []stepSound;
+    public AudioClip[] scream;
+    public bool naoPodeAtacar = false;
+    private float timer = 0f;
     void Start()
     {
         if (spots.Length > 0)
         {
             currentSpot = spots[0].transform;
         }
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
     {
+        timer += Time.deltaTime;
+        if(timer >= 34.5f)
+        {
+            naoPodeAtacar = true;
+        }
+
         float distance = Mathf.Abs(playerMove.transform.position.x - transform.position.x);
 
-        if (distance >= maxDistance && distance < maxDistance2)
+        if (distance >= maxDistance && distance < maxDistance2 && !naoPodeAtacar)
         {
             moveSpeed = velocity1;
         }
-        if (distance >= maxDistance2)
+        if (distance >= maxDistance2 && !naoPodeAtacar)
         {
             moveSpeed = velocity2;
         }
-        if(distance < maxDistance)
+        if(distance < maxDistance && !naoPodeAtacar)
         {
             moveSpeed = velocity0;
         }
 
-        walk();
+        if (!naoPodeAtacar)
+        {
+            walk();
+        }
+        else
+        {
+            moveSpeed = 0f;
+        }
 
         if (damaged)
         {
@@ -64,9 +83,6 @@ public class bossAranhaGigante : MonoBehaviour
 
     void walk()
     {
-        if (currentSpot == null)
-            return;
-
         float step = moveSpeed * Time.deltaTime;
         transform.position = Vector2.MoveTowards(transform.position, currentSpot.position, step);
 
@@ -77,11 +93,24 @@ public class bossAranhaGigante : MonoBehaviour
         }
     }
 
+    void StepSound()
+    {
+        audioSource.PlayOneShot(stepSound[Random.Range(0, stepSound.Length)]);
+    }
+
+    void AracScream()
+    {
+        audioSource.PlayOneShot(scream[Random.Range(0, scream.Length)]);
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            damaged = true;
+            if (!naoPodeAtacar)
+            {
+                damaged = true;
+            }
         }
     }
 }

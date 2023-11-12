@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class furaoController : MonoBehaviour
+public class furaoController1 : MonoBehaviour
 {
-    private Animator anim;
+    public Animator anim;
+    public SpriteRenderer spriteRenderer;
     public Transform[] moveSpots;
     public float speed;
     private float waitTime;
@@ -15,25 +16,34 @@ public class furaoController : MonoBehaviour
     public GameObject player;
     public int attackCount;
     public bool isAttacking = false;
+    public bool fliped;
+    private bool Damaged = false;
+    public int healthAmount;
+    private int times;
     private void Start()
     {
         waitTime = startWaitTime;
         currentSpot = 0;
         previousPosition = transform.position;
         anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
-        Patrol();
-        Attack();
+        if (!Damaged)
+        {
+            Patrol();
+        }
+        else if (Damaged && times == 1)
+        {
+            times = 0;
+            IsDamaged();
+        }
     }
 
     private void Patrol()
     {
-        anim.SetBool("Attack", false);
-        anim.SetBool("Damaged", false);
-
         previousPosition = transform.position;
 
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[currentSpot].position, speed * Time.deltaTime);
@@ -54,35 +64,34 @@ public class furaoController : MonoBehaviour
         if (transform.position.x != previousPosition.x)
         {
             anim.SetBool("Walk", true);
+            attackCount = 3;
+            times = 1;
         }
         else
         {
             anim.SetBool("Walk", false);
+            Invoke("Attack", 0.5f);
 
             if (player != null)
             {
-                if (transform.position.x > player.transform.position.x && !facingRight)
+                if (transform.position.x > player.transform.position.x)
                 {
-                    Flip();
-                    attackCount = 3;
+                    Invoke("Flip", 0.15f);
                 }
-                else if (transform.position.x < player.transform.position.x && facingRight)
+                else if (transform.position.x < player.transform.position.x)
                 {
-                    Flip();
-                    attackCount = 3;
+                    Invoke("UnFlip", 0.15f);
                 }
             }
         }
 
-        if (transform.position.x < previousPosition.x && !facingRight)
+        if (transform.position.x < previousPosition.x)
         {
             Flip();
-            facingRight = true;
         }
-        else if (transform.position.x > previousPosition.x && facingRight)
+        else if (transform.position.x > previousPosition.x)
         {
-            Flip();
-            facingRight = false;
+            UnFlip();
         }
     }
 
@@ -98,9 +107,37 @@ public class furaoController : MonoBehaviour
         }
     }
 
+    void IsDamaged()
+    {
+        anim.SetBool("Attack", false);
+        anim.SetBool("Walk", false);
+        anim.SetBool("Damaged", true);
+
+        healthAmount = healthAmount - 1;
+
+        if(healthAmount <= 0)
+        {
+            anim.SetBool("Attack", false);
+            anim.SetBool("Walk", false);
+            anim.SetBool("Damaged", false);
+            anim.SetBool("Death", true);
+            Invoke("DestroyBoss", 2f);
+        }
+    }
+
+    void DestroyBoss()
+    {
+        gameObject.SetActive(false);
+    }
+    void EndDamage()
+    {
+        anim.SetBool("Damaged", false);
+        Damaged = false;
+    }
+
     void AttackCount()
     {
-        attackCount--;
+        attackCount = attackCount - 1;
     }
 
     void onAttack()
@@ -112,9 +149,22 @@ public class furaoController : MonoBehaviour
         isAttacking = false;
     }
 
-    private void Flip()
+    void Flip()
     {
-        facingRight = !facingRight;
-        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+        transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+        fliped = true;
+    }
+    void UnFlip()
+    {
+        transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+        fliped = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "projectile")
+        {
+            Damaged = true;
+        }
     }
 }

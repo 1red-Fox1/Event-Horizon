@@ -68,7 +68,11 @@ public class GroundColisor : MonoBehaviour
         if (collision.gameObject.tag == "cutScene")
         {
             SceneManager.LoadScene(cutScene);
-        }        
+        }
+        if (collision.gameObject.tag == "fase3.1")
+        {
+            Invoke("GoFase3", 0.5f);
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -88,6 +92,10 @@ public class GroundColisor : MonoBehaviour
         {
             playerMove.estaNaGrama = false;
         }       
+    }
+    void GoFase3()
+    {
+        SceneManager.LoadScene("Fase3 1");
     }
 }
 

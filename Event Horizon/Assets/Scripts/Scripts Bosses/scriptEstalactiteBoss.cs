@@ -12,6 +12,7 @@ public class scriptEstalactiteBoss : MonoBehaviour
     public bool attacked = false;
     public int health;
     private Rigidbody2D rb;
+    public bool estalactiteDestruida = false;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class scriptEstalactiteBoss : MonoBehaviour
     }
     private void Update()
     {
-        if (playerMove.playerAttack && isInRange)
+        if (playerMove.playerAttack && isInRange && health > 0)
         {
             attacked = true;
             ShakeSprite();
@@ -64,6 +65,11 @@ public class scriptEstalactiteBoss : MonoBehaviour
         if (collision.gameObject.tag == "playerRange" || collision.gameObject.tag == "mediumplayerRange")
         {
             isInRange = true;
+        }
+        if(collision.gameObject.tag == "fimEstala")
+        {
+            estalactiteDestruida = true;
+            //gameObject.SetActive(false);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

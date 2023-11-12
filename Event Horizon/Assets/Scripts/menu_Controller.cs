@@ -36,9 +36,8 @@ public class menu_Controller : MonoBehaviour
         else
         {
             Screen.SetResolution(960, 540, false);
-        }
+        }      
     }
-
     public void PlayGame()
     {
         SceneManager.LoadSceneAsync(1);
@@ -83,5 +82,30 @@ public class menu_Controller : MonoBehaviour
         fullScreen = false;
         PlayerPrefs.SetInt("Screen.fullScreen", 0);
         PlayerPrefs.SetInt("fullScreen", 0);
+    }
+
+    public void GoToFase1()
+    {
+        SceneManager.LoadScene("Fase1");
+    }
+    public void GoToFase2()
+    {
+        SceneManager.LoadScene("Fase2.0");
+    }
+    public void GoToFase3()
+    {
+        SceneManager.LoadScene("Fase3");
+    }
+    public void GoToFase4()
+    {
+        SceneManager.LoadScene("Fase4");
+    }
+    public void GoToMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+    public void GoToFurao()
+    {
+        SceneManager.LoadScene("BossFight1");
     }
 }

@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class attackRain : MonoBehaviour
 {
-    public furaoController furao;
-    public GameObject projectilePrefab;
+    public furaoController1 furao1;
+    public GameObject projectilePrefab1;
+    public GameObject projectilePrefab2;
     public Transform shootPoint;
     public float shootForce;
     public float shootInterval;
@@ -16,23 +17,34 @@ public class attackRain : MonoBehaviour
         lastShootTime = Time.time;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if (furao.isAttacking)
+        if (furao1.isAttacking)
         {
-            if (Time.time - lastShootTime >= shootInterval)
-            {
-                Shoot();
-                lastShootTime = Time.time;
-            }
+            Shoot();
         }
     }
     void Shoot()
     {
-        GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
-        Vector2 shootDirection = transform.right; // A direção em que você deseja atirar (direita no exemplo).
-
-        // Mova o objeto manualmente na direção desejada com a força desejada.
-        projectile.transform.Translate(shootDirection * shootForce * Time.deltaTime);
+        if (furao1.fliped)
+        {
+            furao1.isAttacking = false;
+            GameObject projectile1 = Instantiate(projectilePrefab1, shootPoint.position, Quaternion.identity);
+            Rigidbody2D rb1 = projectile1.GetComponent<Rigidbody2D>();
+            if (rb1 != null)
+            {
+                rb1.AddForce(transform.right * shootForce, ForceMode2D.Impulse);
+            }
+        }
+        else
+        {
+            furao1.isAttacking = false;
+            GameObject projectile2 = Instantiate(projectilePrefab2, shootPoint.position, Quaternion.identity);
+            Rigidbody2D rb2 = projectile2.GetComponent<Rigidbody2D>();
+            if (rb2 != null)
+            {
+                rb2.AddForce(transform.right * shootForce, ForceMode2D.Impulse);
+            }
+        }
     }
 }

@@ -89,6 +89,7 @@ SpriteAtlas:
   - {fileID: -300742390, guid: c5c4cd803c1999341b21315e74251de5, type: 3}
   - {fileID: -391389213, guid: c5c4cd803c1999341b21315e74251de5, type: 3}
   - {fileID: 814178455, guid: c5c4cd803c1999341b21315e74251de5, type: 3}
+  - {fileID: 21300000, guid: e3c2e990148b5ff4fbe5d8f6d1859444, type: 3}
   - {fileID: 1812661261, guid: b5a3fba055e7b9f41971a4a0b1c7013a, type: 3}
   - {fileID: -1343683786, guid: b5a3fba055e7b9f41971a4a0b1c7013a, type: 3}
   - {fileID: -203489713, guid: b5a3fba055e7b9f41971a4a0b1c7013a, type: 3}
@@ -332,6 +333,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9a7a8e7155b48864182c13b12093f388, type: 3}
   - {fileID: 21300000, guid: b883c59146165ce48851398cc0d7de4a, type: 3}
   - {fileID: 21300000, guid: 1943fb91288da214f87c02b20b415713, type: 3}
+  - {fileID: 21300000, guid: 07c66ca194837fe45968e6676589c3d7, type: 3}
   - {fileID: 21300000, guid: 013a10b190e76ab439d10c094b2144d5, type: 3}
   - {fileID: 21300000, guid: 8e6ae8b139dbd76458c170097bbd8a50, type: 3}
   - {fileID: 21300000, guid: 37fccdb120241454c826e84c6f5f6f61, type: 3}
@@ -684,6 +686,7 @@ SpriteAtlas:
   - {fileID: 807519553, guid: 85b035764e2f33a448fb3c332321a59f, type: 3}
   - {fileID: 21300000, guid: 3a248a76ea341874e9d749759f0e6eb3, type: 3}
   - {fileID: 21300000, guid: 91f2dc762f3b31149a275a2ff209d1fd, type: 3}
+  - {fileID: 21300000, guid: 8249fd76c6872d94bb64e8db0fed6a43, type: 3}
   - {fileID: 243392200, guid: bb89f8867bb8f5444a3792856ba95b07, type: 3}
   - {fileID: 1775920656, guid: bb89f8867bb8f5444a3792856ba95b07, type: 3}
   - {fileID: 1694029923, guid: bb89f8867bb8f5444a3792856ba95b07, type: 3}
@@ -927,6 +930,8 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 6ee85c780b7d57347badb2e9b8b6b806, type: 3}
   - {fileID: 21300000, guid: c22db388dcd9c3444b988457b95457c7, type: 3}
   - {fileID: 21300000, guid: 50a96a8895da6544db4c6e3f595389bd, type: 3}
+  - {fileID: -1793762715, guid: 7bd0929837dade042917d1b0b9bd559a, type: 3}
+  - {fileID: 31041725, guid: 7bd0929837dade042917d1b0b9bd559a, type: 3}
   - {fileID: 21300000, guid: 4b4f18a8c373c2a41a61a6ff11f4260a, type: 3}
   - {fileID: 21300000, guid: f9453ca873a441e46baab9d2c0764357, type: 3}
   - {fileID: 21300000, guid: bda955b81e6277a4eb377f133aebdfdb, type: 3}
@@ -1894,6 +1899,7 @@ SpriteAtlas:
   - novo acido de fundo_4
   - novo acido de fundo_9
   - novo acido de fundo_8
+  - Platform 1
   - Agua2_0
   - Agua2_1
   - Agua2_2
@@ -2137,6 +2143,7 @@ SpriteAtlas:
   - CorpoMorto2
   - background do backgorund
   - parede pquena 1
+  - 1698859943264
   - estalaquitite3
   - healthBar pixel art 1
   - Tronco1
@@ -2489,6 +2496,7 @@ SpriteAtlas:
   - Plataforma3_1
   - Raizes4
   - CorpoMorto3
+  - botaoSair
   - acido reto_4
   - acido reto_5
   - acido reto_0
@@ -2732,6 +2740,8 @@ SpriteAtlas:
   - cano 3
   - CorpoMorto6
   - Troncos
+  - "Bot\xE3oMenu-Sheet_1"
+  - "Bot\xE3oMenu-Sheet_0"
   - Corpo2
   - Sprite-0002gfgfgfgfgfgfgfgfgfgf
   - Arbusto6
