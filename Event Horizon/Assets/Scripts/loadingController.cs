@@ -13,6 +13,7 @@ public class loadingController : MonoBehaviour
     private bool isLoading = false;
     private int sceneToLoad = -1;
     public GameObject text;
+    public skipController videosController;
 
     private void Start()
     {
@@ -23,6 +24,8 @@ public class loadingController : MonoBehaviour
     {
         if (isLoading && LoadingBar.value >= 1.0f && Input.GetKeyDown(KeyCode.Return))
         {
+            videosController.videoIntroDisable.SetActive(false);
+            videosController.videoPosMenuDisable.SetActive(false);
             StartCoroutine(LoadSceneAsyncCoroutine(sceneToLoad));
         }
         if(LoadingBar.value >= 1.0f)

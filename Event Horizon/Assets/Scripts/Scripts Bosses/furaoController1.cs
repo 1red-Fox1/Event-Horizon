@@ -20,25 +20,40 @@ public class furaoController1 : MonoBehaviour
     private bool Damaged = false;
     public int healthAmount;
     private int times;
+    private AudioSource audioSource;
+    public AudioClip attackSound;
+    public AudioClip death;
+    public bool rugido = true;
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         waitTime = startWaitTime;
         currentSpot = 0;
         previousPosition = transform.position;
         anim = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        rugido = true;
+        Flip();
     }
 
     private void Update()
     {
-        if (!Damaged)
+        if (rugido)
         {
-            Patrol();
+            anim.SetBool("Rugido", true);
         }
-        else if (Damaged && times == 1)
+        else
         {
-            times = 0;
-            IsDamaged();
+            if (!Damaged)
+            {
+                times = 1;
+                Patrol();
+            }
+            else if (times == 1)
+            {
+                times = 0;
+                IsDamaged();
+            }
         }
     }
 
@@ -65,7 +80,6 @@ public class furaoController1 : MonoBehaviour
         {
             anim.SetBool("Walk", true);
             attackCount = 3;
-            times = 1;
         }
         else
         {
@@ -125,9 +139,22 @@ public class furaoController1 : MonoBehaviour
         }
     }
 
+    void AttackSound()
+    {
+        audioSource.PlayOneShot(attackSound);
+    }
+    void DeathSound()
+    {
+        audioSource.PlayOneShot(death);
+    }
     void DestroyBoss()
     {
         gameObject.SetActive(false);
+    }
+    void Times()
+    {
+        times = 1;
+        Damaged = false;
     }
     void EndDamage()
     {
@@ -148,7 +175,11 @@ public class furaoController1 : MonoBehaviour
     {
         isAttacking = false;
     }
-
+    void EndRugido()
+    {
+        rugido = false;
+        anim.SetBool("Rugido", false);
+    }
     void Flip()
     {
         transform.rotation = Quaternion.Euler(0f, 180f, 0f);

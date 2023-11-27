@@ -9,7 +9,7 @@ public class playerMove : MonoBehaviour
     #region Variáveis do Player
     private Rigidbody2D rb;
     private AudioSource audioSource;
-    private Animator anim;
+    public Animator anim;
 
     [Header("Variável de movimentação")]
     [SerializeField] public float moveSpeed;
@@ -31,6 +31,7 @@ public class playerMove : MonoBehaviour
     [SerializeField] private AudioClip somdano;
     [SerializeField] private AudioClip sommorte;
     [SerializeField] private AudioClip landingSound;
+    [SerializeField] private AudioClip defenceSound;
     public bool estaNaPlataforma = false;
     public bool estaNaGrama = false;
     public bool passoGrama1 = false;
@@ -620,6 +621,10 @@ public class playerMove : MonoBehaviour
     private void somMorte()
     {
         audioSource.PlayOneShot(sommorte);
+    }
+    private void SomDefesa()
+    {
+        audioSource.PlayOneShot(defenceSound);
     }
     private void somAtk1()
     {

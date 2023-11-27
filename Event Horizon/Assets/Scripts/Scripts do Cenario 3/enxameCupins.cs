@@ -18,12 +18,14 @@ public class enxameCupins : MonoBehaviour
     public float velocity1;
     public float velocity2;
     private bool damaged = false;
+    public bool shakeFase3 = true;
     void Start()
     {
         if (spots.Length > 0)
         {
             currentSpot = spots[0].transform;
         }
+        shakeFase3 = true;
     }
 
     void Update()

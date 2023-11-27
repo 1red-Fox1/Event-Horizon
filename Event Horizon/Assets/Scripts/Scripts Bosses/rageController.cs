@@ -7,7 +7,7 @@ public class rageController : MonoBehaviour
     public furaoController1 furao;
     public attackRain attack;
     private Color novaCor = new Color(0xDB / 255.0f, 0xA1 / 255.0f, 0xA1 / 255.0f, 1.0f);
-
+    private int times;
 
     void Update()
     {
@@ -24,6 +24,5 @@ public class rageController : MonoBehaviour
         furao.spriteRenderer.color = novaCor;
         attack.shootForce = 5f;
         attack.shootInterval = 0.3f;
-
     }
 }

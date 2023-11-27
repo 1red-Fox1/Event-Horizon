@@ -213,6 +213,10 @@ public class RatoController : MonoBehaviour
         {
             isInRange = true;
         }
+        if(collision.gameObject.tag == "Poste1")
+        {
+            Destroy(gameObject);
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {

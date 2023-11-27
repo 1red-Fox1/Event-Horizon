@@ -9,9 +9,12 @@ public class piranhaController : MonoBehaviour
     private bool podeAtacar = false;
     public playerMove playerMove;
     public float damage;
+    private AudioSource audioSource;
+    public AudioClip attackSound;
     private void Start()
     {
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -71,5 +74,9 @@ public class piranhaController : MonoBehaviour
     {
         anim.SetBool("Attack", false);
         anim.SetBool("Open", false);
+    }
+    void AttackSound()
+    {
+        audioSource.PlayOneShot(attackSound);
     }
 }

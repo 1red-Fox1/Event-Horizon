@@ -41,8 +41,12 @@ public class colisorEnemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            alert = false;
             inRange = false;
+            Invoke("AlertFalse", 0.5f);
         }
     }   
+    void AlertFalse()
+    {
+        alert = false;
+    }
 }

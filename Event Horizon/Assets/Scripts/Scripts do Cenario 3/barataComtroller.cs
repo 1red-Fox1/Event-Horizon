@@ -51,7 +51,9 @@ public class barataComtroller : MonoBehaviour
     public float attackTimer;
     public float attackTiming;
     public limitePulo lim;
-
+    public AudioClip pulando;
+    public AudioClip atacando;
+    public AudioClip morrendo;
 
     void Start()
     {
@@ -117,7 +119,7 @@ public class barataComtroller : MonoBehaviour
             }
         }
 
-        if (!isAttack && playerMove.playerAttack && isInRange)
+        if (playerMove.playerAttack && isInRange)
         {
             if (lifeEnemy > 0)
             {
@@ -224,6 +226,18 @@ public class barataComtroller : MonoBehaviour
     }
     #endregion
 
+    void Pulando()
+    {
+        audioSource.PlayOneShot(pulando);
+    }
+    void Atacando()
+    {
+        audioSource.PlayOneShot(atacando);
+    }
+    void Morrendo()
+    {
+        audioSource.PlayOneShot(morrendo);
+    }
     void StopAttack()
     {
         anim.SetBool("Attack", false);
@@ -261,7 +275,7 @@ public class barataComtroller : MonoBehaviour
     }
     private void endLife()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
     void DeathSound()
     {

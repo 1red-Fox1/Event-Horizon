@@ -24,10 +24,12 @@ public class globalController : MonoBehaviour
     public GameObject configPanel;
     public GameObject screensPanel;
     private bool podePausar = true;
+    public GroundColisor GroundColisor;
+    private bool fade = true;
 
     void Update()
     {
-        if (playerMove.isDeath)
+        if (playerMove.isDeath && fade)
         {
             fadeIn();
         }
@@ -95,14 +97,69 @@ public class globalController : MonoBehaviour
         podePausar = true;
     }
     void fadeIn()
-    {
-        
+    {       
         Color imageColor = fadeInImage.color;
         imageColor.a += fadeSpeed * Time.deltaTime;
         fadeInImage.color = imageColor;
         if (imageColor.a >= 1.0f)
-        {           
-            SceneManager.LoadScene(sceneName);
+        {
+            respawnPlayer();
+            Invoke("fadeOut", 1f);
+        }
+    }
+    void fadeOut()
+    {
+        Color imageColor = fadeInImage.color;
+        imageColor.a = 0f;
+        fadeInImage.color = imageColor;
+    }
+    void respawnPlayer()
+    {
+        int sceneCount = SceneManager.sceneCount;
+
+        for (int i = 0; i < sceneCount; i++)
+        {
+            Scene scene = SceneManager.GetSceneAt(i);
+
+            if(scene.name == "BossFight1" || scene.name == "Fase2 1" || scene.name == "Fase3 1" || scene.name == "Fase4")
+            {
+                if (scene.name == "BossFight1")
+                {
+                    Debug.Log("A cena atual é: " + scene.name);
+
+                    SceneManager.LoadScene("BossFight1");
+
+                    return;
+                }
+                if (scene.name == "Fase2 1")
+                {
+                    Debug.Log("A cena atual é: " + scene.name);
+
+                    SceneManager.LoadScene("Fase2 1");
+
+                    return;
+                }
+                if (scene.name == "Fase3 1")
+                {
+                    Debug.Log("A cena atual é: " + scene.name);
+
+                    SceneManager.LoadScene("Fase3 1");
+
+                    return;
+                }
+                if (scene.name == "Fase4")
+                {
+                    Debug.Log("A cena atual é: " + scene.name);
+
+                    SceneManager.LoadScene("Fase4");
+
+                    return;
+                }
+            }
+            else
+            {
+                GroundColisor.Respawn();
+            }
         }
     }
 }

@@ -6,7 +6,6 @@ public class sapoController : MonoBehaviour
 {
     private Animator anim;
     private AudioSource audioSource;
-    public AudioClip[] ataqueInimigo;
 
     #region Variaveis de Patrulha
     public Transform[] moveSpots;
@@ -39,6 +38,10 @@ public class sapoController : MonoBehaviour
     public bool podeMover = true;
     public bool Passo = false;
     public bool morteSapo;
+    public AudioClip pulando;
+    public AudioClip caindo;
+    public AudioClip atacando;
+    public AudioClip morrendo;
     void Start()
     {
         waitTime = startWaitTime;
@@ -183,7 +186,19 @@ public class sapoController : MonoBehaviour
     }
     private void SomDeAtaque()
     {
-        audioSource.PlayOneShot(ataqueInimigo[Random.Range(0, ataqueInimigo.Length)]);
+        audioSource.PlayOneShot(atacando);
+    }
+    private void Pulando()
+    {
+        audioSource.PlayOneShot(pulando);
+    }
+    private void Caindo()
+    {
+        audioSource.PlayOneShot(caindo);
+    }
+    private void Morrendo()
+    {
+        audioSource.PlayOneShot(morrendo);
     }
 
     private void Passos()

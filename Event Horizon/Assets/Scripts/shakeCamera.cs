@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using Unity.Mathematics;
+using UnityEngine.SceneManagement;
 
 public class shakeCamera : MonoBehaviour
 {
@@ -10,6 +12,10 @@ public class shakeCamera : MonoBehaviour
     public float ShakeIntensity;
     public float ShakeTime;
     public float timer;
+    public bossGolemController bossGolemController;
+    public enxameCupins enxameCupins;
+    public furaoController1 furaoController1;
+
 
     void Awake()
     {
@@ -38,15 +44,38 @@ public class shakeCamera : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "Fase4")
         {
-            ShakeCamera();
+            if (bossGolemController.shake)
+            {
+                ShakeCamera();
+            }
+            else
+            {
+                StopShake();
+            }
         }
 
-        if (timer > 0)
+        if(currentScene.name == "Fase3 1")
         {
-            timer -= Time.deltaTime;
-            if (timer <= 0)
+            if (enxameCupins.shakeFase3)
+            {
+                ShakeCamera();
+            }
+            else
+            {
+                StopShake();
+            }
+        }
+
+        if (currentScene.name == "BossFight1")
+        {
+            if (furaoController1.rugido)
+            {
+                ShakeCamera();
+            }
+            else
             {
                 StopShake();
             }

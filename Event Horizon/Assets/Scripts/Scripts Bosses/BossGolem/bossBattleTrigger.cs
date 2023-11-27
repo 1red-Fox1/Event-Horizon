@@ -16,6 +16,8 @@ public class bossBattleTrigger : MonoBehaviour
     private float initialSize;
     private bool isIncreasing = false;
     public bool bossCamera = false;
+    public GameObject healthBar;
+    public CinemachineConfiner confiner;
 
     private void Start()
     {
@@ -53,10 +55,12 @@ public class bossBattleTrigger : MonoBehaviour
         {
             if (trigger == 1)
             {
+                healthBar.SetActive(true);
                 bossCamera = true;
                 trigger = 0;
                 bossGolemController.rugido = true;
                 increaseSize = true;
+                confiner.enabled = false;
             }
         }
     }

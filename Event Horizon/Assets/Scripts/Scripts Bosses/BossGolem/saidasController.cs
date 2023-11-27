@@ -5,6 +5,7 @@ using UnityEngine;
 public class saidasController : MonoBehaviour
 {
     public bossBattleTrigger bossBattleTrigger;
+    public bossGolemController bossGolemController;
     private Animator anim;
 
     private void Start()
@@ -14,13 +15,20 @@ public class saidasController : MonoBehaviour
 
     private void Update()
     {
-        if (bossBattleTrigger.bossCamera)
+        if (bossGolemController.inicioBossFight)
         {
-            anim.Play("saidaBossFightClose");
+            if (bossGolemController.endBossFight)
+            {
+                Invoke("OpenWall", 6f);
+            }
+            else
+            {
+                anim.Play("saidaBossFightClose");
+            }
         }
-        else
-        {
-            anim.Play("saidaBossFightOpen");
-        }
+    }
+    void OpenWall()
+    {
+        anim.Play("saidaBossFightOpen");
     }
 }

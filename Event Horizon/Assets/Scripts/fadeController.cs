@@ -28,6 +28,7 @@ public class fadeController : MonoBehaviour
         if (player.fade1)
         {
             anim.SetBool("Fade", true);
+            DisableAudio();
         }
         if (isLoading && LoadingBar.value >= 1.0f && Input.GetKeyDown(KeyCode.Return))
         {
@@ -36,6 +37,15 @@ public class fadeController : MonoBehaviour
         if (LoadingBar.value >= 1.0f)
         {
             text.SetActive(true);
+        }
+    }
+    void DisableAudio()
+    {
+        AudioSource[] allAudioSources = FindObjectsOfType<AudioSource>();
+
+        foreach (AudioSource audioSource in allAudioSources)
+        {
+            audioSource.enabled = false;
         }
     }
     void FimFade()

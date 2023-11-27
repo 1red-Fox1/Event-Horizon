@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class tutorialSprites : MonoBehaviour
@@ -9,6 +10,7 @@ public class tutorialSprites : MonoBehaviour
     public SpriteRenderer fadeInImage1;
     public SpriteRenderer fadeInImage2;
     public SpriteRenderer fadeInImage3;
+    public TextMeshPro fadeInText4;
     public float fadeSpeed;
     private float timeTutorial;
     public float timeLimit;
@@ -43,6 +45,10 @@ public class tutorialSprites : MonoBehaviour
         Color imageColor3 = fadeInImage3.color;
         imageColor3.a += fadeSpeed * Time.deltaTime;
         fadeInImage3.color = imageColor3;
+
+        Color textColor4 = fadeInText4.color;
+        textColor4.a += fadeSpeed * Time.deltaTime;
+        fadeInText4.color = textColor4;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

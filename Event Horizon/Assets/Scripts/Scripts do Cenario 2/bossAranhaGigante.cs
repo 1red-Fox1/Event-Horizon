@@ -20,7 +20,7 @@ public class bossAranhaGigante : MonoBehaviour
     private bool damaged = false;
     private AudioSource audioSource;
     public AudioClip []stepSound;
-    public AudioClip[] scream;
+    public AudioClip scream;
     public bool naoPodeAtacar = false;
     private float timer = 0f;
     void Start()
@@ -30,6 +30,8 @@ public class bossAranhaGigante : MonoBehaviour
             currentSpot = spots[0].transform;
         }
         audioSource = GetComponent<AudioSource>();
+        audioSource.PlayOneShot(scream);
+        InvokeRepeating("Scream", 7f, 7f);
     }
 
     void Update()
@@ -97,10 +99,9 @@ public class bossAranhaGigante : MonoBehaviour
     {
         audioSource.PlayOneShot(stepSound[Random.Range(0, stepSound.Length)]);
     }
-
-    void AracScream()
+    void Scream()
     {
-        audioSource.PlayOneShot(scream[Random.Range(0, scream.Length)]);
+        audioSource.PlayOneShot(scream);
     }
 
     void OnCollisionEnter2D(Collision2D collision)

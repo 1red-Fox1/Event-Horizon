@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyRigSpiderAnim : MonoBehaviour
 {    
     public playerMove playerMove;
+    private AudioSource audioSource;
     private Animator anim;
     private bool isFlipped = false;
     public bool isAttacking = false;
@@ -16,9 +17,12 @@ public class EnemyRigSpiderAnim : MonoBehaviour
     public int lifeEnemy;
     public bool isDeath = false;
     public int attackCount;
+    public AudioClip attackSound;
+    public bool death = false;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         lasttimecooling = timeCooling;
     }
@@ -132,7 +136,12 @@ public class EnemyRigSpiderAnim : MonoBehaviour
     }
     void endLife()
     {
-        Destroy(gameObject);
+        death = true;
+        gameObject.SetActive(false);
+    }
+    void AttackSound()
+    {
+        audioSource.PlayOneShot(attackSound);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

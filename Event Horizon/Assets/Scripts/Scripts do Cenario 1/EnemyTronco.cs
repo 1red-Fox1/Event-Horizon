@@ -88,12 +88,13 @@ public class EnemyTronco : MonoBehaviour
             }
         }
 
-        if (!isAttack && playerMove.playerAttack && isInRange)
+        if (playerMove.playerAttack && isInRange)
         {
             if(lifeEnemy > 0)
             {
                 podeMover = false;
                 anim.SetBool("Damaged", true);
+                anim.SetBool("Attack", false);
                 isEnemyKnockbackDamage = true;
                 enemyKnockbackStartPositionDamage = transform.position;
                 enemyKnockbackTimerDamage = enemyKnockbackDurationDamage;
@@ -102,6 +103,7 @@ public class EnemyTronco : MonoBehaviour
             if(lifeEnemy <= 0)
             {
                 anim.SetBool("Death", true);
+                anim.SetBool("Attack", false);
                 isEnemyKnockbackDamage = true;
                 enemyKnockbackStartPositionDamage = transform.position;
                 enemyKnockbackTimerDamage = enemyKnockbackDurationDamage;
@@ -216,6 +218,10 @@ public class EnemyTronco : MonoBehaviour
         if(collision.gameObject.tag == "playerRange" || collision.gameObject.tag == "mediumplayerRange")
         {
             isInRange = true;
+        }
+        if (collision.gameObject.tag == "Poste1")
+        {
+            Destroy(gameObject);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using UnityEngine;
 
 public class bossGolemController : MonoBehaviour
@@ -26,6 +27,7 @@ public class bossGolemController : MonoBehaviour
     const string BOSS_ATTACK4 = "boss_Attack4";
     const string BOSS_ATTACK5 = "boss_Attack5";
     const string BOSS_VULNERABLE = "boss_Vulnerable";
+    const string BOSS_DEFEATED = "boss_Defeated";
     public string currentState;
     public bool podeAgir = false;
     public bool podeIdle = false;
@@ -45,9 +47,23 @@ public class bossGolemController : MonoBehaviour
     public PolygonCollider2D Spike1;
     public PolygonCollider2D Spike2;
     public PolygonCollider2D Spike3;
+    public Animator healthBarAnim;
+    public int healthBoss;
+    public bool isDamaged = false;
+    public int times = 1;
+    public Sprite brokenRightArm;
+    public Sprite brokenLeftArm;
+    public bool endBossFight = false;
+    public bool inicioBossFight = false;
+    public bool shake = false;
+    private AudioSource audioSource;
+    public AudioClip attack1;
+    public AudioClip attack2;
+    public AudioClip Death;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         anim = GetComponent<Animator>();
         Spike1.enabled = false;
         Spike2.enabled = false;
@@ -56,82 +72,191 @@ public class bossGolemController : MonoBehaviour
 
     void Update()
     {
-        if (attackCount > 0)
+        if(healthBoss >= 2)
         {
-            animCore.Play("boss_Core_Idle");
-        }
-        if (rugido)
-        {
-            ChangeAnimationState(RUGIDO_BOSS);
-            podeAgir = true;
-        }
-        else if (canAct && !ataqueEmAndamento && podeAgir)
-        {
-            RandomNum();
+            if (attackCount > 0)
+            {
+                if (healthBoss > 8)
+                {
+                    animCore.Play("boss_Core_Idle");
+                }
+                else
+                {
+                    animCore.Play("broken_Boss_Core_Idle");
+                    rightArm.sprite = brokenRightArm;
+                    leftArm.sprite = brokenLeftArm;
+                }
+            }
+            if (rugido)
+            {
+                ChangeAnimationState(RUGIDO_BOSS);
+                podeAgir = true;
+                inicioBossFight = true;
+            }
+            else if (canAct && !ataqueEmAndamento && podeAgir)
+            {
+                RandomNum();
 
-            if (idleCount <= 0)
-            {
-                ChangeAnimationState(BOSS_IDLE);
-            }
-            else if (attackCount > 0)
-            {
-                canAtkCount = true;
-                if (valorAleatorio == 1)
+                if (idleCount <= 0)
                 {
-                    idleCount--;
-                    attackCount--;
-                    ataqueEmAndamento = true;
-                    ChangeAnimationState(BOSS_ATTACK1);
+                    ChangeAnimationState(BOSS_IDLE);
                 }
-                else if (valorAleatorio == 2)
+                else if (attackCount > 0)
                 {
-                    idleCount--;
-                    attackCount--;
-                    ataqueEmAndamento = true;
-                    ChangeAnimationState(BOSS_ATTACK2);
+                    canAtkCount = true;
+                    if (valorAleatorio == 1)
+                    {
+                        idleCount--;
+                        attackCount--;
+                        ataqueEmAndamento = true;
+                        ChangeAnimationState(BOSS_ATTACK1);
+                    }
+                    else if (valorAleatorio == 2)
+                    {
+                        idleCount--;
+                        attackCount--;
+                        ataqueEmAndamento = true;
+                        ChangeAnimationState(BOSS_ATTACK2);
+                    }
+                    else if (valorAleatorio == 3)
+                    {
+                        idleCount--;
+                        attackCount--;
+                        ataqueEmAndamento = true;
+                        ChangeAnimationState(BOSS_ATTACK3);
+                    }
+                    else if (valorAleatorio == 4)
+                    {
+                        idleCount--;
+                        attackCount--;
+                        ataqueEmAndamento = true;
+                        ChangeAnimationState(BOSS_ATTACK4);
+                    }
+                    else if (valorAleatorio == 5)
+                    {
+                        idleCount--;
+                        attackCount--;
+                        ataqueEmAndamento = true;
+                        ChangeAnimationState(BOSS_ATTACK5);
+                    }
                 }
-                else if (valorAleatorio == 3)
-                {
-                    idleCount--;
-                    attackCount--;
-                    ataqueEmAndamento = true;
-                    ChangeAnimationState(BOSS_ATTACK3);
-                }
-                else if (valorAleatorio == 4)
-                {
-                    idleCount--;
-                    attackCount--;
-                    ataqueEmAndamento = true;
-                    ChangeAnimationState(BOSS_ATTACK4);
-                }
-                else if (valorAleatorio == 5)
-                {
-                    idleCount--;
-                    attackCount--;
-                    ataqueEmAndamento = true;
-                    ChangeAnimationState(BOSS_ATTACK5);
-                }
-            }
 
-            canAct = false;
-            Invoke("actTrue", anim.GetCurrentAnimatorStateInfo(0).length);
-        }
-        if (attackCount <= 0)
-        {
-            canAct = false;
-            if (playerMove.playerAttack && inRange)
-            {
-                IniciarMudancaDeMaterial();
+                canAct = false;
+                Invoke("actTrue", anim.GetCurrentAnimatorStateInfo(0).length);
             }
-            ChangeAnimationState(BOSS_VULNERABLE);
-            animCore.Play("boss_Core_Open");
+            if (attackCount <= 0)
+            {
+                canAct = false;
+                isDamaged = false;
+                if (playerMove.playerAttack && inRange)
+                {
+                    isDamaged = true;
+                }
+                if (isDamaged && times == 1)
+                {
+                    times = 0;
+                    IniciarMudancaDeMaterial();
+                    healthBoss = healthBoss - 2;
+                    healthBarDam();
+                    Invoke("TimeCount", 1f);
+                }
+                ChangeAnimationState(BOSS_VULNERABLE);
+                if (healthBoss > 8)
+                {
+                    animCore.Play("boss_Core_Open");
+                }
+                else
+                {
+                    animCore.Play("broken_boss_Core_Open");
+                }
+            }
+            if (attackCount <= 0 && idleCount <= 0)
+            {
+                idleCount = 1;
+            }
         }
-        if(attackCount <= 0 && idleCount <= 0)
+        else
         {
-            idleCount = 1;
+            if(canAct && !ataqueEmAndamento && podeAgir)
+            {
+                deathAnim();
+            }
         }
     }
-
+    void deathAnim()
+    {
+        ChangeAnimationState(BOSS_DEFEATED);
+        animCore.Play("boss_Core_Defeated");
+        healthBarAnim.Play("fimHealthBar");
+        if(times == 1)
+        {
+            times = 0;
+            endBossFight = true;
+        }
+    }
+    void Attack1Sound()
+    {
+        audioSource.PlayOneShot(attack1);
+    }
+    void Attack2Sound()
+    {
+        audioSource.PlayOneShot(attack2);
+    }
+    void DeathSound()
+    {
+        audioSource.PlayOneShot(Death);
+    }
+    void TimeCount()
+    {
+        times = 1;
+    }
+    void healthBarDam()
+    {
+        if(healthBoss == 16)
+        {
+            healthBarAnim.Play("healthBarValue16");
+        }
+        else if (healthBoss == 14)
+        {
+            healthBarAnim.Play("healthBarValue14");
+        }
+        else if (healthBoss == 12)
+        {
+            healthBarAnim.Play("healthBarValue12");
+        }
+        else if (healthBoss == 10)
+        {
+            healthBarAnim.Play("healthBarValue10");
+        }
+        else if (healthBoss == 8)
+        {
+            healthBarAnim.Play("HealthBarValue8");
+        }
+        else if (healthBoss == 6)
+        {
+            healthBarAnim.Play("HealthBarValue6");
+        }
+        else if (healthBoss == 4)
+        {
+            healthBarAnim.Play("HealthBarValue4");
+        }
+        else if (healthBoss == 2)
+        {
+            healthBarAnim.Play("HealthBarValue2");
+        }
+        else if (healthBoss == 0)
+        {
+            healthBarAnim.Play("healthBarValue0");
+        }
+    }
+    void ShakeTrue()
+    {
+        shake = true;
+    }
+    void ShakeFalse()
+    {
+        shake = false;
+    }
     void RandomNum()
     {
         valorAleatorio = GetUniqueRandom();

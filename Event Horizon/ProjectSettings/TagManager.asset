@@ -34,7 +34,10 @@ TagManager:
   - ProximaFase4
   - furaoAttack
   - bossGolem
+  - Checkpoint
+  - knockLim
   - fase3.1
+  - endGame
   layers:
   - Default
   - TransparentFX
@@ -72,12 +75,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 3240330497
+    locked: 0
   - name: Player
     uniqueID: 3675639459
     locked: 0
   - name: AranhaGigante
     uniqueID: 1966142307
-    locked: 0
-  - name: Ground
-    uniqueID: 3240330497
     locked: 0
