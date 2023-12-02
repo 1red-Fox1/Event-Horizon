@@ -60,5 +60,13 @@ public class videosController : MonoBehaviour
             skipController.objectToDisable.SetActive(true);
         }
     }
+    public void IniciarCarregamento()
+    {
+        Invoke("Load", 19f);
+    }
+    void Load()
+    {
+        skipController.loadingController.StartLoading(1);
+    }
 }
 

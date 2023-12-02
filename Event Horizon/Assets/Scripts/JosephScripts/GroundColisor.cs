@@ -30,6 +30,8 @@ public class GroundColisor : MonoBehaviour
     {
         playerMove.isDeath = false;
         playerMove.outHealth = false;
+        playerMove.isDefending = false;
+        playerMove.podeMover = true;
         player.transform.position = currentCheckPoint.position;
         playerMove.anim.SetBool("Death", false);
         playerMove.currentHealth = 100f;

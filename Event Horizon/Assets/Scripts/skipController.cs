@@ -34,6 +34,5 @@ public class skipController : MonoBehaviour
             objectToDisable.SetActive(true);
             loadingController.StartLoading(1);
         }
-        print(currentSkip);
     }
 }

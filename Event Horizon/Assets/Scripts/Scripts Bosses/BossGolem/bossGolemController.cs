@@ -140,9 +140,7 @@ public class bossGolemController : MonoBehaviour
                         ChangeAnimationState(BOSS_ATTACK5);
                     }
                 }
-
-                canAct = false;
-                Invoke("actTrue", anim.GetCurrentAnimatorStateInfo(0).length);
+                canAct = true;
             }
             if (attackCount <= 0)
             {

@@ -30,7 +30,6 @@ public class playerMove : MonoBehaviour
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip somdano;
     [SerializeField] private AudioClip sommorte;
-    [SerializeField] private AudioClip landingSound;
     [SerializeField] private AudioClip defenceSound;
     public bool estaNaPlataforma = false;
     public bool estaNaGrama = false;
@@ -81,6 +80,7 @@ public class playerMove : MonoBehaviour
     public acidPipe acidPipe;
     private bool isLook;
     private Vector2 previousPosition;
+    private bool damaged = false;
     #endregion
 
     void Start()
@@ -377,8 +377,11 @@ public class playerMove : MonoBehaviour
 
         #region Animação de Pulo e Queda em movimento
         if (speedY > 0 && !isGrounded)
-        {
-            anim.SetBool("Jump", true);
+        { 
+            if (!damaged)
+            {
+                anim.SetBool("Jump", true);
+            }
             anim.SetBool("Fall", false);
         }
         else if (speedY < 0 && !isGrounded)
@@ -428,7 +431,8 @@ public class playerMove : MonoBehaviour
         {
             if (!isDefending)
             {
-                if(KnockFromRight == true && !isDeath)
+                damaged = true;
+                if (KnockFromRight == true && !isDeath)
                 {
                     rb.velocity = new Vector2(-KBForce, KBForceY);
                     if (facingRight)
@@ -464,12 +468,14 @@ public class playerMove : MonoBehaviour
         }
         if(isGrounded && !isDefending && !isDeath && !isLook)
         {
+            damaged = false;
             anim.SetBool("Damage", false);
             podeMover = true;
         }
         if (outHealth && (isGrounded || caiunoBuraco))
         {
             podeMover = false;
+            isDefending = true;
             anim.SetBool("Death", true);
         }
         #endregion

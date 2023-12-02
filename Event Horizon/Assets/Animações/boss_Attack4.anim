@@ -5084,14 +5084,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 1.48
-    functionName: CanAttacking
+    functionName: ActiveCollider
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 1.48
-    functionName: ActiveCollider
+    functionName: CanAttacking
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -5105,14 +5105,14 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 3.16
-    functionName: CanAttacking
+    functionName: DesactiveCollider
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 3.16
-    functionName: DesactiveCollider
+  - time: 3.24
+    functionName: CanAttacking
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
