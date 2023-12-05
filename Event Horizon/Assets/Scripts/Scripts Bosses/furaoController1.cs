@@ -22,6 +22,7 @@ public class furaoController1 : MonoBehaviour
     private int times;
     private AudioSource audioSource;
     public AudioClip attackSound;
+    public AudioClip walkSound;
     public AudioClip death;
     public bool rugido = true;
     private void Start()
@@ -142,6 +143,10 @@ public class furaoController1 : MonoBehaviour
     void AttackSound()
     {
         audioSource.PlayOneShot(attackSound);
+    }
+    void WalkSound()
+    {
+        audioSource.PlayOneShot(walkSound);
     }
     void DeathSound()
     {

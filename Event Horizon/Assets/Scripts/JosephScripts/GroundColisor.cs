@@ -18,6 +18,7 @@ public class GroundColisor : MonoBehaviour
     public lookAheadObject cameraPoste;
     private Transform currentCheckPoint;
     private Light2D luz2DOutroObjeto;
+    public GameObject LightGameObject;
     public bool endTrigger = false;
     private void Start()
     {
@@ -97,7 +98,11 @@ public class GroundColisor : MonoBehaviour
         {
             if(collision.gameObject.name == "CheckPointComLuz")
             {
-                print("CheckPoint");
+                if(LightGameObject != null)
+                {
+                    print("ligou");
+                    LightGameObject.SetActive(true);
+                }
                 luz2DOutroObjeto.intensity = 0.96f;
                 currentCheckPoint = collision.transform;
             }
