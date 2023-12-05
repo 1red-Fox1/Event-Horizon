@@ -5,12 +5,15 @@ using UnityEngine;
 public class CristalController : MonoBehaviour
 {
     private Animator anim;
+    private AudioSource audioSource;
+    public AudioClip attackSound;
     public bool alert;
     public AttackRangeCristal attack;
     public bool IsAttack;
     void Start()
     {
         anim = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -52,6 +55,10 @@ public class CristalController : MonoBehaviour
     {
         anim.SetBool("Attack", false);
         anim.SetBool("Idle", true);
+    }
+    void AttackSound()
+    {
+        audioSource.PlayOneShot(attackSound);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
